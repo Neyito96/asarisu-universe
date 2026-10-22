@@ -12,8 +12,8 @@ const rnd=(s,n)=>((hash(s+":"+n)%100000)/100000);
 const json=async path=>{const r=await fetch(base+path,{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return r.json()};
 const topicRules=[["政治","政治|国会|首相|内閣|政党|議員|選挙|政権|大臣|官邸"],["経済","経済|景気|物価|円安|円高|賃金|株価|金融|投資|税金|企業|日銀"],["福祉","福祉|介護|障害|生活保護|社会保障|年金|ケア|支援員"],["教育","教育|学校|大学|高校|中学|小学校|教員|教師|受験|授業|不登校"],["医療","医療|病院|医師|患者|治療|診療|薬剤|感染症|ワクチン"],["AI・技術","AI|人工知能|生成AI|ChatGPT|半導体|ロボット|アルゴリズム"],["国際","外交|国際|国連|戦争|紛争|ウクライナ|ロシア|中国|米国|アメリカ|中東"],["環境・気候","気候|環境|温暖化|脱炭素|再生可能|太陽光|森林|豪雨|災害"],["文化・芸術","文化|芸術|美術|映画|演劇|文学|小説|音楽|漫画|アニメ"],["スポーツ","スポーツ|野球|サッカー|五輪|オリンピック|バレー|陸上|スキー"],["暮らし","暮らし|生活費|家計|住宅|子育て|育児|家族|食卓|食料"],["地方・地域","地方|地域|自治体|市町村|過疎|移住|農村|農業|地方創生"],["人権・司法","人権|裁判|司法|差別|憲法|法律|逮捕|事件|犯罪"],["メディア","報道|新聞|記者|メディア|SNS|フェイクニュース|情報公開"],["科学","科学|研究|宇宙|天文学|生物|地震|考古|発見"],["労働","労働|働き方|雇用|就職|転職|人手不足|賃上げ|労災"],["ジェンダー","ジェンダー|男女|女性|男性|性別|LGBT|同性婚"],["歴史","歴史|戦後|昭和|明治|大正|古代|史料|遺跡"],["交通","交通|鉄道|新幹線|自動車|道路|航空|飛行機"],["動物・自然","動物|野生|生態|鳥類|昆虫|ペット|クマ|熊"]];
 function wordsOf(title){const t=String(title||"").normalize("NFKC");return topicRules.filter(([label,pattern])=>new RegExp(pattern,"i").test(t)).map(([label])=>label)}
-const excludedPeople=new Set(["音声ディレクター","Twitter"]);
-function peopleOf(cast){return String(cast||"").split(/[、,，;；\n\/／]/).map(s=>s.replace(/\([^)]*\)|（[^）]*）/g,"").trim()).filter(s=>s.length>=2&&s.length<=24&&!excludedPeople.has(s)).slice(0,12)}
+const excludedPeople=new Set(["音声ディレクター","Twitter","twitter.com","https:","http:"]);
+function peopleOf(cast){return String(cast||"").split(/[、,，;；\n\/／]/).map(s=>s.replace(/\([^)]*\)|（[^）]*）/g,"").trim()).filter(s=>s.length>=2&&s.length<=24&&!excludedPeople.has(s)&&!/(?:https?|www\.|twitter|x\.com|\.com\b|\.jp\b|\.net\b|\.org\b|URL|ＵＲＬ)/i.test(s)).slice(0,12)}
 function radiusFor(count){return Math.sqrt(count/Math.PI)*12}
 function layoutStars(items){
  const n=items.length, golden=Math.PI*(3-Math.sqrt(5));
