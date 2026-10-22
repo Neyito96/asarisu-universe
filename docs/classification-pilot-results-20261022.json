@@ -1,0 +1,1126 @@
+{
+  "schema": "asarisuniverse-classification-pilot-v1",
+  "source": "エピソード台帳 A2:C101 W2:W101 AC2:AC101",
+  "caution": "Rule-assisted preliminary classifications; not LLM semantic classification. No raw descriptions or private URLs are published.",
+  "stats": {
+    "total": 100,
+    "withCleaned": 90,
+    "unclassified": 11,
+    "primaryCounts": {
+      "人権・司法": 2,
+      "ジェンダー": 2,
+      "環境・気候": 1,
+      "国際": 10,
+      "科学": 4,
+      "メディア": 12,
+      "政治": 5,
+      "経済": 4,
+      "教育": 8,
+      "AI・技術": 12,
+      "動物・自然": 2,
+      "スポーツ": 17,
+      "要確認": 11,
+      "文化・芸術": 2,
+      "暮らし": 2,
+      "歴史": 1,
+      "交通": 2,
+      "医療": 2,
+      "労働": 1
+    },
+    "withArticleUrls": 77
+  },
+  "episodes": [
+    {
+      "id": "EP-00001",
+      "primary": "人権・司法",
+      "related": [
+        "政治"
+      ],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00002",
+      "primary": "ジェンダー",
+      "related": [],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00003",
+      "primary": "環境・気候",
+      "related": [],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00004",
+      "primary": "国際",
+      "related": [
+        "メディア",
+        "歴史"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 4,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00005",
+      "primary": "科学",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00006",
+      "primary": "メディア",
+      "related": [
+        "科学",
+        "環境・気候",
+        "地方・地域",
+        "暮らし"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00007",
+      "primary": "人権・司法",
+      "related": [
+        "政治",
+        "AI・技術",
+        "メディア",
+        "地方・地域"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00008",
+      "primary": "政治",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 5,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00009",
+      "primary": "経済",
+      "related": [
+        "メディア",
+        "政治",
+        "暮らし"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00010",
+      "primary": "国際",
+      "related": [
+        "ジェンダー",
+        "医療"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00011",
+      "primary": "教育",
+      "related": [
+        "国際",
+        "暮らし",
+        "労働"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00012",
+      "primary": "AI・技術",
+      "related": [
+        "科学",
+        "メディア",
+        "文化・芸術"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00013",
+      "primary": "科学",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00014",
+      "primary": "メディア",
+      "related": [
+        "国際",
+        "文化・芸術"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00015",
+      "primary": "政治",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00016",
+      "primary": "国際",
+      "related": [
+        "メディア",
+        "政治"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 5,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00017",
+      "primary": "経済",
+      "related": [
+        "環境・気候",
+        "交通"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00018",
+      "primary": "動物・自然",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00019",
+      "primary": "AI・技術",
+      "related": [
+        "動物・自然",
+        "メディア",
+        "国際",
+        "歴史"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00020",
+      "primary": "科学",
+      "related": [
+        "環境・気候",
+        "動物・自然",
+        "AI・技術",
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00021",
+      "primary": "教育",
+      "related": [],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00022",
+      "primary": "教育",
+      "related": [],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00023",
+      "primary": "スポーツ",
+      "related": [
+        "メディア",
+        "教育"
+      ],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00024",
+      "primary": "AI・技術",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00025",
+      "primary": "ジェンダー",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00026",
+      "primary": "AI・技術",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00027",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00028",
+      "primary": "スポーツ",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00029",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00030",
+      "primary": "スポーツ",
+      "related": [
+        "メディア",
+        "教育",
+        "国際"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00031",
+      "primary": "メディア",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00032",
+      "primary": "文化・芸術",
+      "related": [
+        "スポーツ",
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00033",
+      "primary": "国際",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00034",
+      "primary": "AI・技術",
+      "related": [
+        "スポーツ",
+        "交通"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00035",
+      "primary": "メディア",
+      "related": [
+        "AI・技術"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00036",
+      "primary": "暮らし",
+      "related": [
+        "AI・技術",
+        "科学"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00037",
+      "primary": "国際",
+      "related": [
+        "文化・芸術",
+        "福祉"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00038",
+      "primary": "スポーツ",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00039",
+      "primary": "メディア",
+      "related": [
+        "環境・気候",
+        "国際",
+        "暮らし"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00040",
+      "primary": "AI・技術",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00041",
+      "primary": "国際",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00042",
+      "primary": "歴史",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00043",
+      "primary": "メディア",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00044",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00045",
+      "primary": "動物・自然",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00046",
+      "primary": "暮らし",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00047",
+      "primary": "AI・技術",
+      "related": [
+        "メディア",
+        "科学",
+        "教育",
+        "交通"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00048",
+      "primary": "メディア",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00049",
+      "primary": "AI・技術",
+      "related": [
+        "メディア",
+        "教育"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00050",
+      "primary": "AI・技術",
+      "related": [
+        "メディア",
+        "教育"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00051",
+      "primary": "AI・技術",
+      "related": [
+        "科学",
+        "教育"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00052",
+      "primary": "科学",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00053",
+      "primary": "教育",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00054",
+      "primary": "教育",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00055",
+      "primary": "メディア",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00056",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00057",
+      "primary": "経済",
+      "related": [
+        "交通",
+        "地方・地域"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00058",
+      "primary": "経済",
+      "related": [
+        "交通"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00059",
+      "primary": "政治",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00060",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 0,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00061",
+      "primary": "スポーツ",
+      "related": [
+        "国際"
+      ],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 3,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00062",
+      "primary": "スポーツ",
+      "related": [
+        "AI・技術",
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00063",
+      "primary": "AI・技術",
+      "related": [
+        "スポーツ"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00064",
+      "primary": "スポーツ",
+      "related": [
+        "福祉"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00065",
+      "primary": "スポーツ",
+      "related": [
+        "メディア",
+        "交通"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00066",
+      "primary": "スポーツ",
+      "related": [
+        "人権・司法",
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 4,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00067",
+      "primary": "メディア",
+      "related": [
+        "歴史"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00068",
+      "primary": "教育",
+      "related": [
+        "交通",
+        "スポーツ"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00069",
+      "primary": "国際",
+      "related": [
+        "歴史",
+        "政治",
+        "スポーツ",
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00070",
+      "primary": "スポーツ",
+      "related": [
+        "交通",
+        "ジェンダー",
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00071",
+      "primary": "スポーツ",
+      "related": [
+        "文化・芸術"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00072",
+      "primary": "スポーツ",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 2,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00073",
+      "primary": "交通",
+      "related": [
+        "スポーツ",
+        "環境・気候",
+        "国際"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00074",
+      "primary": "スポーツ",
+      "related": [
+        "交通",
+        "国際",
+        "地方・地域",
+        "文化・芸術"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00075",
+      "primary": "メディア",
+      "related": [
+        "文化・芸術",
+        "スポーツ"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00076",
+      "primary": "スポーツ",
+      "related": [
+        "メディア",
+        "教育",
+        "地方・地域"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00077",
+      "primary": "スポーツ",
+      "related": [
+        "メディア"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00078",
+      "primary": "スポーツ",
+      "related": [
+        "メディア",
+        "科学"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00079",
+      "primary": "スポーツ",
+      "related": [
+        "AI・技術",
+        "経済",
+        "国際",
+        "政治"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00080",
+      "primary": "交通",
+      "related": [
+        "AI・技術",
+        "スポーツ",
+        "メディア",
+        "教育"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 3,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00081",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 1,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00082",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 1,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00083",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00084",
+      "primary": "医療",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00085",
+      "primary": "国際",
+      "related": [
+        "政治"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00086",
+      "primary": "医療",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00087",
+      "primary": "国際",
+      "related": [
+        "暮らし"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00088",
+      "primary": "教育",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00089",
+      "primary": "国際",
+      "related": [
+        "経済",
+        "人権・司法"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00090",
+      "primary": "メディア",
+      "related": [
+        "国際"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00091",
+      "primary": "AI・技術",
+      "related": [
+        "医療",
+        "人権・司法",
+        "地方・地域"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00092",
+      "primary": "政治",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00093",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトルのみ",
+      "relatedArticleUrlCount": 1,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00094",
+      "primary": "労働",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00095",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00096",
+      "primary": "メディア",
+      "related": [
+        "科学"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00097",
+      "primary": "教育",
+      "related": [
+        "科学",
+        "歴史"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00098",
+      "primary": "文化・芸術",
+      "related": [
+        "国際",
+        "歴史"
+      ],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "中",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00099",
+      "primary": "要確認",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "要確認",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    },
+    {
+      "id": "EP-00100",
+      "primary": "政治",
+      "related": [],
+      "basis": "タイトル＋清掃済み概要",
+      "relatedArticleUrlCount": 1,
+      "confidence": "低",
+      "method": "rule-assisted pilot; AI semantic review pending"
+    }
+  ]
+}
