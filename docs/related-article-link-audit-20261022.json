@@ -1,0 +1,15 @@
+{
+  "schema": "asarisuniverse-article-link-audit-v1",
+  "scope": "EP-00001 through EP-00100",
+  "source": "エピソード台帳 AC2:AC101",
+  "rightsPolicy": "No article body, lead, snippet or headline copied. Article URLs are used only transiently to calculate shared references. Output contains episode IDs and counts only.",
+  "stats": {
+    "episodes": 100,
+    "episodesWithLinks": 77,
+    "totalLinks": 0,
+    "uniqueUrls": 0,
+    "sharedArticleUrls": 0,
+    "connectedEpisodePairs": 0
+  },
+  "connections": []
+}
