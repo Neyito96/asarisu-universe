@@ -1,6 +1,6 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>朝リスの宇宙｜探索ラボ V0.8.5</title>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>朝リスの宇宙｜探索ラボ V0.8.6</title>
 <style>:root{color-scheme:dark}body{margin:0;background:#080e20;color:#e8efff;font:15px/1.6 system-ui,sans-serif}header,main{padding:22px max(20px,4vw)}h1{margin:0;font-size:clamp(28px,5vw,50px)}p{color:#a8b8d7}button{background:#1e3155;color:#fff;border:1px solid #4b6898;border-radius:8px;padding:8px 12px;cursor:pointer;margin-right:8px}button[aria-pressed=true]{background:#3763a4}#space{background:radial-gradient(ellipse at center,#162b51 0%,#0a132b 65%,#060b19 100%);border:1px solid #26395c;border-radius:18px;width:100%;height:65vh;min-height:420px;display:block;touch-action:none}#status{min-height:25px}#results{max-height:240px;overflow:auto}a{color:#9cdcff}li{margin-bottom:7px}#resultTitle{scroll-margin-top:16px}#nested{margin:16px 0;padding:14px;border:1px solid #35527d;border-radius:14px;background:#101d38}#nestedStars{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}#nestedStars button{border-radius:999px;margin:0;background:#24436d}#nestedStars button small{display:block;color:#d1e1ff}#legend{color:#a8b8d7;font-size:13px}#loadTrack{height:5px;background:#1c3154;border-radius:99px;overflow:hidden;max-width:460px;margin-top:8px}#loadFill{height:100%;width:0%;background:linear-gradient(90deg,#5b8bea,#a4dfff);transition:width .2s ease}#loadTrack[hidden]{display:none}</style></head><body>
-<header><h1>朝リスの宇宙 <small>V0.8.5 LAB</small></h1><p>意味のある話題からエピソードを探す、実データ探索の試作</p><nav><button data-mode="words" aria-pressed="true">話題の星雲</button><button data-mode="people" aria-pressed="false">出演者の星座</button><button data-mode="roles" aria-pressed="false">肩書の星座</button><button data-mode="episodes" aria-pressed="false">関連エピソード宇宙</button></nav><p id="status">公開図書館を読み込み中…</p><div id="loadTrack" role="progressbar" aria-label="図書館データの取得進捗" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="loadFill"></div></div></header>
+<header><h1>朝リスの宇宙 <small>V0.8.6 LAB</small></h1><p>意味のある話題からエピソードを探す、実データ探索の試作</p><nav><button data-mode="words" aria-pressed="true">話題の星雲</button><button data-mode="people" aria-pressed="false">出演者の星座</button><button data-mode="roles" aria-pressed="false">肩書の星座</button><button data-mode="episodes" aria-pressed="false">関連エピソード宇宙</button></nav><p id="status">公開図書館を読み込み中…</p><div id="loadTrack" role="progressbar" aria-label="図書館データの取得進捗" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="loadFill"></div></div></header>
 <main><canvas id="space"></canvas><p id="legend">星の面積は関連エピソード件数に比例（話題・出演者・肩書モード、上限なし）。肩書の星座は出演者欄に肩書が記録された回だけを集計し、肩書の記載がない回は含みません。エピソード宇宙ではタイトルの話題分類ごとに星が集まります（最大1,800件）。星の上に関連件数を表示。指一本で移動、二本指でピンチ拡大・縮小、タップで星を選択。PCではドラッグ・ホイール操作。</p><section id="nested" hidden><h2 id="nestedTitle">星の内側</h2><p id="nestedHint"></p><button id="nestedBack" type="button">星の内側を閉じる</button><div id="nestedStars" role="group" aria-label="内側の星"></div></section><h2 id="resultTitle">選択した星</h2><ol id="results"></ol></main>
 <script type="module">
 const base="https://neyito96.github.io/asarisunowa/library/data/";
@@ -13,7 +13,7 @@ const json=async path=>{const r=await fetch(base+path,{cache:"no-store"});if(!r.
 const topicRules=[["政治","政治|国会|首相|内閣|政党|議員|選挙|政権|大臣|官邸"],["経済","経済|景気|物価|円安|円高|賃金|株価|金融|投資|税金|企業|日銀"],["福祉","福祉|介護|障害|生活保護|社会保障|年金|ケア|支援員"],["教育","教育|学校|大学|高校|中学|小学校|教員|教師|受験|授業|不登校"],["医療","医療|病院|医師|患者|治療|診療|薬剤|感染症|ワクチン"],["AI・技術","AI|人工知能|生成AI|ChatGPT|半導体|ロボット|アルゴリズム"],["国際","外交|国際|国連|戦争|紛争|ウクライナ|ロシア|中国|米国|アメリカ|中東"],["環境・気候","気候|環境|温暖化|脱炭素|再生可能|太陽光|森林|豪雨|災害"],["文化・芸術","文化|芸術|美術|映画|演劇|文学|小説|音楽|漫画|アニメ"],["スポーツ","スポーツ|野球|サッカー|五輪|オリンピック|バレー|陸上|スキー"],["暮らし","暮らし|生活費|家計|住宅|子育て|育児|家族|食卓|食料"],["地方・地域","地方|地域|自治体|市町村|過疎|移住|農村|農業|地方創生"],["人権・司法","人権|裁判|司法|差別|憲法|法律|逮捕|事件|犯罪"],["メディア","報道|新聞|記者|メディア|SNS|フェイクニュース|情報公開"],["科学","科学|研究|宇宙|天文学|生物|地震|考古|発見"],["労働","労働|働き方|雇用|就職|転職|人手不足|賃上げ|労災"],["ジェンダー","ジェンダー|男女|女性|男性|性別|LGBT|同性婚"],["歴史","歴史|戦後|昭和|明治|大正|古代|史料|遺跡"],["交通","交通|鉄道|新幹線|自動車|道路|航空|飛行機"],["動物・自然","動物|野生|生態|鳥類|昆虫|ペット|クマ|熊"]];
 function wordsOf(title){const t=String(title||"").normalize("NFKC");return topicRules.filter(([label,pattern])=>new RegExp(pattern,"i").test(t)).map(([label])=>label)}
 const roleNames=new Set(["音声ディレクター","編集委員","政治部デスク","社会部デスク","経済部デスク","文化部デスク","編集委員会","朝日新聞デジタル編集長","withnews編集長","withnews・前編集長","ネットワーク報道本部","社会部","大阪社会部","政治部","経済部","文化部","編集長","副編集長","デスク","プロデューサー","ディレクター","音声プロデューサー","音声編集","記者","編集者","司会","アナウンサー"]);
-function castTokens(cast){return String(cast||"").split(/[、,，;；\n\/／]/).map(s=>s.replace(/\([^)]*\)|（[^）]*）/g,"").trim()).filter(s=>s.length>=2&&s.length<=24&&!/(?:https?|www\.|twitter|x\.com|\.com\b|\.jp\b|\.net\b|\.org\b|URL|ＵＲＬ)/i.test(s))}
+function castTokens(cast){return String(cast||"").split(/[、,，;；\n\/／]/).map(s=>s.replace(/\([^)]*\)|（[^）]*）/g,"").trim()).filter(s=>s.length>=2&&s.length<=24&&!/(?:https?|www\.|twitter|ツイッター|Ｘ(?:旧ツイッター)?|x\.com|\.com\b|\.jp\b|\.net\b|\.org\b|URL|ＵＲＬ|@[a-z0-9_]{1,15}\b|(?:^|\s)(?:X|𝕏)[:：＠@]|(?:^|\s)(?:SNS|アカウント|公式アカウント)(?:$|[:：]))/i.test(s)&&!/^[@＠][a-z0-9_]{1,15}$/i.test(s))}
 function isRole(s){return roleNames.has(s)||/^(?:.+部(?:デスク|編集長)|.+編集部(?:長)?|.+報道本部|.+編集委員|.+ディレクター|.+プロデューサー)$/.test(s)}
 function peopleOf(cast){return castTokens(cast).filter(s=>!isRole(s)).slice(0,12)}
 function rolesOf(cast){return castTokens(cast).filter(isRole).slice(0,12)}
@@ -85,14 +85,14 @@ function draw(){
    if(!s.count)continue;
    const x=w/2+ox+s.x*scale,y=h/2+oy+(s.y-s.r)*scale-9;
    if(x<0||x>w||y<25||y>h-12)continue;
-   ctx.font="700 16px system-ui";const tw=ctx.measureText(s.label).width;
-   const left=x-tw/2-5,right=x+tw/2+5,top=y-18,bottom=y+20;
+   const labelSize=Math.max(16,Math.min(25,16+Math.log2(Math.max(1,scale))*3));ctx.font="700 "+labelSize+"px system-ui";const tw=ctx.measureText(s.label).width;
+   const left=x-tw/2-5,right=x+tw/2+5,top=y-labelSize-4,bottom=y+22;
    if(s!==selectedStar&&occupied.some(r=>left<r.right&&right>r.left&&top<r.bottom&&bottom>r.top))continue;
    occupied.push({left,right,top,bottom});
    ctx.textAlign="center";ctx.lineJoin="round";ctx.strokeStyle="#081126";ctx.lineWidth=4;
    ctx.strokeText(s.label,x,y);ctx.fillStyle="#f4f8ff";ctx.fillText(s.label,x,y);
-   ctx.font="600 12px system-ui";ctx.strokeText(s.count.toLocaleString()+"件",x,y+15);
-   ctx.fillStyle="#d3e4ff";ctx.fillText(s.count.toLocaleString()+"件",x,y+15);
+   ctx.font="600 "+Math.max(12,Math.min(17,labelSize-4))+"px system-ui";ctx.strokeText(s.count.toLocaleString()+"件",x,y+17);
+   ctx.fillStyle="#d3e4ff";ctx.fillText(s.count.toLocaleString()+"件",x,y+17);
   }
  }
 }
