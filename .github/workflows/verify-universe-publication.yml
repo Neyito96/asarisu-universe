@@ -1,0 +1,29 @@
+name: Verify Universe Publication Scope (isolated)
+on:
+  pull_request:
+    paths:
+      - 'scripts/verify-universe-publication.mjs'
+      - '.github/workflows/verify-universe-publication.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run pinned P0 and P1 verification
+        run: node scripts/verify-universe-publication.mjs 2>&1 | tee verification.log; exit ${PIPESTATUS[0]}
+      - name: Preserve results even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: universe-publication-verification
+          path: |
+            verification.log
+            artifacts/publication-scope-verification.json
+          if-no-files-found: warn
