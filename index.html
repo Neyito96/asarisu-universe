@@ -1,7 +1,7 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>朝リスの宇宙｜探索ラボ V0.8</title>
-<style>:root{color-scheme:dark}body{margin:0;background:#080e20;color:#e8efff;font:15px/1.6 system-ui,sans-serif}header,main{padding:22px max(20px,4vw)}h1{margin:0;font-size:clamp(28px,5vw,50px)}p{color:#a8b8d7}button{background:#1e3155;color:#fff;border:1px solid #4b6898;border-radius:8px;padding:8px 12px;cursor:pointer;margin-right:8px}button[aria-pressed=true]{background:#3763a4}#space{background:radial-gradient(ellipse at center,#162b51 0%,#0a132b 65%,#060b19 100%);border:1px solid #26395c;border-radius:18px;width:100%;height:65vh;min-height:420px;display:block;touch-action:none}#status{min-height:25px}#results{max-height:240px;overflow:auto}a{color:#9cdcff}li{margin-bottom:7px}#resultTitle{scroll-margin-top:16px}#legend{color:#a8b8d7;font-size:13px}</style></head><body>
-<header><h1>朝リスの宇宙 <small>V0.8 LAB</small></h1><p>意味のある話題からエピソードを探す、実データ探索の試作</p><nav><button data-mode="words" aria-pressed="true">話題の星雲</button><button data-mode="people" aria-pressed="false">出演者の星座</button><button data-mode="episodes" aria-pressed="false">関連エピソード宇宙</button></nav><p id="status">公開図書館を読み込み中…</p></header>
-<main><canvas id="space"></canvas><p id="legend">星の面積は関連エピソード件数に比例（話題・出演者モード、上限なし）。エピソード宇宙ではタイトルの話題分類ごとに星が集まります（最大1,800件）。星の上に関連件数を表示。指一本で移動、二本指でピンチ拡大・縮小、タップで星を選択。PCではドラッグ・ホイール操作。</p><h2 id="resultTitle">選択した星</h2><ol id="results"></ol></main>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>朝リスの宇宙｜探索ラボ V0.8.2</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#080e20;color:#e8efff;font:15px/1.6 system-ui,sans-serif}header,main{padding:22px max(20px,4vw)}h1{margin:0;font-size:clamp(28px,5vw,50px)}p{color:#a8b8d7}button{background:#1e3155;color:#fff;border:1px solid #4b6898;border-radius:8px;padding:8px 12px;cursor:pointer;margin-right:8px}button[aria-pressed=true]{background:#3763a4}#space{background:radial-gradient(ellipse at center,#162b51 0%,#0a132b 65%,#060b19 100%);border:1px solid #26395c;border-radius:18px;width:100%;height:65vh;min-height:420px;display:block;touch-action:none}#status{min-height:25px}#results{max-height:240px;overflow:auto}a{color:#9cdcff}li{margin-bottom:7px}#resultTitle{scroll-margin-top:16px}#nested{margin:16px 0;padding:14px;border:1px solid #35527d;border-radius:14px;background:#101d38}#nestedStars{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}#nestedStars button{border-radius:999px;margin:0;background:#24436d}#nestedStars button small{display:block;color:#d1e1ff}#legend{color:#a8b8d7;font-size:13px}</style></head><body>
+<header><h1>朝リスの宇宙 <small>V0.8.2 LAB</small></h1><p>意味のある話題からエピソードを探す、実データ探索の試作</p><nav><button data-mode="words" aria-pressed="true">話題の星雲</button><button data-mode="people" aria-pressed="false">出演者の星座</button><button data-mode="episodes" aria-pressed="false">関連エピソード宇宙</button></nav><p id="status">公開図書館を読み込み中…</p></header>
+<main><canvas id="space"></canvas><p id="legend">星の面積は関連エピソード件数に比例（話題・出演者モード、上限なし）。エピソード宇宙ではタイトルの話題分類ごとに星が集まります（最大1,800件）。星の上に関連件数を表示。指一本で移動、二本指でピンチ拡大・縮小、タップで星を選択。PCではドラッグ・ホイール操作。</p><section id="nested" hidden><h2 id="nestedTitle">星の内側</h2><p id="nestedHint"></p><button id="nestedBack" type="button">星の内側を閉じる</button><div id="nestedStars" role="group" aria-label="内側の星"></div></section><h2 id="resultTitle">選択した星</h2><ol id="results"></ol></main>
 <script type="module">
 const base="https://neyito96.github.io/asarisunowa/library/data/";
 const canvas=document.querySelector("#space"),ctx=canvas.getContext("2d"),$=s=>document.querySelector(s);
@@ -76,7 +76,32 @@ function draw(){
  if(mode!=="episodes"&&s.count>0){ctx.font=`${Math.max(9,Math.min(16,9+s.r/3))}px system-ui`;ctx.textAlign="center";ctx.fillStyle="#e8efff";ctx.fillText(s.label,s.x,s.y-s.r-12);ctx.font="11px system-ui";ctx.fillStyle="#bfd2f6";ctx.fillText(s.count.toLocaleString()+"件",s.x,s.y-s.r-1)}}
  ctx.restore()
 }
-function selectStar(s){selectedStar=s;draw();$("#resultTitle").textContent=mode==="episodes"?`${s.topic}｜${s.episodes[0].title}`:`${s.label}｜関連 ${s.episodes.length}件`;const ol=$("#results");ol.replaceChildren(...s.episodes.slice(0,80).map(e=>{const li=document.createElement("li"),a=document.createElement("a");a.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(e.id);a.target="_blank";a.rel="noopener noreferrer";a.textContent=e.title+"（"+e.show+"）";li.append(a);return li}));$("#resultTitle").scrollIntoView({behavior:"smooth",block:"start"})}
+function openNested(s){
+ const panel=$("#nested"),holder=$("#nestedStars");holder.replaceChildren();
+ if(mode==="episodes"){panel.hidden=true;return}
+ const groups=new Map();
+ for(const e of s.episodes){
+  const tokens=mode==="words"?peopleOf(e.cast):wordsOf(e.title);
+  for(const name of new Set(tokens)){if(!groups.has(name))groups.set(name,[]);groups.get(name).push(e)}
+ }
+ const children=[...groups].sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0],"ja")).slice(0,32);
+ panel.hidden=false;$("#nestedTitle").textContent=s.label+" の内側";
+ $("#nestedHint").textContent=mode==="words"?"この話題を語った出演者（最大32人）。選ぶと該当回を表示します。":"この出演者が語ったテーマ（最大20種類）。選ぶと該当回を表示します。";
+ if(!children.length){holder.textContent="関連する星はまだありません。";return}
+ for(const [name,episodes] of children){
+  const b=document.createElement("button");b.type="button";b.textContent=name+" ";
+  const count=document.createElement("small");count.textContent=episodes.length.toLocaleString()+"件";b.append(count);
+  b.style.fontSize=Math.min(19,12+Math.sqrt(episodes.length))+"px";
+  b.addEventListener("click",()=>{showEpisodes(name,episodes);$("#resultTitle").scrollIntoView({behavior:"smooth",block:"start"})});
+  holder.append(b)
+ }
+}
+function showEpisodes(label,episodes){
+ $("#resultTitle").textContent=label+"｜関連 "+episodes.length+"件";
+ const ol=$("#results");ol.replaceChildren(...episodes.slice(0,80).map(e=>{const li=document.createElement("li"),a=document.createElement("a");a.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(e.id);a.target="_blank";a.rel="noopener noreferrer";a.textContent=e.title+"（"+e.show+"）";li.append(a);return li}))
+}
+$("#nestedBack").addEventListener("click",()=>{$("#nested").hidden=true;$("#nestedStars").replaceChildren()});
+function selectStar(s){selectedStar=s;draw();openNested(s);$("#resultTitle").textContent=mode==="episodes"?`${s.topic}｜${s.episodes[0].title}`:`${s.label}｜関連 ${s.episodes.length}件`;const ol=$("#results");ol.replaceChildren(...s.episodes.slice(0,80).map(e=>{const li=document.createElement("li"),a=document.createElement("a");a.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(e.id);a.target="_blank";a.rel="noopener noreferrer";a.textContent=e.title+"（"+e.show+"）";li.append(a);return li}));$("#resultTitle").scrollIntoView({behavior:"smooth",block:"start"})}
 function localPoint(e){const r=canvas.getBoundingClientRect();return {x:e.clientX-r.left,y:e.clientY-r.top}}
 function hitTest(p){const x=(p.x-canvas.clientWidth/2-ox)/scale,y=(p.y-canvas.clientHeight/2-oy)/scale;let best=null,dist=Infinity;for(const s of stars){const d=Math.hypot(s.x-x,s.y-y);if(d<dist){best=s;dist=d}}return best&&dist<Math.max(18/scale,best.r+8/scale)?best:null}
 function zoomAt(factor,p){const old=scale,next=Math.max(.18,Math.min(8,old*factor));const cx=canvas.clientWidth/2,cy=canvas.clientHeight/2;ox=p.x-cx-(p.x-cx-ox)*(next/old);oy=p.y-cy-(p.y-cy-oy)*(next/old);scale=next}
@@ -88,7 +113,7 @@ canvas.addEventListener("pointerup",endPointer);
 canvas.addEventListener("pointercancel",e=>{pointers.delete(e.pointerId);beginGesture()});
 canvas.addEventListener("lostpointercapture",e=>{if(pointers.delete(e.pointerId))beginGesture()});
 canvas.addEventListener("wheel",e=>{e.preventDefault();zoomAt(e.deltaY<0?1.12:.89,localPoint(e));draw()},{passive:false});
-document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{mode=b.dataset.mode;document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));makeStars();selectedStar=null;fitStars();draw();$("#resultTitle").textContent="選択した星";$("#results").replaceChildren();$("#status").textContent=`${rows.length.toLocaleString()}件から ${stars.length}個の星を表示（話題はタイトルのキーワード一致・複数分類あり）`}));
+document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{mode=b.dataset.mode;document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));makeStars();selectedStar=null;$("#nested").hidden=true;$("#nestedStars").replaceChildren();fitStars();draw();$("#resultTitle").textContent="選択した星";$("#results").replaceChildren();$("#status").textContent=`${rows.length.toLocaleString()}件から ${stars.length}個の星を表示（話題はタイトルのキーワード一致・複数分類あり）`}));
 async function init(){try{const m=await json("manifest.json");const files=m.shows.filter(s=>!excluded.has(s.name)).flatMap(s=>s.search||[]);const all=[];for(let i=0;i<files.length;i+=8){const pages=await Promise.all(files.slice(i,i+8).map(json));pages.forEach(p=>all.push(...p));$("#status").textContent=`取得中 ${Math.min(i+8,files.length)}/${files.length}`}const seen=new Set();rows=all.filter(r=>{if(!/^EP-\d{5}$/.test(r.id)||seen.has(r.id)||/(再配信|再放送|アンコール)/.test(r.title||""))return false;seen.add(r.id);return true});makeStars();$("#status").textContent=`公開図書館 ${m.version}｜${rows.length.toLocaleString()}件から ${stars.length}個の星を表示（話題はタイトルのキーワード一致・複数分類あり）`;resize()}catch(e){$("#status").textContent="読み込み失敗: "+e.message;console.error(e)}}
 window.addEventListener("resize",resize);init();
 </script></body></html>
