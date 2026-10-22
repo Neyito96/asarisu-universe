@@ -3,6 +3,8 @@
 <header><h1>朝リスの宇宙 <small>V0.8 LAB</small></h1><p>意味のある話題からエピソードを探す、実データ探索の試作</p><nav><button data-mode="words" aria-pressed="true">話題の星雲</button><button data-mode="people" aria-pressed="false">出演者の星座</button><button data-mode="episodes" aria-pressed="false">関連エピソード宇宙</button></nav><p id="status">公開図書館を読み込み中…</p></header>
 <main><canvas id="space"></canvas><p id="legend">星の面積は関連エピソード件数に比例（話題・出演者モード、上限なし）。エピソード宇宙ではタイトルの話題分類ごとに星が集まります（最大1,800件）。星の上に関連件数を表示。指一本で移動、二本指でピンチ拡大・縮小、タップで星を選択。PCではドラッグ・ホイール操作。</p><h2 id="resultTitle">選択した星</h2><ol id="results"></ol></main>
 <script type="module">
+import {loadSearchScope} from "./experiments/v0.9/search-scope.mjs";
+const scopePreview=new URLSearchParams(location.search).get("scopePreview")==="1";
 const base="https://neyito96.github.io/asarisunowa/library/data/";
 const canvas=document.querySelector("#space"),ctx=canvas.getContext("2d"),$=s=>document.querySelector(s);
 const excluded=new Set(["アルキキ","AJW","朝ポキTV"]);
@@ -89,6 +91,12 @@ canvas.addEventListener("pointercancel",e=>{pointers.delete(e.pointerId);beginGe
 canvas.addEventListener("lostpointercapture",e=>{if(pointers.delete(e.pointerId))beginGesture()});
 canvas.addEventListener("wheel",e=>{e.preventDefault();zoomAt(e.deltaY<0?1.12:.89,localPoint(e));draw()},{passive:false});
 document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{mode=b.dataset.mode;document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));makeStars();selectedStar=null;fitStars();draw();$("#resultTitle").textContent="選択した星";$("#results").replaceChildren();$("#status").textContent=`${rows.length.toLocaleString()}件から ${stars.length}個の星を表示（話題はタイトルのキーワード一致・複数分類あり）`}));
-async function init(){try{const m=await json("manifest.json");const files=m.shows.filter(s=>!excluded.has(s.name)).flatMap(s=>s.search||[]);const all=[];for(let i=0;i<files.length;i+=8){const pages=await Promise.all(files.slice(i,i+8).map(json));pages.forEach(p=>all.push(...p));$("#status").textContent=`取得中 ${Math.min(i+8,files.length)}/${files.length}`}const seen=new Set();rows=all.filter(r=>{if(!/^EP-\d{5}$/.test(r.id)||seen.has(r.id)||/(再配信|再放送|アンコール)/.test(r.title||""))return false;seen.add(r.id);return true});makeStars();$("#status").textContent=`公開図書館 ${m.version}｜${rows.length.toLocaleString()}件から ${stars.length}個の星を表示（話題はタイトルのキーワード一致・複数分類あり）`;resize()}catch(e){$("#status").textContent="読み込み失敗: "+e.message;console.error(e)}}
+async function init(){try{const m=await json("manifest.json");const files=m.shows.filter(s=>!excluded.has(s.name)).flatMap(s=>s.search||[]);const all=[];for(let i=0;i<files.length;i+=8){const pages=await Promise.all(files.slice(i,i+8).map(json));pages.forEach(p=>all.push(...p));$("#status").textContent=`取得中 ${Math.min(i+8,files.length)}/${files.length}`}const seen=new Set();rows=all.filter(r=>{if(!/^EP-\d{5}$/.test(r.id)||seen.has(r.id)||/(再配信|再放送|アンコール)/.test(r.title||""))return false;seen.add(r.id);return true});makeStars();$("#status").textContent=`公開図書館 ${m.version}｜${rows.length.toLocaleString()}件から ${stars.length}個の星を表示（話題はタイトルのキーワード一致・複数分類あり）`;resize();
+ if(scopePreview){
+  const note=document.createElement("p");note.id="scopePreviewStatus";note.setAttribute("role","status");note.textContent="V0.9判定JSON：検証中（表示対象はV0.8のまま）";$("#status").after(note);
+  const scope=await loadSearchScope({libraryVersion:m.version});
+  if(!scope.active){note.textContent="V0.9判定JSON：未適用（"+scope.reason+"）。V0.8の検索対象を維持";console.info("scope preview",scope)}
+  else{const matched=rows.filter(r=>scope.ids.has(r.id)).length;note.textContent=`V0.9検証のみ：JSON対象${scope.count}件／現在の表示元との一致${matched}件。切替は未実施`;console.info("scope preview",scope)}
+ }}catch(e){$("#status").textContent="読み込み失敗: "+e.message;console.error(e)}}
 window.addEventListener("resize",resize);init();
 </script></body></html>
