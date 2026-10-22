@@ -2,14 +2,43 @@
   "schema": "asarisuniverse-article-link-audit-v1",
   "scope": "EP-00001 through EP-00100",
   "source": "エピソード台帳 AC2:AC101",
-  "rightsPolicy": "No article body, lead, snippet or headline copied. Article URLs are used only transiently to calculate shared references. Output contains episode IDs and counts only.",
+  "rightsPolicy": "No article body, lead, snippet or headline copied; only episode IDs and shared-reference counts are published.",
   "stats": {
     "episodes": 100,
     "episodesWithLinks": 77,
-    "totalLinks": 0,
-    "uniqueUrls": 0,
-    "sharedArticleUrls": 0,
-    "connectedEpisodePairs": 0
+    "totalLinks": 170,
+    "uniqueUrls": 165,
+    "sharedArticleUrls": 5,
+    "connectedEpisodePairs": 4
   },
-  "connections": []
+  "connections": [
+    {
+      "episodes": [
+        "EP-00008",
+        "EP-00016"
+      ],
+      "sharedArticleCount": 1
+    },
+    {
+      "episodes": [
+        "EP-00066",
+        "EP-00067"
+      ],
+      "sharedArticleCount": 1
+    },
+    {
+      "episodes": [
+        "EP-00069",
+        "EP-00072"
+      ],
+      "sharedArticleCount": 2
+    },
+    {
+      "episodes": [
+        "EP-00073",
+        "EP-00074"
+      ],
+      "sharedArticleCount": 1
+    }
+  ]
 }
