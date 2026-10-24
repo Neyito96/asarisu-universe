@@ -1,0 +1,349 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>朝ポキの宇宙｜Oceanic LAB V0.12</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#080e20;color:#e8efff;font:15px/1.6 system-ui,sans-serif}header,main{padding:22px max(20px,4vw)}h1{margin:0;font-size:clamp(28px,5vw,50px)}p{color:#a8b8d7}button{background:#1e3155;color:#fff;border:1px solid #4b6898;border-radius:8px;padding:8px 12px;cursor:pointer;margin-right:8px}[hidden]{display:none!important}button[aria-pressed=true]{background:#3763a4}#space{background:radial-gradient(ellipse at center,#162b51 0%,#0a132b 65%,#060b19 100%);border:1px solid #26395c;border-radius:18px;width:100%;height:65vh;min-height:420px;display:block;touch-action:none}#status{min-height:25px}#results{max-height:240px;overflow:auto}a{color:#9cdcff}li{margin-bottom:7px}#resultTitle{scroll-margin-top:16px}#nested{margin:16px 0;padding:14px;border:1px solid #35527d;border-radius:14px;background:#101d38}#nestedStars{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}#nestedStars button{border-radius:999px;margin:0;background:#24436d}#nestedStars button small{display:block;color:#d1e1ff}#legend{color:#a8b8d7;font-size:13px}#loadTrack{height:5px;background:#1c3154;border-radius:99px;overflow:hidden;max-width:460px;margin-top:8px}#loadFill{height:100%;width:0%;background:linear-gradient(90deg,#5b8bea,#a4dfff);transition:width .2s ease}#loadTrack[hidden]{display:none}
+/* Nordic modern design system — airy typography, restrained palette, legible topics */
+:root{color-scheme:light}body{background:#f6f7f5;color:#1c3147;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Noto Sans JP",sans-serif;letter-spacing:.012em}header{background:#fff;border-bottom:1px solid #e0e8e9;padding-top:28px;padding-bottom:20px}main{max-width:1500px;margin:auto}h1{font-weight:750;letter-spacing:-.045em}h1 small{font-size:.38em;letter-spacing:.08em;font-weight:600;color:#5e7484}p,#legend{color:#617889}nav{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 8px}button{background:#fff;color:#29455a;border:1px solid #cbd9df;border-radius:999px;padding:10px 16px;margin:0;font-weight:600;transition:background .18s,border-color .18s}button:hover{background:#eaf1f3;border-color:#8caebc}button[aria-pressed=true]{background:#254e68;color:#fff;border-color:#254e68}#space{background:radial-gradient(ellipse at 48% 45%,#fff 0%,#f0f6f5 58%,#e9f1f1 100%);border:1px solid #d5e2e5;border-radius:26px;height:68vh;min-height:440px;box-shadow:0 10px 36px #24455d0b}#nested,#articleDemo,#articleConnections,#geoPanel{background:#fff!important;border-color:#d5e2e5!important;border-radius:20px!important;color:#1c3147}#nestedStars button{background:#e7f1f3;color:#21465d}#nestedStars button small{color:#486476}#loadTrack{background:#e2ecee}#loadFill{background:linear-gradient(90deg,#86b9c6,#7e96c6)}a{color:#176789}#resultTitle{margin-top:30px}#results{max-height:none;padding-left:26px}#results li{padding:5px 0;border-bottom:1px solid #e8eeee}#geoMap{border:1px solid #d5e2e5}#geoSummary{font-weight:650;color:#29455a}@media(max-width:650px){header,main{padding-left:16px;padding-right:16px}h1{font-size:30px}nav{gap:7px}nav button{padding:9px 12px;font-size:13px}#space{height:60vh;min-height:400px}}
+
+/* Oceanic Lab: isolated visual experiment; production entrypoint unchanged */
+:root{color-scheme:dark}body{background:radial-gradient(ellipse at 48% 8%,#165575 0%,#0c2f45 34%,#071b2b 76%)!important;color:#e8f6f8!important}header{background:linear-gradient(105deg,#0b3148dd,#103e56bb)!important;border-bottom:1px solid #5aa4b34a!important}#space{background:radial-gradient(ellipse at 52% 40%,#225e78 0%,#103c55 40%,#092336 78%)!important;border-color:#4b9aab88!important;box-shadow:inset 0 0 70px #1b678a33,0 18px 60px #03132155!important}button{background:#164258!important;border-color:#5e9dad77!important;color:#e9f9fc!important}button[aria-pressed=true]{background:#26738d!important;border-color:#8bdae7!important}#nested,#geoPanel{background:#10344bdc!important;border-color:#508b9b77!important}a{color:#9ce7ed!important}#oceanicBanner{font-size:12px;letter-spacing:.06em;color:#a7dbe6;margin:6px 0 0}html,body{max-width:100%;overflow-x:hidden}main{min-width:0}#space{max-width:100%;box-sizing:border-box}@media(max-width:700px){header,main{padding:14px!important}header h1{font-size:25px!important}nav{display:flex;flex-wrap:wrap;gap:6px}nav button{font-size:12px!important;margin:0!important;padding:9px!important}#space{height:58vh!important;min-height:360px!important}#results{max-height:35vh!important;overflow:auto}}
+#space{touch-action:none!important;overscroll-behavior:contain!important;-webkit-user-select:none;user-select:none}html{overscroll-behavior-y:contain}#labelDirectory{margin:14px 0 20px;padding:15px;border:1px solid #4b849777;border-radius:16px;background:#10364a}#labelDirectory h2{font-size:17px;margin:0 0 6px;color:#e9faff}#labelDirectoryHint{font-size:12px;color:#b0d7df;margin:0 0 12px}#labelDirectoryItems{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:7px}#labelDirectoryItems button{display:flex;align-items:center;justify-content:space-between;gap:6px;border-radius:9px!important;margin:0!important;padding:8px 10px!important;text-align:left;font-size:13px!important;min-width:0}#labelDirectoryItems button span{overflow-wrap:anywhere}#labelDirectoryItems button small{white-space:nowrap;color:#a9dbe3}#labelDirectoryItems button:focus-visible{outline:2px solid #9ce7ed}@media(max-width:600px){#labelDirectoryItems{grid-template-columns:repeat(2,minmax(0,1fr))}#labelDirectoryItems button{font-size:12px!important;padding:7px!important}} #nested{display:block!important}#nested[hidden]{display:none!important}#nestedStars button{white-space:normal;text-align:left}#results li{padding:8px 4px;border-bottom:1px solid #5e9dad33}#results a{font-weight:600;line-height:1.6}#resultTitle{margin-top:24px}#linkHint{font-size:13px;color:#b1dce5}#nestedHint{color:#b1dce5} #starHover{padding:8px 12px;margin-bottom:9px;min-height:24px;background:#113b50;border:1px solid #5d9aab66;border-radius:9px;font-size:13px;color:#ccebf2}#space{cursor:grab}#space.is-hovering{cursor:pointer}#space:active{cursor:grabbing}#labelDirectoryItems button:hover,#nestedStars button:hover{background:#27718a!important;border-color:#9ee2ed!important} </style></head><body>
+<header><h1>朝ポキの宇宙 <small>TEST 1024.2</small></h1><p>意味のある話題からエピソードを探す、実データ探索の試作</p><p id="oceanicBanner">TEST 1024.2 · 公開対象の図書館データを読み取り専用で利用 · 意味分類の承認完了を示すものではありません</p><nav><button data-mode="words" aria-pressed="true">話題の星雲</button><button data-mode="people" aria-pressed="false">出演者の星座</button><button data-mode="roles" aria-pressed="false">肩書の星座</button><button data-mode="organizations" aria-pressed="false">組織の星座</button><button data-mode="geo" aria-pressed="false">🌏 地理の宇宙</button></nav><p id="status">公開図書館を読み込み中…</p><div id="loadTrack" role="progressbar" aria-label="図書館データの取得進捗" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="loadFill"></div></div></header>
+<main><div id="starHover" role="status" aria-live="polite">星にマウスを重ねると名前と件数を表示します。クリックで入れ子を開きます。</div><canvas id="space" aria-label="操作できる星雲"></canvas><section id="labelDirectory" aria-label="表示中の星の名前"><h2>星の名前一覧</h2><p id="labelDirectoryHint">星を選ぶと関連エピソードを表示します。</p><div id="labelDirectoryItems"></div></section><section id="geoPanel" hidden style="border:1px solid #35527d;border-radius:18px;padding:14px;background:#101d38"><h2>🌏 地理の宇宙｜世界と日本</h2><p>公開図書館のタイトル・概要から地名を抽出した試験版。本文で話題にされた場所であり、録音地や取材地とは限りません。</p><div><button id="geoWorld" type="button">世界地図</button><button id="geoJapan" type="button">日本地図</button></div><div id="geoMap" style="height:55vh;min-height:350px;border-radius:12px;margin-top:12px"></div><p id="geoSummary"></p><p>地名は辞書照合による暫定判定です。地図にない地域や、文脈が曖昧な地名は今後の改善対象です。</p></section><p id="legend">星の面積は関連エピソード件数に比例（話題・出演者・肩書・組織モード、上限なし）。肩書の星座は出演者欄に肩書が記録された回だけを集計し、肩書の記載がない回は含みません。エピソード宇宙ではタイトル・概要の話題分類ごとに星が集まります（読み込み対象全件）。星の上に関連件数を表示。指一本で移動、二本指でピンチ拡大・縮小、タップで星を選択。PCではドラッグ・ホイール操作。</p><section id="nested" hidden><h2 id="nestedTitle">星の内側</h2><p id="nestedHint"></p><button id="nestedBack" type="button">星の内側を閉じる</button><div id="nestedStars" role="group" aria-label="内側の星"></div></section><section id="articleDemo" hidden style="border:1px solid #35527d;border-radius:14px;padding:14px;margin:16px 0;background:#101d38"><h2 style="margin-top:0">関連記事でつながる星｜実例を見る</h2><p>記事本文は取得せず、同じ記事URLを参照するエピソードの組を表示します。下のボタンで実例を直接開けます。</p><div id="articleDemoButtons" style="display:flex;flex-wrap:wrap;gap:8px"></div></section><section id="articleConnections" hidden aria-live="polite" style="border:1px solid #35527d;border-radius:14px;padding:14px;margin:16px 0;background:#101d38"><h2 style="margin-top:0">同じ関連記事を参照する星</h2><p>EP-IDと共通記事数だけで照合。記事本文・序文・見出しは取得・転載していません。最初の100件の試験データです。</p><ul id="articleConnectionList"></ul></section><h2 id="resultTitle">選択した星</h2><p id="linkHint">星や名前一覧をタップすると、ここにエピソードが表示されます。タイトルを押すと図書館の該当回へ進めます。</p><ol id="results"></ol></main>
+<script type="module">
+const base="https://neyito96.github.io/asarisunowa/library/data/";
+const canvas=document.querySelector("#space"),ctx=canvas.getContext("2d"),$=s=>document.querySelector(s);
+const geoPlaces=[
+["日本",36.2,138.25,"world","日本|国内|日本列島"],["アメリカ",38,-97,"world","アメリカ|米国|米政府|米大統領|ワシントンDC"],["中国",35,103,"world","中国|北京|上海"],["韓国",36,128,"world","韓国|ソウル"],["台湾",23.7,121,"world","台湾|台北"],["ロシア",61,100,"world","ロシア|モスクワ"],["ウクライナ",49,32,"world","ウクライナ|キーウ"],["イスラエル",31.5,35,"world","イスラエル"],["パレスチナ・ガザ",31.4,34.4,"world","パレスチナ|ガザ地区|ガザ"],["キューバ",21.5,-79.4,"world","キューバ|ハバナ"],["チリ",-33.4,-70.7,"world","チリ|サンティアゴ"],["ブラジル",-14.2,-51.9,"world","ブラジル"],["イギリス",54,-2,"world","イギリス|英国|ロンドン"],["フランス",46.6,2.2,"world","フランス|パリ"],["ドイツ",51,10,"world","ドイツ|ベルリン"],["インド",22.5,79,"world","インド|ニューデリー"],["イラン",32,53,"world","イラン|テヘラン"],["北朝鮮",40.3,127.5,"world","北朝鮮|平壌"],["タイ",15,101,"world","タイ|バンコク"],["ベトナム",16,108,"world","ベトナム"],["インドネシア",-2,118,"world","インドネシア|ジャカルタ|Jakarta"],["ジャカルタ",-6.2088,106.8456,"world","ジャカルタ|Jakarta"],["スウェーデン",62,15,"world","スウェーデン|ストックホルム|ヨーテボリ|マルメ"],["ノルウェー",62,9,"world","ノルウェー|オスロ|ベルゲン"],["フィンランド",64,26,"world","フィンランド|ヘルシンキ|タンペレ"],["デンマーク",56,10,"world","デンマーク|コペンハーゲン|オーフス"],["アイスランド",65,-19,"world","アイスランド|レイキャビク"],["北欧",67,19,"world","北欧|スカンジナビア|ノルディック"],["カナダ",56,-106,"world","カナダ|オタワ|トロント|バンクーバー"],
+["メキシコ",23,-102,"world","メキシコ|メキシコシティ"],
+["アルゼンチン",-35,-64,"world","アルゼンチン|ブエノスアイレス"],
+["ペルー",-10,-75,"world","ペルー|リマ"],
+["コロンビア",4,-74,"world","コロンビア|ボゴタ"],
+["ボリビア",-17,-65,"world","ボリビア|ラパス"],
+["エクアドル",-2,-78,"world","エクアドル|キト"],
+["ベネズエラ",7,-66,"world","ベネズエラ|カラカス"],
+["ウルグアイ",-33,-56,"world","ウルグアイ|モンテビデオ"],
+["パラグアイ",-23,-58,"world","パラグアイ|アスンシオン"],
+["コスタリカ",10,-84,"world","コスタリカ"],
+["パナマ",9,-80,"world","パナマ"],
+["グアテマラ",15,-90,"world","グアテマラ"],
+["ジャマイカ",18,-77,"world","ジャマイカ"],
+["ハイチ",19,-72,"world","ハイチ"],
+["ドミニカ共和国",19,-70,"world","ドミニカ共和国"],
+["グリーンランド",72,-42,"world","グリーンランド"],
+["アイルランド",53,-8,"world","アイルランド|ダブリン"],
+["スペイン",40,-4,"world","スペイン|マドリード|バルセロナ"],
+["ポルトガル",39,-8,"world","ポルトガル|リスボン"],
+["イタリア",42,12,"world","イタリア|ローマ|ミラノ"],
+["スイス",47,8,"world","スイス|ジュネーブ|チューリヒ"],
+["オーストリア",48,14,"world","オーストリア|ウィーン"],
+["オランダ",52,5,"world","オランダ|アムステルダム"],
+["ベルギー",51,4,"world","ベルギー|ブリュッセル"],
+["ポーランド",52,19,"world","ポーランド|ワルシャワ"],
+["チェコ",50,15,"world","チェコ|プラハ"],
+["ハンガリー",47,19,"world","ハンガリー|ブダペスト"],
+["ギリシャ",39,23,"world","ギリシャ|アテネ"],
+["トルコ",39,35,"world","トルコ|イスタンブール|アンカラ"],
+["セルビア",44,21,"world","セルビア"],
+["クロアチア",45,16,"world","クロアチア"],
+["ルーマニア",46,25,"world","ルーマニア"],
+["ブルガリア",43,25,"world","ブルガリア"],
+["エストニア",59,25,"world","エストニア"],
+["ラトビア",57,25,"world","ラトビア"],
+["リトアニア",55,24,"world","リトアニア"],
+["ベラルーシ",54,28,"world","ベラルーシ"],
+["ジョージア",42,44,"world","ジョージア|グルジア"],
+["アルメニア",40,45,"world","アルメニア"],
+["アゼルバイジャン",40,48,"world","アゼルバイジャン"],
+["カザフスタン",48,67,"world","カザフスタン"],
+["ウズベキスタン",41,64,"world","ウズベキスタン"],
+["モンゴル",47,104,"world","モンゴル|ウランバートル"],
+["ネパール",28,84,"world","ネパール|カトマンズ"],
+["ブータン",27,90,"world","ブータン"],
+["バングラデシュ",24,90,"world","バングラデシュ"],
+["パキスタン",30,69,"world","パキスタン"],
+["アフガニスタン",34,66,"world","アフガニスタン"],
+["スリランカ",7,81,"world","スリランカ"],
+["ミャンマー",21,96,"world","ミャンマー"],
+["カンボジア",13,105,"world","カンボジア"],
+["ラオス",19,103,"world","ラオス"],
+["マレーシア",4,102,"world","マレーシア"],
+["シンガポール",1.35,104,"world","シンガポール"],
+["フィリピン",13,122,"world","フィリピン|マニラ"],
+["ブルネイ",5,115,"world","ブルネイ"],
+["東ティモール",-9,126,"world","東ティモール"],
+["サウジアラビア",24,45,"world","サウジアラビア"],
+["アラブ首長国連邦",24,54,"world","アラブ首長国連邦|UAE|ドバイ|アブダビ"],
+["カタール",25,51,"world","カタール"],
+["クウェート",29,48,"world","クウェート"],
+["オマーン",21,57,"world","オマーン"],
+["イエメン",15,48,"world","イエメン"],
+["イラク",33,44,"world","イラク"],
+["シリア",35,38,"world","シリア"],
+["レバノン",34,36,"world","レバノン"],
+["ヨルダン",31,36,"world","ヨルダン"],
+["エジプト",27,30,"world","エジプト|カイロ"],
+["モロッコ",32,-6,"world","モロッコ"],
+["アルジェリア",28,3,"world","アルジェリア"],
+["チュニジア",34,9,"world","チュニジア"],
+["リビア",27,17,"world","リビア"],
+["スーダン",15,30,"world","スーダン"],
+["南スーダン",7,30,"world","南スーダン"],
+["エチオピア",9,40,"world","エチオピア"],
+["エリトリア",15,39,"world","エリトリア"],
+["ジブチ",12,43,"world","ジブチ"],
+["ソマリア",5,46,"world","ソマリア"],
+["ケニア",0,38,"world","ケニア|ナイロビ"],
+["ウガンダ",1,32,"world","ウガンダ"],
+["タンザニア",-6,35,"world","タンザニア"],
+["ルワンダ",-2,30,"world","ルワンダ"],
+["ブルンジ",-3,30,"world","ブルンジ"],
+["コンゴ民主共和国",-3,24,"world","コンゴ民主共和国|コンゴ民主|旧ザイール"],
+["コンゴ共和国",-1,15,"world","コンゴ共和国"],
+["中央アフリカ",7,21,"world","中央アフリカ"],
+["チャド",15,19,"world","チャド"],
+["ニジェール",17,9,"world","ニジェール"],
+["ナイジェリア",9,8,"world","ナイジェリア"],
+["ガーナ",8,-2,"world","ガーナ"],
+["コートジボワール",8,-5,"world","コートジボワール"],
+["セネガル",14,-14,"world","セネガル"],
+["マリ",17,-4,"world","マリ"],
+["ブルキナファソ",12,-2,"world","ブルキナファソ"],
+["ギニア",10,-11,"world","ギニア"],
+["リベリア",6,-10,"world","リベリア"],
+["シエラレオネ",9,-12,"world","シエラレオネ"],
+["ガンビア",13,-16,"world","ガンビア"],
+["カメルーン",6,12,"world","カメルーン"],
+["ガボン",-1,12,"world","ガボン"],
+["赤道ギニア",2,10,"world","赤道ギニア"],
+["アンゴラ",-12,18,"world","アンゴラ"],
+["ザンビア",-13,28,"world","ザンビア"],
+["ジンバブエ",-19,30,"world","ジンバブエ"],
+["モザンビーク",-18,35,"world","モザンビーク"],
+["マラウイ",-13,34,"world","マラウイ"],
+["ボツワナ",-22,24,"world","ボツワナ"],
+["ナミビア",-22,17,"world","ナミビア"],
+["南アフリカ",-29,24,"world","南アフリカ|ケープタウン|ヨハネスブルク"],
+["レソト",-29,28,"world","レソト"],
+["エスワティニ",-26,31,"world","エスワティニ|スワジランド"],
+["マダガスカル",-19,47,"world","マダガスカル"],
+["モーリシャス",-20,57,"world","モーリシャス"],
+["セーシェル",-5,55,"world","セーシェル"],
+["カーボベルデ",16,-24,"world","カーボベルデ"],
+["ニュージーランド",-41,174,"world","ニュージーランド|ウェリントン|オークランド"],
+["パプアニューギニア",-6,147,"world","パプアニューギニア"],
+["フィジー",-17,178,"world","フィジー"],
+["サモア",-14,-172,"world","サモア"],
+["トンガ",-21,-175,"world","トンガ"],
+["バヌアツ",-16,167,"world","バヌアツ"],
+["ソロモン諸島",-9,160,"world","ソロモン諸島"],
+["キリバス",1,173,"world","キリバス"],
+["ツバル",-8,179,"world","ツバル"],
+["ナウル",-1,167,"world","ナウル"],
+["パラオ",7,134,"world","パラオ"],
+["ミクロネシア",7,151,"world","ミクロネシア"],
+["マーシャル諸島",7,171,"world","マーシャル諸島"],
+["ニューカレドニア",-21,165,"world","ニューカレドニア"],
+["フランス領ポリネシア",-17,-149,"world","フランス領ポリネシア|タヒチ"],
+["グアム",13,145,"world","グアム"],
+["北マリアナ諸島",15,146,"world","北マリアナ諸島|サイパン"],
+["南極大陸",-78,20,"world","南極|南極大陸|昭和基地|南極点"],
+["北極圏",80,0,"world","北極|北極圏|北極海"],
+["アフリカ（地域）",3,20,"world","アフリカ"],
+["オセアニア（地域）",-15,155,"world","オセアニア"],
+["中東（地域）",30,46,"world","中東"],
+["中南米（地域）",-10,-70,"world","中南米|ラテンアメリカ"],
+["東南アジア（地域）",12,112,"world","東南アジア"],
+["中央アジア（地域）",43,65,"world","中央アジア"],
+["ヨーロッパ（地域）",49,15,"world","ヨーロッパ|欧州"],
+["オーストラリア",-25,134,"world","オーストラリア"],
+["北海道",43.1,141.35,"japan","北海道|札幌"],["青森県",40.82,140.74,"japan","青森"],["岩手県",39.7,141.15,"japan","岩手|盛岡"],["宮城県",38.27,140.87,"japan","宮城|仙台"],["秋田県",39.72,140.1,"japan","秋田"],["山形県",38.25,140.36,"japan","山形"],["福島県",37.75,140.47,"japan","福島"],["茨城県",36.37,140.47,"japan","茨城|水戸"],["栃木県",36.56,139.88,"japan","栃木|宇都宮"],["群馬県",36.39,139.06,"japan","群馬|前橋"],["埼玉県",35.86,139.65,"japan","埼玉"],["千葉県",35.61,140.12,"japan","千葉"],["東京都",35.68,139.69,"japan","東京|都内|新宿|渋谷"],["神奈川県",35.45,139.64,"japan","神奈川|横浜|川崎"],["新潟県",37.9,139.02,"japan","新潟"],["富山県",36.7,137.21,"japan","富山"],["石川県",36.59,136.63,"japan","石川|金沢"],["福井県",36.06,136.22,"japan","福井"],["山梨県",35.66,138.57,"japan","山梨|甲府"],["長野県",36.65,138.18,"japan","長野|松本|上伊那"],["岐阜県",35.42,136.76,"japan","岐阜"],["静岡県",34.98,138.38,"japan","静岡"],["愛知県",35.18,136.91,"japan","愛知|名古屋"],["三重県",34.73,136.51,"japan","三重"],["滋賀県",35,135.87,"japan","滋賀|大津"],["京都府",35.02,135.76,"japan","京都"],["大阪府",34.69,135.5,"japan","大阪"],["兵庫県",34.69,135.18,"japan","兵庫|神戸"],["奈良県",34.69,135.83,"japan","奈良"],["和歌山県",34.23,135.17,"japan","和歌山"],["鳥取県",35.5,134.24,"japan","鳥取"],["島根県",35.47,133.05,"japan","島根|松江"],["岡山県",34.66,133.93,"japan","岡山"],["広島県",34.4,132.46,"japan","広島"],["山口県",34.18,131.47,"japan","山口"],["徳島県",34.07,134.56,"japan","徳島"],["香川県",34.34,134.04,"japan","香川|高松"],["愛媛県",33.84,132.77,"japan","愛媛|松山"],["高知県",33.56,133.53,"japan","高知"],["福岡県",33.59,130.4,"japan","福岡|北九州"],["佐賀県",33.25,130.3,"japan","佐賀"],["長崎県",32.75,129.87,"japan","長崎"],["熊本県",32.8,130.71,"japan","熊本"],["大分県",33.24,131.61,"japan","大分"],["宮崎県",31.91,131.42,"japan","宮崎"],["鹿児島県",31.6,130.56,"japan","鹿児島"],["沖縄県",26.21,127.68,"japan","沖縄|那覇"]
+];
+let geoScope="world",geoMap=null,geoLayer=null,geoIndex=[];
+let publicationSummary="";let articleLinks=new Map();let rows=[],stars=[],mode="words",scale=1,ox=0,oy=0;const pointers=new Map();let gesture=null,selectedStar=null,episodeClusters=[];
+const hash=s=>{let h=2166136261;for(const c of s){h=Math.imul(h^c.charCodeAt(0),16777619)}return h>>>0};
+const rnd=(s,n)=>((hash(s+":"+n)%100000)/100000);
+const json=async path=>{const r=await fetch(base+path,{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return r.json()};
+const topicRules=[["政治","政治|国会|首相|内閣|政党|議員|選挙|政権|大臣|官邸|与党|野党|総裁|知事選|市長選"],["経済","経済|景気|物価|円安|円高|賃金|株価|金融|投資|税金|企業|日銀|インフレ|為替|GDP|NISA|貿易|景気後退"],["福祉","福祉|介護|障害|生活保護|社会保障|年金|ケア|支援員|ホームヘルパー|生活困窮|孤独|貧困|児童相談所"],["教育","教育|学校|大学|高校|中学|小学校|教員|教師|受験|授業|不登校|入試|学級|学び|教育委員会|いじめ|学習"],["医療","医療|病院|医師|患者|治療|診療|薬剤|感染症|ワクチン|iPS細胞|再生医療|臨床|創薬|がん|癌|手術|病気|看護|移植|医薬|認知症"],["AI・技術","AI|人工知能|生成AI|ChatGPT|半導体|ロボット|アルゴリズム|デジタル|スマホ|インターネット|サイバー|IT|ソフトウェア|アプリ|量子コンピュータ"],["国際","外交|国際|国連|戦争|紛争|ウクライナ|ロシア|中国|米国|アメリカ|中東|イスラエル|パレスチナ|ガザ|台湾|韓国|欧州|海外|トランプ|関税"],["環境・気候","気候|環境|温暖化|脱炭素|再生可能|太陽光|森林|豪雨|災害|CO2|二酸化炭素|地球温暖化|猛暑|エネルギー|生物多様性|プラスチック"],["文化・芸術","文化|芸術|美術|映画|演劇|文学|小説|音楽|漫画|アニメ|写真|舞台|落語|展覧会|俳優|作家|書店"],["スポーツ","スポーツ|野球|サッカー|五輪|オリンピック|バレー|陸上|スキー|水泳|相撲|柔道|マラソン|W杯|選手|監督|甲子園"],["暮らし","暮らし|生活費|家計|住宅|子育て|育児|家族|食卓|食料|料理|結婚|離婚|保育|買い物|節約|住まい"],["地方・地域","地方|地域|自治体|市町村|過疎|移住|農村|農業|地方創生|まちづくり|商店街|地域おこし|町議|村議"],["人権・司法","人権|裁判|司法|差別|憲法|法律|逮捕|事件|犯罪|判決|検察|警察|冤罪|刑事|訴訟|法廷"],["メディア","報道|新聞|記者|メディア|SNS|フェイクニュース|情報公開|取材|ニュース|テレビ|放送|ジャーナリズム|ポッドキャスト"],["科学","科学|研究|宇宙|天文学|生物|地震|考古|発見|iPS細胞|再生医療|細胞|遺伝子|ゲノム|物理|化学|実験|数学|探査"],["労働","労働|働き方|雇用|就職|転職|人手不足|賃上げ|労災|職場|非正規|残業|労働組合|求人"],["ジェンダー","ジェンダー|男女|女性|男性|性別|LGBT|同性婚|性差|セクハラ|性暴力|男女格差"],["歴史","歴史|戦後|昭和|明治|大正|古代|史料|遺跡|戦時中|太平洋戦争|江戸|戦争体験|考古学"],["交通","交通|鉄道|新幹線|自動車|道路|航空|飛行機|空港|バス|電車|運転|交通事故"],["動物・自然","動物|野生|生態|鳥類|昆虫|ペット|クマ|熊|犬|猫|絶滅|生息|植物|自然保護"]];
+const compiledTopics=topicRules.map(([label,pattern])=>[label,new RegExp(pattern,"i")]);
+function cleanTopicText(value){return String(value||"").replace(/<[^>]*>/g," ").replace(/https?:\/\/\S+/g," ").replace(/&(?:nbsp|amp|lt|gt);/g," ").normalize("NFKC")}
+function topicSections(value){const text=cleanTopicText(value).slice(0,9000);const marker=/[【〖](?:関連記事|関連ニュース|関連リンク|おすすめ|出演(?:者|・スタッフ)?|スタッフ|おねがい|朝ポキ情報|過去の番組一覧)[】〗]/g;const first=marker.exec(text);const body=(first?text.slice(0,first.index):text).slice(0,4000);let related="";if(first){const tags=[...text.matchAll(/[【〖]([^】〗]+)[】〗]/g)];for(let i=0;i<tags.length;i++){if(/^(?:関連記事|関連ニュース)$/.test(tags[i][1])){const end=tags[i+1]?.index??text.length;related+=text.slice(tags[i].index+tags[i][0].length,end)+" ";}}}return {body,related:related.slice(0,2400)}}
+function wordsOf(title,description="",extraRelated=""){const t=cleanTopicText(title),sections=topicSections(description),related=sections.related+" "+cleanTopicText(extraRelated);return compiledTopics.map(([label,re])=>({label,score:(re.test(t)?5:0)+(re.test(sections.body)?4:0)+(re.test(related)?1:0)})).filter(x=>x.score>=4).sort((a,b)=>b.score-a.score||a.label.localeCompare(b.label,"ja")).map(x=>x.label)}
+// Library W (cleaned) first, V (raw) fallback. Both require export to public JSON.
+function nonempty(...values){return values.find(v=>typeof v==="string"&&v.trim())||""}
+function cleanedOf(r){return nonempty(r.descriptionClean,r.description_clean,r.cleanedDescription,r.cleaned_description,r.summaryClean,r.summary_clean,r["概要清掃済み"])}
+function rawOf(r){return nonempty(r.descriptionOriginal,r.description_original,r.rawDescription,r.raw_description,r.description,r.summary,r.desc,r["概要原文"])}
+function descriptionOf(r){return cleanedOf(r)||rawOf(r)}
+function topicsOf(r){return wordsOf(r.title,descriptionOf(r),nonempty(r.relatedTitles,r.related_titles,r.relatedArticleTitles,r.related_article_titles))}
+function sourceCounts(list){return list.reduce((a,r)=>{if(cleanedOf(r))a.cleaned++;else if(rawOf(r))a.raw++;else a.missing++;return a},{cleaned:0,raw:0,missing:0})}
+const roleNames=new Set(["音声ディレクター","編集委員","政治部デスク","社会部デスク","経済部デスク","文化部デスク","編集委員会","朝日新聞デジタル編集長","withnews編集長","withnews・前編集長","ネットワーク報道本部","社会部","大阪社会部","政治部","経済部","文化部","編集長","副編集長","デスク","プロデューサー","ディレクター","音声プロデューサー","音声編集","記者","編集者","司会","アナウンサー"]);
+const excludedSocialAliases=new Set(["daichi","o98mas","oma’s","omas","o98masu","n_kawahara725","takahashi__k"]); 
+function castTokens(cast){return String(cast||"").split(/[、,，;；\n\/／]/).map(s=>s.replace(/\([^)]*\)|（[^）]*）/g,"").trim()).filter(s=>s.length>=2&&s.length<=24&&!excludedSocialAliases.has(s.normalize("NFKC").toLowerCase())&&!/(?:https?|www\.|twitter|ツイッター|Ｘ(?:旧ツイッター)?|x\.com|\.com\b|\.jp\b|\.net\b|\.org\b|URL|ＵＲＬ|@[a-z0-9_]{1,15}\b|(?:^|\s)(?:X|𝕏)[:：＠@]|(?:^|\s)(?:SNS|アカウント|公式アカウント)(?:$|[:：]))/i.test(s)&&!/^[@＠][a-z0-9_]{1,15}$/i.test(s))}
+const organizationNames=new Set(["コンテンツ編成本部","総合プロデュース本部","メディア研究開発センター","ネットワーク報道本部","編集委員会","社会部","大阪社会部","政治部","経済部","文化部","スポーツ部","デジタル企画報道部","ブランド企画部","デジタル編集本部","朝日新聞社"]);
+function isOrganization(s){return organizationNames.has(s)||/(?:センター|本部|研究所|研究室|編集局|編集部|報道部|企画部|制作部|事業部|支局|支社|放送局|新聞社|出版社|株式会社|有限会社|財団|協会|委員会|事務局|チーム|部門|部署|課|室|社会部|経済部|政治部|文化部|総局|報道部員|システム部|経理部|科学医療部|編集部・声|編成本部次長|編集本部次長)$/.test(s)}
+function isRole(s){return !isOrganization(s)&&(roleNames.has(s)||/(?:デスク|編集長|副編集長|部長|部長補佐|局長|記者|編集委員|ディレクター|プロデューサー|アナウンサー|代表取締役(?:CEO)?|CEO|司会|編集者|ライター|解説委員|特派員|カメラマン|フォトグラファー|取締役|総局長|客員研究員)$/.test(s))}
+function peopleOf(cast){return castTokens(cast).filter(s=>!isRole(s)&&!isOrganization(s)&&!/[_＠@]/.test(s)&&!/^(?:スポーツと社会|オピニオン編集部・声)$/.test(s)).slice(0,12)}
+function rolesOf(cast){return castTokens(cast).filter(isRole).slice(0,12)}
+function organizationsOf(cast){return castTokens(cast).filter(isOrganization).slice(0,12)}
+function radiusFor(count){return Math.sqrt(count/Math.PI)*12}
+function layoutStars(items){
+ // Bounded O(n²) ring placement: no unbounded candidate searches.
+ const placed=[];const golden=Math.PI*(3-Math.sqrt(5));
+ for(let i=0;i<items.length;i++){
+  const item=items[i];let x=0,y=0;const pad=12;
+  for(let ring=0;ring<220;ring++){
+   const angle=i*golden+ring*.61;
+   const d=22+ring*13+Math.sqrt(i)*18;
+   x=Math.cos(angle)*d;y=Math.sin(angle)*d*.76;
+   if(placed.every(p=>{const dx=x-p.x,dy=y-p.y,rr=item.r+p.r+pad;return dx*dx+dy*dy>rr*rr}))break;
+  }
+  item.x=x;item.y=y;placed.push(item);
+ }
+ return items;
+}
+function fitStars(){
+ if(!stars.length)return;
+ const left=Math.min(...stars.map(s=>s.x-s.r-22)),right=Math.max(...stars.map(s=>s.x+s.r+22));
+ const top=Math.min(...stars.map(s=>s.y-s.r-35)),bottom=Math.max(...stars.map(s=>s.y+s.r+22));
+ const w=canvas.clientWidth,h=canvas.clientHeight;
+ scale=Math.min(1.35,Math.min(w/(right-left),h/(bottom-top))*.90);
+ ox=-(left+right)/2*scale;oy=-(top+bottom)/2*scale;
+}
+function makeStars(){
+ if(mode==="episodes"){
+  const sample=rows;
+  const groups=new Map();
+  for(const r of sample){const topics=topicsOf(r);const primary=topics[0]||"未分類";if(!groups.has(primary))groups.set(primary,[]);groups.get(primary).push({r,topics})}
+  const labels=[...topicRules.map(x=>x[0]),"未分類"];
+  stars=[];episodeClusters=[];
+  for(let j=0;j<labels.length;j++){
+    const label=labels[j],members=groups.get(label)||[];if(!members.length)continue;
+    const col=j%5,row=Math.floor(j/5),cx=(col-2)*860,cy=(row-2)*850;
+    episodeClusters.push({label,count:members.length,x:cx,y:cy});
+    members.forEach(({r,topics},i)=>{
+      const angle=i*2.399963229728653+rnd(r.id,4)*.16;
+      const distance=12*Math.sqrt(i);
+      const secondary=topics[1],shift=secondary?((hash(secondary)%9)-4)*4:0;
+      stars.push({label:r.id,count:1,episodes:[r],x:cx+Math.cos(angle)*distance+shift,y:cy+Math.sin(angle)*distance+shift,r:4,kind:r.show,topic:label})
+    })
+  }
+  return
+ }
+ const groups=new Map();
+ for(const r of rows){const tokens=mode==="words"?topicsOf(r):mode==="roles"?rolesOf(r.cast):mode==="organizations"?organizationsOf(r.cast):peopleOf(r.cast);for(const key of new Set(tokens)){if(!groups.has(key))groups.set(key,[]);groups.get(key).push(r)}}
+ const max=mode==="words"?30:mode==="roles"?110:mode==="organizations"?110:140;
+ stars=[...groups].filter(([k,v])=>v.length>=(mode==="words"?1:2)).sort((a,b)=>b[1].length-a[1].length).slice(0,max).map(([label,episodes],i)=>({label,count:episodes.length,episodes,x:(rnd(label,1)-.5)*1150,y:(rnd(label,2)-.5)*750,r:radiusFor(episodes.length)}));
+ layoutStars(stars);updateLabelDirectory();
+}
+function updateLabelDirectory(){const panel=$("#labelDirectory"),holder=$("#labelDirectoryItems");if(!panel||!holder)return;holder.replaceChildren();if(mode==="geo"){panel.hidden=true;return}panel.hidden=false;const ordered=[...stars].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label,"ja"));for(const star of ordered){const btn=document.createElement("button");btn.type="button";const name=document.createElement("span");name.textContent=star.label;const num=document.createElement("small");num.textContent=star.count.toLocaleString()+"件";btn.append(name,num);btn.addEventListener("click",()=>activateStar(star));holder.append(btn)}$("#labelDirectoryHint").textContent=(mode==="words"?"話題は全"+ordered.length+"テーマ表示":mode==="people"?"出演者":mode==="roles"?"肩書":"組織")+"｜"+ordered.length+"件の星名を一覧表示。タップで選択できます。"}
+function resize(){if(mode==="geo")return;const d=Math.min(window.devicePixelRatio||1,2),rect=canvas.getBoundingClientRect();canvas.width=Math.floor(rect.width*d);canvas.height=Math.floor(rect.height*d);ctx.setTransform(d,0,0,d,0,0);fitStars();draw()}
+function draw(){
+ const w=canvas.clientWidth,h=canvas.clientHeight;ctx.clearRect(0,0,w,h);ctx.save();ctx.translate(w/2+ox,h/2+oy);ctx.scale(scale,scale);
+ if(mode==="episodes"){for(const c of episodeClusters){ctx.textAlign="center";ctx.font="bold 36px system-ui";ctx.fillStyle="#244b64";ctx.fillText(c.label,c.x,c.y-325);ctx.font="22px system-ui";ctx.fillStyle="#617889";ctx.fillText(c.count+"件",c.x,c.y-290)}}
+ const palette=["#78a9d6","#93c6c3","#c5addd","#e3b1a7","#b8cfa8","#e8ca94","#a6b9d9"];
+ for(const star of stars){ctx.beginPath();ctx.arc(star.x,star.y,star.r,0,Math.PI*2);const color=palette[hash(mode==="episodes"?star.topic:star.label)%palette.length];ctx.fillStyle=color;ctx.globalAlpha=mode==="words"?.91:.78;ctx.fill();ctx.globalAlpha=1;ctx.strokeStyle="#ffffff";ctx.lineWidth=2/scale;ctx.stroke();if(star===selectedStar||star===hoverStar){ctx.beginPath();ctx.arc(star.x,star.y,star.r+5/scale,0,Math.PI*2);ctx.strokeStyle="#294e68";ctx.lineWidth=2.5/scale;ctx.stroke()}}
+
+ ctx.restore();
+ if(mode!=="episodes"){
+  const occupied=[];
+  const sorted=[...stars].sort((a,b)=>(b===selectedStar)-(a===selectedStar)||b.count-a.count);
+  for(const s of sorted){
+   if(!s.count)continue;
+   const x=w/2+ox+s.x*scale,y=h/2+oy+s.y*scale;
+   if(x<0||x>w||y<0||y>h)continue;
+   const radius=s.r*scale;
+   const labelSize=Math.max(10,Math.min(18,radius*.46));ctx.font="700 "+labelSize+"px system-ui";const tw=ctx.measureText(s.label).width;
+   const left=x-tw/2-6,right=x+tw/2+6,top=y-labelSize-6,bottom=y+labelSize+15;
+   if(mode!=="words"&&s!==selectedStar&&occupied.some(r=>left<r.right&&right>r.left&&top<r.bottom&&bottom>r.top))continue;
+   if(s!==selectedStar&&s!==hoverStar&&(radius<11||tw>radius*3.8))continue;
+   occupied.push({left,right,top,bottom});ctx.textAlign="center";ctx.lineJoin="round";ctx.fillStyle="#19364d";ctx.fillText(s.label,x,y-3);
+   ctx.font="600 "+Math.max(10,Math.min(15,labelSize*.78))+"px system-ui";ctx.fillStyle="#294e68";ctx.fillText(s.count.toLocaleString()+"件",x,y+labelSize);
+
+  }
+ }
+}
+function openNested(s){
+ const panel=$("#nested"),holder=$("#nestedStars");holder.replaceChildren();
+ if(mode==="episodes"){panel.hidden=true;return}
+ const groups=new Map();
+ for(const e of s.episodes){
+  const tokens=mode==="words"?peopleOf(e.cast):mode==="people"?topicsOf(e):mode==="roles"?peopleOf(e.cast):mode==="organizations"?peopleOf(e.cast):topicsOf(e);
+  for(const name of new Set(tokens)){if(!groups.has(name))groups.set(name,[]);groups.get(name).push(e)}
+ }
+ const children=[...groups].sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0],"ja")).slice(0,32);
+ panel.hidden=false;$("#nestedTitle").textContent=s.label+" の内側";
+ $("#nestedHint").textContent=mode==="words"?"この話題を語った出演者":mode==="people"?"この出演者が語ったテーマ":"関連する出演者")+"（最大32項目）。選ぶと下にエピソード一覧が表示されます。";
+ if(!children.length){holder.textContent="関連する星はまだありません。";return}
+ for(const [name,episodes] of children){
+  const b=document.createElement("button");b.type="button";b.textContent=name+" ";
+  const count=document.createElement("small");count.textContent=episodes.length.toLocaleString()+"件";b.append(count);
+  b.style.fontSize=Math.min(19,12+Math.sqrt(episodes.length))+"px";
+  b.addEventListener("click",()=>{showEpisodes(name,episodes);$("#resultTitle").scrollIntoView({behavior:"smooth",block:"start"})});
+  holder.append(b)
+ }
+}
+function episodeDate(e){const raw=e.publishedAt??e.published_at??e.published??e.pubDate??e.pub_date??e.date??e.releaseDate??e.release_date??e.published_date??e.publishedDate??"";if(!raw)return "配信日未登録";const d=new Date(raw);if(!Number.isNaN(d.getTime())){const fmt=new Intl.DateTimeFormat("ja-JP",{timeZone:"Asia/Tokyo",year:"numeric",month:"2-digit",day:"2-digit"});return fmt.format(d)}const m=String(raw).match(/^(\\d{4})[-/](\\d{1,2})[-/](\\d{1,2})/);return m?`${m[1]}/${m[2].padStart(2,"0")}/${m[3].padStart(2,"0")}`:"配信日未登録"}
+function showEpisodes(label,episodes){
+ $("#resultTitle").textContent=label+"｜関連 "+episodes.length+"件";
+ const ol=$("#results");ol.replaceChildren(...episodes.slice(0,80).map(e=>{const li=document.createElement("li"),a=document.createElement("a");a.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(e.id);a.target="_blank";a.rel="noopener noreferrer";a.textContent=e.title+"（"+e.show+"）";const date=document.createElement("small");date.textContent="｜配信日 "+episodeDate(e);date.style.color="#a8b8d7";li.append(a,date);return li}))
+}
+$("#nestedBack").addEventListener("click",()=>{$("#nested").hidden=true;$("#nestedStars").replaceChildren()});
+function openArticleDemo(id,other,count){
+ const a=rows.find(x=>x.id===id),b=rows.find(x=>x.id===other);if(!a||!b)return;
+ mode="episodes";document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.mode==="episodes")));
+ makeStars();selectedStar=null;$("#nested").hidden=true;
+ const panel=$("#articleConnections"),list=$("#articleConnectionList");list.replaceChildren();
+ const li=document.createElement("li"),link=document.createElement("a");link.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(other);link.target="_blank";link.rel="noopener noreferrer";link.textContent=b.title;li.append(link,document.createTextNode("｜共通関連記事 "+count+"本"));list.append(li);panel.hidden=false;
+ $("#resultTitle").textContent="関連記事でつながる2つの星";const ol=$("#results");ol.replaceChildren();for(const e of [a,b]){const li=document.createElement("li"),link=document.createElement("a");link.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(e.id);link.target="_blank";link.rel="noopener noreferrer";link.textContent=e.id+"｜"+e.title;li.append(link);ol.append(li)}
+ panel.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function renderArticleDemos(){const holder=$("#articleDemoButtons");holder.replaceChildren();const seen=new Set();for(const [id,links] of articleLinks){for(const rel of links){const key=[id,rel.id].sort().join("|");if(seen.has(key))continue;seen.add(key);const b=document.createElement("button");b.type="button";b.textContent=id+" ↔ "+rel.id+"（共通"+rel.count+"本）";b.addEventListener("click",()=>openArticleDemo(id,rel.id,rel.count));holder.append(b)}}if(!seen.size)holder.textContent="現在、表示できる試験データはありません。"}
+function geoMatches(r){const title=cleanTopicText(r.title),body=topicSections(descriptionOf(r)).body.slice(0,1800);return geoPlaces.filter(p=>new RegExp(p[4]).test(title)||new RegExp(p[4]).test(body)).map(p=>p[0])}
+async function ensureGeoMap(){if(geoMap)return;const css=document.createElement("link");css.rel="stylesheet";css.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";document.head.append(css);await new Promise((resolve,reject)=>{const script=document.createElement("script");script.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";script.onload=resolve;script.onerror=reject;document.head.append(script)});geoMap=L.map("geoMap",{worldCopyJump:true}).setView([20,20],2);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:12,attribution:"&copy; OpenStreetMap contributors"}).addTo(geoMap);geoLayer=L.layerGroup().addTo(geoMap)}
+function drawGeo(){if(!geoMap)return;geoLayer.clearLayers();let visible=0;for(const p of geoPlaces.filter(p=>p[3]===geoScope)){const eps=geoIndex.filter(x=>x.places.includes(p[0])).map(x=>x.row);if(!eps.length)continue;visible++;const circle=L.circleMarker([p[1],p[2]],{radius:Math.min(24,5+Math.sqrt(eps.length)*1.8),color:"#9cdcff",fillColor:"#5b8bea",fillOpacity:.65,weight:1.5}).addTo(geoLayer);const btn=document.createElement("button");btn.type="button";btn.textContent=p[0]+"｜"+eps.length+"件を表示";btn.addEventListener("click",()=>{showEpisodes(p[0],eps);/* Oceanic: do not jump to results on selection */});const holder=document.createElement("div");holder.append(btn);circle.bindPopup(holder)}$("#geoSummary").textContent=(geoScope==="world"?"世界":"日本")+"｜地名が見つかった "+visible+"地域";if(geoScope==="japan")geoMap.setView([36.5,137.8],5);else geoMap.setView([18,15],2);setTimeout(()=>geoMap.invalidateSize(),120)}
+async function activateGeo(){if(!geoIndex.length&&rows.length)geoIndex=rows.map(row=>({row,places:geoMatches(row)}));const directory=$("#labelDirectory");if(directory)directory.hidden=true;const panel=$("#geoPanel");panel.hidden=false;canvas.style.display="none";$("#legend").hidden=true;$("#nested").hidden=true;$("#status").textContent=publicationSummary+"｜地理の宇宙｜地図を準備しています…";$("#articleDemo").hidden=true;$("#articleConnections").hidden=true;try{await ensureGeoMap();drawGeo();$("#status").textContent=publicationSummary+"｜地理の宇宙｜地図の丸印をタップしてエピソードを探索"}catch(e){$("#geoSummary").textContent="地図の読み込みに失敗しました: "+e.message;$("#status").textContent="地図の読み込みに失敗しました" }}
+$("#geoWorld").addEventListener("click",()=>{geoScope="world";drawGeo()});$("#geoJapan").addEventListener("click",()=>{geoScope="japan";drawGeo()});
+function showArticleConnections(s){
+ const panel=$("#articleConnections"),list=$("#articleConnectionList");panel.hidden=true;list.replaceChildren();
+ if(mode!=="episodes"||!s.episodes?.length)return;
+ const id=s.episodes[0].id,related=articleLinks.get(id)||[];
+ if(!related.length)return;
+ for(const rel of related){const e=rows.find(x=>x.id===rel.id);if(!e)continue;
+  const li=document.createElement("li"),a=document.createElement("a");
+  a.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(rel.id);a.target="_blank";a.rel="noopener noreferrer";
+  a.textContent=e.title;li.append(a,document.createTextNode("｜共通関連記事 "+rel.count+"本"));list.append(li);
+ }
+ panel.hidden=!list.children.length;
+}
+function selectStar(s){selectedStar=s;showArticleConnections(s);draw();openNested(s);$("#resultTitle").textContent=mode==="episodes"?`${s.topic}｜${s.episodes[0].title}`:`${s.label}｜関連 ${s.episodes.length}件`;const ol=$("#results");ol.replaceChildren(...s.episodes.slice(0,80).map(e=>{const li=document.createElement("li"),a=document.createElement("a");a.href="https://neyito96.github.io/asarisunowa/library/?ep="+encodeURIComponent(e.id);a.target="_blank";a.rel="noopener noreferrer";a.textContent=e.title+"（"+e.show+"）";li.append(a);return li}));/* Oceanic: do not jump to results on selection */}
+function localPoint(e){const r=canvas.getBoundingClientRect();return {x:e.clientX-r.left,y:e.clientY-r.top}}
+function hitTest(p){const x=(p.x-canvas.clientWidth/2-ox)/scale,y=(p.y-canvas.clientHeight/2-oy)/scale;let best=null,dist=Infinity;for(const s of stars){const d=Math.hypot(s.x-x,s.y-y);if(d<dist){best=s;dist=d}}return best&&dist<Math.max(18/scale,best.r+8/scale)?best:null}
+function zoomAt(factor,p){const old=scale,next=Math.max(.18,Math.min(8,old*factor));const cx=canvas.clientWidth/2,cy=canvas.clientHeight/2;ox=p.x-cx-(p.x-cx-ox)*(next/old);oy=p.y-cy-(p.y-cy-oy)*(next/old);scale=next}
+let suppressTapUntil=0;let hoverStar=null;let lastSelectedAt=0;
+function activateStar(s){if(!s)return;lastSelectedAt=Date.now();selectStar(s);const panel=$("#nested");if(!panel.hidden)panel.scrollIntoView({behavior:"smooth",block:"nearest"});}
+
+function beginGesture(){const ps=[...pointers.values()];if(ps.length===1){gesture={kind:"pan",point:{...ps[0]},start:{...ps[0]},moved:false}}else if(ps.length>=2){const a=ps[0],b=ps[1];suppressTapUntil=Date.now()+900;gesture={kind:"pinch",distance:Math.max(1,Math.hypot(a.x-b.x,a.y-b.y)),center:{x:(a.x+b.x)/2,y:(a.y+b.y)/2}}}}
+canvas.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;e.preventDefault();pointers.set(e.pointerId,localPoint(e));canvas.setPointerCapture(e.pointerId);beginGesture()});
+canvas.addEventListener("pointermove",e=>{if(!pointers.has(e.pointerId))return;e.preventDefault();pointers.set(e.pointerId,localPoint(e));const ps=[...pointers.values()];if(ps.length>=2){const a=ps[0],b=ps[1],center={x:(a.x+b.x)/2,y:(a.y+b.y)/2},distance=Math.max(1,Math.hypot(a.x-b.x,a.y-b.y));if(!gesture||gesture.kind!=="pinch"){beginGesture();return}ox+=center.x-gesture.center.x;oy+=center.y-gesture.center.y;zoomAt(distance/gesture.distance,center);gesture={kind:"pinch",distance,center};draw()}else if(ps.length===1&&gesture?.kind==="pan"){const p=ps[0];ox+=p.x-gesture.point.x;oy+=p.y-gesture.point.y;if(Math.hypot(p.x-gesture.start.x,p.y-gesture.start.y)>8)gesture.moved=true;gesture.point={...p};draw()}});
+function endPointer(e){if(!pointers.has(e.pointerId))return;const p=localPoint(e),tap=Date.now()>suppressTapUntil&&pointers.size===1&&gesture?.kind==="pan"&&!gesture.moved&&Math.hypot(p.x-gesture.start.x,p.y-gesture.start.y)<10;pointers.delete(e.pointerId);if(canvas.hasPointerCapture(e.pointerId))canvas.releasePointerCapture(e.pointerId);if(tap){activateStar(hitTest(p))}beginGesture()}
+canvas.addEventListener("pointerup",endPointer);
+canvas.addEventListener("pointermove",e=>{if(e.pointerType==="touch"||pointers.size)return;const star=hitTest(localPoint(e));if(star!==hoverStar){hoverStar=star;canvas.classList.toggle("is-hovering",!!star);$("#starHover").textContent=star?star.label+"｜関連 "+star.count.toLocaleString()+"件　クリックして探索":"星にマウスを重ねると名前と件数を表示します。クリックで入れ子を開きます。"}});
+canvas.addEventListener("pointerleave",()=>{hoverStar=null;canvas.classList.remove("is-hovering")});
+canvas.addEventListener("click",e=>{if(Date.now()-lastSelectedAt<500||Date.now()<suppressTapUntil)return;activateStar(hitTest(localPoint(e)))});
+
+canvas.addEventListener("gesturestart",e=>e.preventDefault(),{passive:false});
+canvas.addEventListener("gesturechange",e=>e.preventDefault(),{passive:false});
+canvas.addEventListener("touchmove",e=>{if(e.touches.length>1)e.preventDefault()},{passive:false});
+canvas.addEventListener("pointercancel",e=>{pointers.delete(e.pointerId);beginGesture()});
+canvas.addEventListener("lostpointercapture",e=>{if(pointers.delete(e.pointerId))beginGesture()});
+canvas.addEventListener("wheel",e=>{e.preventDefault();zoomAt(e.deltaY<0?1.12:.89,localPoint(e));draw()},{passive:false});
+document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{mode=b.dataset.mode;if(mode==="geo"){activateGeo();document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));return}$("#geoPanel").hidden=true;$("#legend").hidden=false;canvas.style.display="block";$("#articleDemo").hidden=true;document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));makeStars();selectedStar=null;$("#articleConnections").hidden=true;$("#nested").hidden=true;$("#nestedStars").replaceChildren();fitStars();draw();$("#resultTitle").textContent="選択した星";$("#results").replaceChildren();$("#status").textContent=`${publicationSummary}｜${stars.length.toLocaleString()}個の星を表示（話題はタイトル・概要のキーワード一致・複数分類あり）`}));
+async function init(){try{
+ try{const r=await fetch("./docs/related-article-link-audit-20261022.json",{cache:"no-store"});if(r.ok){const audit=await r.json();for(const c of audit.connections||[]){if(!Array.isArray(c.episodes)||c.episodes.length!==2)continue;for(let i=0;i<2;i++){const id=c.episodes[i],other=c.episodes[1-i];if(!articleLinks.has(id))articleLinks.set(id,[]);articleLinks.get(id).push({id:other,count:c.sharedArticleCount})}}}}catch(err){console.warn("関連記事接続の試験データを読み込めません",err)}
+ const m=await json("manifest.json");
+ if(m.publicationScope?.file!=="scope.json")throw Error("掲載判定データの公開待ちです");
+ const publicationScope=await json(m.publicationScope.file);
+ if(publicationScope.version!==m.publicationScope.version||publicationScope.libraryVersion!==m.version||publicationScope.adopted!==m.total)throw Error("図書館と掲載判定の版が一致しません");
+ const {selectPublishedEpisodes,publicationLabel}=await import(new URL("../publication-scope.mjs",base).href);
+ const files=m.shows.flatMap(s=>s.search||[]);const all=[];for(let i=0;i<files.length;i+=8){const pages=await Promise.all(files.slice(i,i+8).map(json));pages.forEach(p=>all.push(...p));{const done=Math.min(i+8,files.length),pct=Math.round(done/files.length*100);$("#status").textContent=`宇宙を準備しています… ${pct}%（${done}/${files.length}ファイル）`;$("#loadFill").style.width=pct+"%";$("#loadTrack").setAttribute("aria-valuenow",String(pct))}}rows=selectPublishedEpisodes(all,publicationScope,{requireComplete:true});
+ publicationSummary=publicationLabel(m);const publishedIds=new Set(rows.map(r=>r.id));for(const [id,links] of articleLinks){if(!publishedIds.has(id))articleLinks.delete(id);else articleLinks.set(id,links.filter(rel=>publishedIds.has(rel.id)));}geoIndex=[];makeStars();updateLabelDirectory();$("#loadTrack").hidden=true;$("#status").textContent=`公開図書館｜${publicationLabel(m)}｜概要: 清掃済 ${sourceCounts(rows).cleaned}・原文 ${sourceCounts(rows).raw}・未収録 ${sourceCounts(rows).missing}｜${stars.length}個の星`;resize()}catch(e){$("#loadTrack").hidden=true;$("#status").textContent="読み込み失敗: "+e.message;console.error(e)}}
+window.addEventListener("resize",resize);init();
+</script></body></html>
