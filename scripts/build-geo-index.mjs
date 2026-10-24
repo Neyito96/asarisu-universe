@@ -33,12 +33,12 @@ found.set(city.id,{epId:r.id,placeId:city.id,relation:'title_mention',sourceFiel
 if(title.includes('四国')){ambiguous.push({epId:r.id,token:'四国',reason:'regional_mention_not_an_administrative_point'})}
 for(const m of found.values())mentions.push(m);
 }
-const rejections=[{epId:'EP-02795',placeId:'JP-20-Matsumoto',context:'松本人志',reason:'person_name'},{epId:'EP-02239',placeId:'JP-20-Matsumoto',context:'松本工房',reason:'organization_name'}];
+const rejections=[{epId:'EP-01156',placeId:'JP-17',context:'石川祐希',reason:'person_name'},{epId:'EP-02795',placeId:'JP-20-Matsumoto',context:'松本人志',reason:'person_name'},{epId:'EP-02239',placeId:'JP-20-Matsumoto',context:'松本工房',reason:'organization_name'}];
 const blocked=new Set(rejections.map(x=>x.epId+'|'+x.placeId));
 const kept=mentions.filter(x=>!blocked.has(x.epId+'|'+x.placeId));
 const epIds=new Set(kept.map(x=>x.epId));
 const output={schema:'asarisu-geo-index-v0.2-conservative',source:{manifestVersion:manifest.version,publicationScopeDate:'2026-10-22',publishedCount:manifest.total,searchFiles:manifest.shows.reduce((a,s)=>a+(s.search||[]).length,0)},policy:'Explicit place-name title mentions only; NOT recording locations or exhaustive gazetteer matches',locations,mentions:kept,ambiguous,rejections,stats:{published:byId.size,matchedUniqueEpisodes:epIds.size,mentions:kept.length,regionalUnresolved:ambiguous.length},checksum:crypto.createHash('sha256').update([...byId.keys()].sort().join('\n')).digest('hex')};
-if(kept.some(m=>blocked.has(m.epId+'|'+m.placeId)))throw Error('Matsumoto false-positive regression');
+if(kept.some(m=>blocked.has(m.epId+'|'+m.placeId)))throw Error('Named-entity false-positive regression');
 if(!byId.has('EP-05560')||!kept.some(m=>m.epId==='EP-05560'&&m.placeId==='JP-37-Takamatsu'))throw Error('Takamatsu regression');
 if(kept.some(m=>!byId.has(m.epId)))throw Error('Dangling EP-ID');
 fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,JSON.stringify(output,null,2)+'\n');console.log(JSON.stringify(output.stats));
