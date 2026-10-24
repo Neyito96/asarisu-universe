@@ -1,0 +1,61 @@
+{
+  "schema": "asarisu-geo-index-v0.1-pilot",
+  "generatedAt": "2026-10-24",
+  "publicationScope": {
+    "expectedEpisodes": 5848,
+    "scopeDate": "2026-10-22",
+    "coverage": "pilot only; not an exhaustive index"
+  },
+  "locations": [
+    {
+      "id": "JP-37",
+      "name": "香川県",
+      "level": "prefecture",
+      "parent": "JP",
+      "lat": 34.34,
+      "lon": 134.04
+    },
+    {
+      "id": "JP-37-Takamatsu",
+      "name": "高松市",
+      "level": "city",
+      "parent": "JP-37",
+      "lat": 34.3428,
+      "lon": 134.0466
+    }
+  ],
+  "mentions": [
+    {
+      "epId": "EP-05560",
+      "placeId": "JP-37-Takamatsu",
+      "relation": "title_mention",
+      "sourceField": "title",
+      "evidence": "高松の街を歩きながら、四国の課題を考えた",
+      "confidence": "high_for_mention_only",
+      "editorialNote": "取材地・収録地を断定しない"
+    }
+  ],
+  "rejections": [
+    {
+      "epId": "EP-02795",
+      "candidatePlace": "松本市",
+      "matchedText": "松本",
+      "context": "松本人志",
+      "reason": "person_name_false_positive"
+    },
+    {
+      "epId": "EP-02239",
+      "candidatePlace": "松本市",
+      "matchedText": "松本",
+      "context": "松本工房",
+      "reason": "organization_name_false_positive"
+    },
+    {
+      "epId": "EP-01156",
+      "candidatePlace": "石川県",
+      "matchedText": "石川",
+      "context": "石川祐希",
+      "reason": "person_name_false_positive"
+    }
+  ]
+}
