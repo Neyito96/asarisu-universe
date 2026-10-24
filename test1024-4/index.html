@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>朝ポキの地図｜TEST 1024.4</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>:root{font:16px system-ui;color-scheme:dark}body{background:#071e2b;color:#e6f3f8;margin:0}main{max-width:1050px;padding:16px;margin:auto}h1{font-size:clamp(24px,5vw,36px);margin-bottom:4px}.note{color:#aed2df;line-height:1.6}#map{height:62vh;min-height:380px;border-radius:14px;background:#12384a}section{background:#103146;padding:16px;margin-top:14px;border-radius:14px}a{color:#9be8fb}button{padding:10px 14px;border:1px solid #5aa3bd;background:#1a536d;color:white;border-radius:8px;font:inherit;cursor:pointer}button:focus-visible{outline:3px solid white}.leaflet-popup-content{color:#17242b}#episodes li{margin:12px 0}</style></head>
+<body><main><p class="note">OCEANIC / GEO TEST 1024.4 — 軽量索引版</p><h1>朝ポキの地図</h1><p class="note">地図専用の小さなJSONだけ読み込みます。5,848件の全文は取得しません。地点は地名への言及であり、取材地・録音地を意味しません。</p><p id="status" role="status">地図を準備しています…</p><div id="map"></div><section><h2 id="heading">場所を選択してください</h2><ul id="episodes"></ul><p class="note">検証用に高松市のEP-05560を登録。松本人志・松本工房・石川祐希は県名への誤一致として除外記録に登録済みです。これは全件収録版ではありません。</p></section></main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+'use strict';
+const status=document.getElementById('status'),heading=document.getElementById('heading'),list=document.getElementById('episodes');
+(async()=>{try{
+const res=await fetch('../data/geo-index-pilot-20261024.json',{cache:'no-cache'});if(!res.ok)throw Error('JSON HTTP '+res.status);
+const x=await res.json();if(x.schema!=='asarisu-geo-index-v0.1-pilot')throw Error('地理データの形式が異なります');
+for(const [id,name] of [['EP-02795','松本市'],['EP-02239','松本市'],['EP-01156','石川県']])if(!x.rejections.some(r=>r.epId===id&&r.candidatePlace===name))throw Error('誤判定テスト未通過: '+id);
+if(!x.mentions.some(m=>m.epId==='EP-05560'&&m.placeId==='JP-37-Takamatsu'))throw Error('高松テスト未通過');
+if(typeof L==='undefined')throw Error('地図ライブラリを取得できません');
+const map=L.map('map',{tap:true}).setView([34.2,134.1],8);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:17,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+for(const place of x.locations.filter(p=>p.level==='city')){
+const mentions=x.mentions.filter(m=>m.placeId===place.id);
+if(!mentions.length)continue;
+const marker=L.marker([place.lat,place.lon]).addTo(map);marker.bindPopup(place.name+'｜'+new Set(mentions.map(m=>m.epId)).size+'件');
+marker.on('click',()=>{heading.textContent=place.name+'｜関連'+new Set(mentions.map(m=>m.epId)).size+'件';list.replaceChildren();
+for(const m of mentions){const li=document.createElement('li'),a=document.createElement('a');a.href='https://neyito96.github.io/asarisunowa/library/?ep='+encodeURIComponent(m.epId);a.target='_blank';a.rel='noopener noreferrer';a.textContent=m.epId+'｜図書館で開く';li.append(a,document.createTextNode(' — '+m.evidence));list.append(li)}});
+}
+status.textContent='読み込み成功｜地名索引 '+x.locations.length+'地点／関連EP '+new Set(x.mentions.map(m=>m.epId)).size+'件（限定パイロット）';
+}catch(e){status.textContent='読み込み失敗：'+e.message;console.error(e)}})();
+</script></body></html>
