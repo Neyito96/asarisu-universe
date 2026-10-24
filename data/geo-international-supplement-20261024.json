@@ -1,0 +1,73 @@
+{
+  "schema": "geo-supplement-v1",
+  "notes": "Hand-reviewed mentions, not an exhaustive country index; newsroom bureau reach is not episode place evidence",
+  "places": [
+    {
+      "name": "イスラエル",
+      "lat": 31.5,
+      "lon": 35,
+      "scope": "world"
+    },
+    {
+      "name": "レバノン",
+      "lat": 33.9,
+      "lon": 35.5,
+      "scope": "world"
+    },
+    {
+      "name": "新疆ウイグル自治区",
+      "lat": 43.8,
+      "lon": 87.6,
+      "scope": "world"
+    },
+    {
+      "name": "モンゴル国",
+      "lat": 47.9,
+      "lon": 106.9,
+      "scope": "world"
+    }
+  ],
+  "rows": [
+    [
+      "EP-03875",
+      "「ムーラン」が悪いのか　映画が向き合うコロナ禍、中国",
+      "MEDIA TALK",
+      [
+        "新疆ウイグル自治区"
+      ]
+    ],
+    [
+      "EP-00851",
+      "ヒズボラ",
+      "ニュースの学校",
+      [
+        "イスラエル",
+        "レバノン"
+      ]
+    ]
+  ],
+  "held": [
+    {
+      "id": "EP-01470",
+      "reason": "ノモンハンは国名だけで特定しない"
+    },
+    {
+      "id": "EP-00697",
+      "reason": "モンゴル抑留は地理的文脈の判定待ち"
+    }
+  ],
+  "rejected": [
+    {
+      "ep": "EP-02795",
+      "place": "松本"
+    },
+    {
+      "ep": "EP-02239",
+      "place": "松本"
+    },
+    {
+      "ep": "EP-01156",
+      "place": "石川"
+    }
+  ]
+}
