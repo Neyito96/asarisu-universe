@@ -49,6 +49,13 @@
       "matchedText": "松本",
       "context": "松本工房",
       "reason": "organization_name_false_positive"
+    },
+    {
+      "epId": "EP-01156",
+      "candidatePlace": "石川県",
+      "matchedText": "石川",
+      "context": "石川祐希",
+      "reason": "person_name_false_positive"
     }
   ]
 }
