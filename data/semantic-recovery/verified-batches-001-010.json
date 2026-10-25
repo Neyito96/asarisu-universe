@@ -1,0 +1,2800 @@
+{
+  "schema": "asapoki-semantic-recovery-subset-v1",
+  "scope": "first 10 committed batch files only, NOT complete",
+  "sourceRepository": "Neyito96/asarisunowa",
+  "sourceBranch": "work/semantic-classification-bulk-20261023",
+  "records": [
+    {
+      "ep_id": "EP-00500",
+      "main_theme": "環境・気候/原子力・放射性廃棄物",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00501",
+      "main_theme": "防災/地震・熊本地震",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00502",
+      "main_theme": "交通/船舶事故・安全",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00503",
+      "main_theme": "科学/材料科学・人工ダイヤモンド",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00504",
+      "main_theme": "政治/安全保障・存立危機事態",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00505",
+      "main_theme": "国際/ハンガリー総選挙",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00506",
+      "main_theme": "国際/米イラン停戦交渉",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00507",
+      "main_theme": "国際/核軍縮・禁止条約",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00508",
+      "main_theme": "健康・医療/糖尿病治療薬・適正使用",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00509",
+      "main_theme": "政治/人口減少・公共サービス再編",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00510",
+      "main_theme": "経済/デジタル通貨・決済",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00511",
+      "main_theme": "国際/イタリア政治",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00512",
+      "main_theme": "経済/重要鉱物・供給網",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00513",
+      "main_theme": "文化・芸術/K-POP・音楽",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00514",
+      "main_theme": "交通/自転車交通規制",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00515",
+      "main_theme": "動物・自然/桜・植物",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00516",
+      "main_theme": "政治/宗教団体と政治",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00517",
+      "main_theme": "人権・司法/宗教法人の解散命令",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00518",
+      "main_theme": "国際/北朝鮮政治",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00519",
+      "main_theme": "健康・医療/iPS細胞・再生医療",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00520",
+      "main_theme": "経済/エネルギー安全保障・石油備蓄",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00521",
+      "main_theme": "政治/軍事・機雷",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00522",
+      "main_theme": "政治/安全保障・武器輸出政策",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00523",
+      "main_theme": "国際/中国軍の汚職",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00524",
+      "main_theme": "国際/台湾の政治制度",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00525",
+      "main_theme": "国際/中国の政治制度",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00526",
+      "main_theme": "経済/通商政策・関税訴訟",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00527",
+      "main_theme": "スポーツ/野球・WBC",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00528",
+      "main_theme": "防災/避難計画・タイムライン",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00529",
+      "main_theme": "防災/福島第一原発事故",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00530",
+      "main_theme": "政治/国会・法案再可決",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00531",
+      "main_theme": "スポーツ/パラリンピックと国際政治",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00532",
+      "main_theme": "国際/イラン革命防衛隊",
+      "secondary": [],
+      "status": "assistant_reviewed",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-001-EP-00500-00532.json"
+    },
+    {
+      "ep_id": "EP-00533",
+      "main_theme": "国際/中東・海上交通路",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00534",
+      "main_theme": "国際/イラン政治・宗教指導者",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00535",
+      "main_theme": "国際/イラン紛争",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00536",
+      "main_theme": "人権・司法/再審・冤罪事件",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00537",
+      "main_theme": "防災/地震・震度指標",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00538",
+      "main_theme": "国際/英国王室・不祥事",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00539",
+      "main_theme": "経済/貴金属市場・金価格",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00540",
+      "main_theme": "政治/大阪都構想・地方自治",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00541",
+      "main_theme": "環境・気候/都市環境・ビル風",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00542",
+      "main_theme": "経済/ベネズエラ石油産業",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00543",
+      "main_theme": "政治/防衛装備・護衛艦",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00544",
+      "main_theme": "環境・気候/パリ協定",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00545",
+      "main_theme": "環境・気候/地球温暖化",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00546",
+      "main_theme": "AI・技術/家電・先端技術展示会",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00547",
+      "main_theme": "科学/宇宙開発・月探査",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00548",
+      "main_theme": "国際/日韓外交",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00549",
+      "main_theme": "スポーツ/冬季オリンピック",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00550",
+      "main_theme": "国際/米ロ核軍縮条約",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00551",
+      "main_theme": "福祉・人権/子どもの性被害防止制度",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00552",
+      "main_theme": "人権・司法/SNS経由の犯罪勧誘",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00553",
+      "main_theme": "AI・技術/行政システム・政府クラウド",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00554",
+      "main_theme": "政治/政治資金・パーティー",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00555",
+      "main_theme": "健康・医療/薬物乱用・健康被害",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00556",
+      "main_theme": "福祉・人権/入管制度・仮放免",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00557",
+      "main_theme": "AI・技術/測位衛星・GPS",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00558",
+      "main_theme": "経済/債券市場・長期金利",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00559",
+      "main_theme": "経済/金融政策・中立金利",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00560",
+      "main_theme": "歴史・文化/皇室史料・実録",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00561",
+      "main_theme": "防災/被災建物・公費解体",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00562",
+      "main_theme": "メディア/注意経済・SNSビジネス",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00563",
+      "main_theme": "政治/衆院解散制度",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00564",
+      "main_theme": "福祉・人権/公的医療保険・制度利用",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00565",
+      "main_theme": "スポーツ/サッカーワールドカップ",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00566",
+      "main_theme": "人権・司法/再審制度・刑事手続き",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00567",
+      "main_theme": "経済/金融市場・相場操縦",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00568",
+      "main_theme": "経済/デフレ・物価",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00569",
+      "main_theme": "歴史・文化/丙午・迷信と差別",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00570",
+      "main_theme": "歴史・文化/ボスニア紛争",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00571",
+      "main_theme": "国際/日中外交",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00572",
+      "main_theme": "歴史・文化/モンロー主義・外交史",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00573",
+      "main_theme": "国際/米ベネズエラ関係",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00574",
+      "main_theme": "メディア/番組再生ランキング",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00575",
+      "main_theme": "環境・気候/再生可能エネルギー",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00576",
+      "main_theme": "歴史・文化/石油危機・現代史",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00577",
+      "main_theme": "経済/石油・エネルギー産業",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00578",
+      "main_theme": "文化・芸術/園芸博覧会",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00579",
+      "main_theme": "環境・気候/COP・国際気候交渉",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00580",
+      "main_theme": "経済/高齢期の住宅資産活用",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00581",
+      "main_theme": "政治/組織内候補・選挙",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00582",
+      "main_theme": "経済/日銀短観・企業景況感",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00583",
+      "main_theme": "福祉・人権/生活保護・資産要件",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00584",
+      "main_theme": "健康・医療/医療事故調査制度",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00585",
+      "main_theme": "経済/自動車税制",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00586",
+      "main_theme": "国際/ウクライナ政治・汚職",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00587",
+      "main_theme": "経済/債券市場・長期金利",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00588",
+      "main_theme": "暮らし/住まい・事故物件",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00589",
+      "main_theme": "ジェンダー/旧姓使用・氏名制度",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00590",
+      "main_theme": "政治/安全保障・レーダー照射",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00591",
+      "main_theme": "防災/地震・後発地震注意情報",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00592",
+      "main_theme": "動物・自然/野生生物保護・国際条約",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00593",
+      "main_theme": "科学/化学・金属有機構造体",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00594",
+      "main_theme": "福祉・人権/移住者・日系ブラジル人",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00595",
+      "main_theme": "環境・気候/生活排水・浄化槽",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00596",
+      "main_theme": "環境・気候/下水道・インフラ",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00597",
+      "main_theme": "人権・司法/刑事司法・公訴時効",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00598",
+      "main_theme": "経済/企業統治・ガバナンス",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00599",
+      "main_theme": "健康・医療/緩和ケア",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00600",
+      "main_theme": "政治/税制政策・自民党税調",
+      "secondary": [],
+      "status": "title_only",
+      "review_basis": null,
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-002-EP-00533-00600.json"
+    },
+    {
+      "ep_id": "EP-00601",
+      "main_theme": "安全保障",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00602",
+      "main_theme": "核政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00603",
+      "main_theme": "障害者スポーツ",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00604",
+      "main_theme": "政党政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00605",
+      "main_theme": "公衆衛生",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00606",
+      "main_theme": "米国政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00607",
+      "main_theme": "安全保障",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00608",
+      "main_theme": "税制",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00609",
+      "main_theme": "現代史",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00610",
+      "main_theme": "金融犯罪",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00611",
+      "main_theme": "国会制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00612",
+      "main_theme": "刑法",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00613",
+      "main_theme": "人権",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00614",
+      "main_theme": "スポーツビジネス",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00615",
+      "main_theme": "国際紛争",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00616",
+      "main_theme": "観光政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00617",
+      "main_theme": "安全保障",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00618",
+      "main_theme": "労働法",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00619",
+      "main_theme": "野生動物",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00620",
+      "main_theme": "医療",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-003-EP-00601-00620.json"
+    },
+    {
+      "ep_id": "EP-00621",
+      "main_theme": "株式市場",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00622",
+      "main_theme": "防災制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00623",
+      "main_theme": "葬送文化",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00624",
+      "main_theme": "軍事技術",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00625",
+      "main_theme": "国土政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00626",
+      "main_theme": "クラシック音楽",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00627",
+      "main_theme": "原子力政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00628",
+      "main_theme": "統計制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00629",
+      "main_theme": "中東和平",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00630",
+      "main_theme": "税務",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00631",
+      "main_theme": "選挙と情報",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00632",
+      "main_theme": "スポーツと賭博",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00633",
+      "main_theme": "司法制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00634",
+      "main_theme": "科学捜査",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00635",
+      "main_theme": "災害医療",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00636",
+      "main_theme": "投資商品",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00637",
+      "main_theme": "政治と行政",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00638",
+      "main_theme": "国際テロ",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00639",
+      "main_theme": "中東和平",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00640",
+      "main_theme": "中東政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00641",
+      "main_theme": "民族と人権",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00642",
+      "main_theme": "北朝鮮政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00643",
+      "main_theme": "野生動物",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00644",
+      "main_theme": "国際法",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00645",
+      "main_theme": "投資商品",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00646",
+      "main_theme": "企業統治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00647",
+      "main_theme": "陸上競技",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00648",
+      "main_theme": "産業競争力",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00649",
+      "main_theme": "AI技術",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00650",
+      "main_theme": "政党政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00651",
+      "main_theme": "市民運動",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00652",
+      "main_theme": "中国政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00653",
+      "main_theme": "海洋環境",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00654",
+      "main_theme": "医薬品政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00655",
+      "main_theme": "地方政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00656",
+      "main_theme": "国際交通",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00657",
+      "main_theme": "医療制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00658",
+      "main_theme": "学校教育",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00659",
+      "main_theme": "教育政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00660",
+      "main_theme": "学校と保護者",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-004-EP-00621-00660.json"
+    },
+    {
+      "ep_id": "EP-00661",
+      "main_theme": "半導体技術",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00662",
+      "main_theme": "救急医療",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00663",
+      "main_theme": "製品安全",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00664",
+      "main_theme": "司法と行政",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00665",
+      "main_theme": "高齢社会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00666",
+      "main_theme": "娯楽産業",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00667",
+      "main_theme": "香港政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00668",
+      "main_theme": "戦争史",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00669",
+      "main_theme": "通商政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00670",
+      "main_theme": "生物学",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00671",
+      "main_theme": "ロシア政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00672",
+      "main_theme": "戦争補償",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00673",
+      "main_theme": "航空事故",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00674",
+      "main_theme": "軍縮と人道",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00675",
+      "main_theme": "被爆者援護",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00676",
+      "main_theme": "核兵器と戦争",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00677",
+      "main_theme": "核軍縮",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00678",
+      "main_theme": "ウクライナ政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00679",
+      "main_theme": "通商制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00680",
+      "main_theme": "防災",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00681",
+      "main_theme": "生態と食文化",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00682",
+      "main_theme": "南アジア政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00683",
+      "main_theme": "原子力技術",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00684",
+      "main_theme": "エネルギー政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00685",
+      "main_theme": "野生動物と安全",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00686",
+      "main_theme": "公共インフラ",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00687",
+      "main_theme": "気候変動",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00688",
+      "main_theme": "米国政治と司法",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00689",
+      "main_theme": "司法と冤罪",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00690",
+      "main_theme": "国際安全保障",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00691",
+      "main_theme": "宇宙開発",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00692",
+      "main_theme": "労働政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00693",
+      "main_theme": "税制",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00694",
+      "main_theme": "大学と人権",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00695",
+      "main_theme": "宗教と国際政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00696",
+      "main_theme": "豪雨災害",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00697",
+      "main_theme": "戦争史と人権",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00698",
+      "main_theme": "スポーツ政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00699",
+      "main_theme": "地震科学",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00700",
+      "main_theme": "税制",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00701",
+      "main_theme": "米国通商政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00702",
+      "main_theme": "郵政と政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00703",
+      "main_theme": "社会保障",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00704",
+      "main_theme": "人権と多様性",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00705",
+      "main_theme": "財政金融",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00706",
+      "main_theme": "軍事技術",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00707",
+      "main_theme": "公衆衛生",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00708",
+      "main_theme": "戦争史",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00709",
+      "main_theme": "行動科学",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00710",
+      "main_theme": "感染症",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-005-EP-00661-00710.json"
+    },
+    {
+      "ep_id": "EP-00711",
+      "main_theme": "農業統計",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00712",
+      "main_theme": "核技術と外交",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00713",
+      "main_theme": "中東国際関係",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00714",
+      "main_theme": "プロ野球史",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00715",
+      "main_theme": "刑事司法",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00716",
+      "main_theme": "韓国政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00717",
+      "main_theme": "大学と政治",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00718",
+      "main_theme": "議会制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00719",
+      "main_theme": "宇宙探査",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00720",
+      "main_theme": "難民と移民",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00721",
+      "main_theme": "人権と優生政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00722",
+      "main_theme": "認知症医療",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00723",
+      "main_theme": "海洋環境",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00724",
+      "main_theme": "畜産と食品",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00725",
+      "main_theme": "出産支援",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00726",
+      "main_theme": "周産期医療",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00727",
+      "main_theme": "公的年金",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00728",
+      "main_theme": "公共調達",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00729",
+      "main_theme": "スポーツ組織",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00730",
+      "main_theme": "寄付と相続",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00731",
+      "main_theme": "広告とプラットフォーム",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00732",
+      "main_theme": "サイバー犯罪",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00733",
+      "main_theme": "サイバー安全保障",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00734",
+      "main_theme": "組織犯罪",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00735",
+      "main_theme": "カトリック教会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00736",
+      "main_theme": "アフリカ紛争",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00737",
+      "main_theme": "社会保障財政",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00738",
+      "main_theme": "民族と人権",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00739",
+      "main_theme": "南アジア紛争",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00740",
+      "main_theme": "ウクライナとロシア",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00741",
+      "main_theme": "金融サイバー犯罪",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00742",
+      "main_theme": "金融市場",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00743",
+      "main_theme": "賭博と法規制",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00744",
+      "main_theme": "メディア保存",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00745",
+      "main_theme": "宗教制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00746",
+      "main_theme": "鉄道事故",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00747",
+      "main_theme": "スポーツと育児",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00748",
+      "main_theme": "米国金融政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00749",
+      "main_theme": "カトリック教会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00750",
+      "main_theme": "米中経済関係",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00751",
+      "main_theme": "学術と政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00752",
+      "main_theme": "通商政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00753",
+      "main_theme": "感染症医療",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00754",
+      "main_theme": "AIガバナンス",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00755",
+      "main_theme": "国際博覧会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00756",
+      "main_theme": "地震災害",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00757",
+      "main_theme": "宗教と法律",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00758",
+      "main_theme": "自動車産業",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00759",
+      "main_theme": "交通インフラ",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00760",
+      "main_theme": "米国通商政策",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-006-EP-00711-00760.json"
+    },
+    {
+      "ep_id": "EP-00761",
+      "main_theme": "韓国の首都圏集中",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00762",
+      "main_theme": "グローバルサウス",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00763",
+      "main_theme": "重要広範議案",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00764",
+      "main_theme": "万博の歴史",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00765",
+      "main_theme": "相対的貧困率",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00766",
+      "main_theme": "日中韓外相会談",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00767",
+      "main_theme": "地下鉄サリン事件",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00768",
+      "main_theme": "山林火災",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00769",
+      "main_theme": "ヤングケアラー",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00770",
+      "main_theme": "刑事責任能力",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00771",
+      "main_theme": "桜の開花観測",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00772",
+      "main_theme": "脳振盪",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00773",
+      "main_theme": "運送業の点呼",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00774",
+      "main_theme": "パナマ運河",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00775",
+      "main_theme": "代表質問",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00776",
+      "main_theme": "法科大学院",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00777",
+      "main_theme": "選択的夫婦別姓",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00778",
+      "main_theme": "地震の液状化",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00779",
+      "main_theme": "災害仮設住宅",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00780",
+      "main_theme": "中国全人代",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00781",
+      "main_theme": "高額療養費制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00782",
+      "main_theme": "高校授業料支援",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00783",
+      "main_theme": "同性カップルの子育て",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00784",
+      "main_theme": "出自を知る権利",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00785",
+      "main_theme": "企業統合の破談",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-1-EP-00761-00785.json"
+    },
+    {
+      "ep_id": "EP-00786",
+      "main_theme": "ドイツAfD",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00787",
+      "main_theme": "ミャンマーの詐欺拠点",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00788",
+      "main_theme": "ミャンマー内戦",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00789",
+      "main_theme": "ガソリン税トリガー条項",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00790",
+      "main_theme": "伝統的酒造り",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00791",
+      "main_theme": "タリバン",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00792",
+      "main_theme": "選定療養費",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00793",
+      "main_theme": "コンゴ民主共和国の紛争",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00794",
+      "main_theme": "2ナノ半導体",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00795",
+      "main_theme": "放置空き家",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00796",
+      "main_theme": "フェンタニルとオピオイド",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00797",
+      "main_theme": "医薬品の過剰摂取",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00798",
+      "main_theme": "備蓄米と米価",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00799",
+      "main_theme": "JPCZによる豪雪",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00800",
+      "main_theme": "ファクトチェック",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00801",
+      "main_theme": "施政方針演説",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00802",
+      "main_theme": "予算委員会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00803",
+      "main_theme": "米国大統領令",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00804",
+      "main_theme": "節分と暦",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00805",
+      "main_theme": "銀行の貸金庫",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00806",
+      "main_theme": "青果の価格高騰",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00807",
+      "main_theme": "第三者委員会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00808",
+      "main_theme": "USスチール買収",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00809",
+      "main_theme": "ロサンゼルス山火事",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00810",
+      "main_theme": "春闘",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-2-EP-00786-00810.json"
+    },
+    {
+      "ep_id": "EP-00811",
+      "main_theme": "米国の移民",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00812",
+      "main_theme": "トランプ関税",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00813",
+      "main_theme": "韓国大統領逮捕",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00814",
+      "main_theme": "災害時の心のケア",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00815",
+      "main_theme": "阪神淡路大震災",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00816",
+      "main_theme": "DEI",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00817",
+      "main_theme": "女性の大学進学",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00818",
+      "main_theme": "子育て支援金",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00819",
+      "main_theme": "ASEAN",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00820",
+      "main_theme": "デジタル赤字",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00821",
+      "main_theme": "運輸安全委員会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00822",
+      "main_theme": "iPS細胞",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00823",
+      "main_theme": "感染症の5類移行",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00824",
+      "main_theme": "機能性表示食品",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00825",
+      "main_theme": "生活保護",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00826",
+      "main_theme": "基地騒音訴訟",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00827",
+      "main_theme": "韓国大統領弾劾",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00828",
+      "main_theme": "悪質ホストクラブ",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00829",
+      "main_theme": "自動車型式指定",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00830",
+      "main_theme": "自動車業界再編",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00831",
+      "main_theme": "日本版DBS",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00832",
+      "main_theme": "検索連動型広告",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00833",
+      "main_theme": "人口減少",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00834",
+      "main_theme": "南海トラフ地震",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00835",
+      "main_theme": "子どもの権利条約",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-3-EP-00811-00835.json"
+    },
+    {
+      "ep_id": "EP-00836",
+      "main_theme": "企業・団体献金",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00837",
+      "main_theme": "オスプレイ",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00838",
+      "main_theme": "核兵器",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00839",
+      "main_theme": "ノーベル平和賞",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00840",
+      "main_theme": "シリア内戦",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00841",
+      "main_theme": "韓国の戒厳令",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00842",
+      "main_theme": "国民負担率",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00843",
+      "main_theme": "尹錫悦大統領",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00844",
+      "main_theme": "身元保証人",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00845",
+      "main_theme": "猟友会",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00846",
+      "main_theme": "PFAS",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00847",
+      "main_theme": "マイナ保険証",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    },
+    {
+      "ep_id": "EP-00848",
+      "main_theme": "マイナンバー制度",
+      "secondary": [],
+      "status": "provisional",
+      "review_basis": "title_and_description",
+      "source_file": "docs/semantic-classification/bulk-20261023/batch-008-part-4a-EP-00836-00848.json"
+    }
+  ]
+}
