@@ -1,0 +1,2544 @@
+{
+  "schema": "asapoki-unrecovered-provenance-v1",
+  "date": "2026-10-27",
+  "fixed_publication_count": 5848,
+  "unrecovered_count": 181,
+  "source": "data/semantic-normalized-draft/recovery-audit-20261026-phase2.json",
+  "scope_note": "181 EP-ID are in public 5848, but no classification judgment identified in recovered corpus and integrated v05. This is not a proof no historical file exists.",
+  "records": [
+    {
+      "ep_id": "EP-05549",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05548",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05547",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05546",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05545",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05544",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05543",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05542",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05541",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05540",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05539",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05538",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05537",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05532",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05531",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05530",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05529",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05528",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05527",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05526",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05036",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05035",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05034",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05033",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05032",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05031",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05030",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05029",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05028",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05027",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05026",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05025",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05024",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05023",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05022",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05021",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05020",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05019",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05018",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05017",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05016",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05015",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05014",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05013",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05012",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05011",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05010",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05009",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05008",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05007",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05006",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05005",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05004",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05003",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05002",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05001",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05000",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04999",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04998",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04997",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04996",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04995",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04994",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04993",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04992",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04991",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04990",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04989",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04988",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04987",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04986",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04985",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04984",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04983",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04982",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04981",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04980",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04979",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04978",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04977",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04876",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04875",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04874",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04873",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04872",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04871",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04870",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04869",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04868",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04867",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04866",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04865",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04864",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04863",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04862",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04861",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04860",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04859",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04858",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04857",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04856",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04855",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04854",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04853",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04852",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04851",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04850",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04849",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04848",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04847",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04846",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04845",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04844",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04843",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04842",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04841",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04840",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04839",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04838",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-04837",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-03911",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06268",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06267",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06266",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06265",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06264",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06263",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06262",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06261",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06260",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06259",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06258",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06257",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06256",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06255",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06254",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06253",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06251",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06250",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06249",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06248",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06165",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06164",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06163",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06162",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06161",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06160",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06159",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06158",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06157",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06156",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06155",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06153",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06152",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06151",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06150",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06149",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06148",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06147",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06146",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-06145",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05613",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05612",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05611",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05610",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05607",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05606",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05605",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05604",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05603",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05602",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05601",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05600",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05599",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05598",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05597",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05596",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05595",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05594",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05593",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    },
+    {
+      "ep_id": "EP-05592",
+      "recovery_status": "UNRECOVERED",
+      "classification_source": null,
+      "original_main_theme": null,
+      "proposed_main_theme": null,
+      "ai_inference": false,
+      "search_evidence": [
+        "Existing recovered 299 batches/19 shards: absent",
+        "2026-10-23 integrated v05 CSV: absent",
+        "GitHub work/semantic-classification-bulk-20261023 recovered corpus: absent per prior 5358 audit"
+      ],
+      "next_check": "Search prior commits, branch-specific deleted files, user archive; no inferred recovery"
+    }
+  ]
+}
