@@ -1,0 +1,1047 @@
+{
+  "schema": "asapoki-lab-risk-review-v1",
+  "date": "2026-10-27",
+  "production_safe": false,
+  "source": "data/semantic-recovery/theme-bridge-pilot.json",
+  "warning": "LAB quality-review queue; not new classifications or validated corrections.",
+  "literature_review_count": 110,
+  "literature": [
+    {
+      "ep_id": "EP-00939",
+      "display_theme": "文学・美術",
+      "original_main_theme": "日本の核武装論",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01224",
+      "display_theme": "文学・美術",
+      "original_main_theme": "鉄道史と近代文学",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01734",
+      "display_theme": "文学・美術",
+      "original_main_theme": "瀬戸内寂聴の文学と生涯",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01776",
+      "display_theme": "文学・美術",
+      "original_main_theme": "スナオさん、かく語りき「見本のような人やった」",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01777",
+      "display_theme": "文学・美術",
+      "original_main_theme": "炭治郎と鬼舞辻が遭遇したあの街が…「鬼滅」の世界、写真庫から次々と",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01903",
+      "display_theme": "文学・美術",
+      "original_main_theme": "空也上人像と仏教美術",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01931",
+      "display_theme": "文学・美術",
+      "original_main_theme": "写真と異文化理解",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01989",
+      "display_theme": "文学・美術",
+      "original_main_theme": "日本のQアノンと陰謀論",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-01995",
+      "display_theme": "文学・美術",
+      "original_main_theme": "沖縄返還と写真記録",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02021",
+      "display_theme": "文学・美術",
+      "original_main_theme": "仏像展の企画と美術取材",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02032",
+      "display_theme": "文学・美術",
+      "original_main_theme": "保育園選びが「ガチャ」になっている 日本の子育て、ここがおかしい",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02144",
+      "display_theme": "文学・美術",
+      "original_main_theme": "耳で楽しむ美術館 「芸術は爆発だ」の岡本太郎って何者？",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02178",
+      "display_theme": "文学・美術",
+      "original_main_theme": "僧侶漫画家の修行",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02186",
+      "display_theme": "文学・美術",
+      "original_main_theme": "僧侶漫画家の恩師と創作",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02187",
+      "display_theme": "文学・美術",
+      "original_main_theme": "被爆前写真のカラー化と記憶",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02199",
+      "display_theme": "文学・美術",
+      "original_main_theme": "狙いは小惑星、日本の「お家芸」 「はやぶさ2」生命起源に迫る①",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02215",
+      "display_theme": "文学・美術",
+      "original_main_theme": "インスタ映えで人気のモスクも 知られざる日本のムスリムの世界",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02248",
+      "display_theme": "文学・美術",
+      "original_main_theme": "特殊装丁の書籍",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02366",
+      "display_theme": "文学・美術",
+      "original_main_theme": "日本の島の数え直し",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02371",
+      "display_theme": "文学・美術",
+      "original_main_theme": "真珠湾攻撃の写真史料",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02407",
+      "display_theme": "文学・美術",
+      "original_main_theme": "親鸞の肖像と仏教美術",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02409",
+      "display_theme": "文学・美術",
+      "original_main_theme": "レシピ本の文化史",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02531",
+      "display_theme": "文学・美術",
+      "original_main_theme": "78年前、沖縄でばあちゃんが受け取った手榴弾 描いた人気漫画家が伝えたいこと",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02533",
+      "display_theme": "文学・美術",
+      "original_main_theme": "本を積むように歴史を重ねて リアルと向き合い、平和の詩が生まれた",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02658",
+      "display_theme": "文学・美術",
+      "original_main_theme": "禅僧漫画と支える人々",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02661",
+      "display_theme": "文学・美術",
+      "original_main_theme": "中秋の名月の写真撮影",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02668",
+      "display_theme": "文学・美術",
+      "original_main_theme": "漫画『望郷太郎』と人間性",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02732",
+      "display_theme": "文学・美術",
+      "original_main_theme": "被爆写真の身元調査",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02745",
+      "display_theme": "文学・美術",
+      "original_main_theme": "絵本と自己受容",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02861",
+      "display_theme": "文学・美術",
+      "original_main_theme": "落語とアートの音声表現",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02920",
+      "display_theme": "文学・美術",
+      "original_main_theme": "村上隆の京都美術表現",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-02974",
+      "display_theme": "文学・美術",
+      "original_main_theme": "漫画原作と映像化の問題",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03014",
+      "display_theme": "文学・美術",
+      "original_main_theme": "核抑止と日本の安全保障",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03113",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ツチノコ標本の調査",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03136",
+      "display_theme": "文学・美術",
+      "original_main_theme": "太陽フレアと日本のオーロラ",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03143",
+      "display_theme": "文学・美術",
+      "original_main_theme": "履歴書に顔写真必要？",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03240",
+      "display_theme": "文学・美術",
+      "original_main_theme": "高知県立美術館の絵、贋作濃厚",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03341",
+      "display_theme": "文学・美術",
+      "original_main_theme": "歴史小説の影響と史実",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03356",
+      "display_theme": "文学・美術",
+      "original_main_theme": "大人の絵本の読み聞かせ",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03439",
+      "display_theme": "文学・美術",
+      "original_main_theme": "吉田路線と戦後日本の対米依存",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03520",
+      "display_theme": "文学・美術",
+      "original_main_theme": "読書会と小説の解釈",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03664",
+      "display_theme": "文学・美術",
+      "original_main_theme": "風刺漫画と公共圏の議論",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03720",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ペリリュー戦を描く漫画",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03799",
+      "display_theme": "文学・美術",
+      "original_main_theme": "戦争時代の日本の平和",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03920",
+      "display_theme": "文学・美術",
+      "original_main_theme": "東日本大震災の写真記録",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03921",
+      "display_theme": "文学・美術",
+      "original_main_theme": "写真を通じた被災者との再会",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-03930",
+      "display_theme": "文学・美術",
+      "original_main_theme": "海中写真による震災記録",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04064",
+      "display_theme": "文学・美術",
+      "original_main_theme": "鳥取砂丘と推理小説",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04183",
+      "display_theme": "文学・美術",
+      "original_main_theme": "Spotifyと日本のポッドキャスト市場",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04194",
+      "display_theme": "文学・美術",
+      "original_main_theme": "アート作品とインフルエンサー",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04202",
+      "display_theme": "文学・美術",
+      "original_main_theme": "漫画作品と住宅購入",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04221",
+      "display_theme": "文学・美術",
+      "original_main_theme": "少年ジャンププラスとウェブ漫画",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04254",
+      "display_theme": "文学・美術",
+      "original_main_theme": "記者が気になる本の紹介",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04277",
+      "display_theme": "文学・美術",
+      "original_main_theme": "新聞写真の選定と記者の思い",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04351",
+      "display_theme": "文学・美術",
+      "original_main_theme": "10代の体験を描く漫画",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04382",
+      "display_theme": "文学・美術",
+      "original_main_theme": "漫画チ。の悪役と人間描写",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04383",
+      "display_theme": "文学・美術",
+      "original_main_theme": "漫画家魚豊の創作への情熱",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04443",
+      "display_theme": "文学・美術",
+      "original_main_theme": "1980年代関西美術の展示",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04483",
+      "display_theme": "文学・美術",
+      "original_main_theme": "色と写真を使った見出し",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04585",
+      "display_theme": "文学・美術",
+      "original_main_theme": "日本の将来への楽観と自己理解",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04648",
+      "display_theme": "文学・美術",
+      "original_main_theme": "絵本作家ショーンタンの版権代理",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04684",
+      "display_theme": "文学・美術",
+      "original_main_theme": "小説と街の電器店の物語",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04687",
+      "display_theme": "文学・美術",
+      "original_main_theme": "大阪メンバーのおすすめ漫画",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04688",
+      "display_theme": "文学・美術",
+      "original_main_theme": "漫画を通じた学びと感情",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04702",
+      "display_theme": "文学・美術",
+      "original_main_theme": "中高年の恋愛を描く漫画",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04703",
+      "display_theme": "文学・美術",
+      "original_main_theme": "自己犠牲と漫画の主人公",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04707",
+      "display_theme": "文学・美術",
+      "original_main_theme": "漫画で学ぶ性的同意",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04767",
+      "display_theme": "文学・美術",
+      "original_main_theme": "新聞社採用と就活写真",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04815",
+      "display_theme": "文学・美術",
+      "original_main_theme": "絵本による自己受容",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04824",
+      "display_theme": "文学・美術",
+      "original_main_theme": "写真記者のキャリアと校閲志望",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04893",
+      "display_theme": "文学・美術",
+      "original_main_theme": "本屋風ウェブサイトと交流イベント",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04897",
+      "display_theme": "文学・美術",
+      "original_main_theme": "小説東京都同情塔と言葉の現実",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04909",
+      "display_theme": "文学・美術",
+      "original_main_theme": "日本のプラネタリウム文化",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-04931",
+      "display_theme": "文学・美術",
+      "original_main_theme": "小型カメラと写真取材の表情",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05104",
+      "display_theme": "文学・美術",
+      "original_main_theme": "禅僧が薦める宗像教授の漫画",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05105",
+      "display_theme": "文学・美術",
+      "original_main_theme": "禅僧が語る心の暗部と漫画",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05106",
+      "display_theme": "文学・美術",
+      "original_main_theme": "禅僧と職人漫画の細部",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05112",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ポッドキャストに救われた経験と就活写真",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05142",
+      "display_theme": "文学・美術",
+      "original_main_theme": "新人記者の写真取材",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05155",
+      "display_theme": "文学・美術",
+      "original_main_theme": "写真撮影のポージング",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05172",
+      "display_theme": "文学・美術",
+      "original_main_theme": "谷根千のアートとホテル建築",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05192",
+      "display_theme": "文学・美術",
+      "original_main_theme": "過疎地域とアートによる活性化",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05247",
+      "display_theme": "文学・美術",
+      "original_main_theme": "トイレにさえ行けない過酷な現場も…　フォトグラファーと語る「あの写真見た？」",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05277",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ホンモノのないニセモノとは？「贋作」からアートの価値を考える　読者が選ぶ推し記事（5月分）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05283",
+      "display_theme": "文学・美術",
+      "original_main_theme": "人間国宝が集う石川　伝統工芸と現代アートが交わるボーダレスな街（プロローグ・波絵理子編②）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05317",
+      "display_theme": "文学・美術",
+      "original_main_theme": "惨状に立ち尽くした若手記者…「シャッターを押せ」肩を叩かれた　写真が伝えるもの　日航機墜落から40年",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05328",
+      "display_theme": "文学・美術",
+      "original_main_theme": "残していくのは言葉だけじゃない　「原爆×美術」いま見てほしい展覧会",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05425",
+      "display_theme": "文学・美術",
+      "original_main_theme": "異世界転生してもいい　現実を見つめてもいい　漫画の魅力を語ります",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05438",
+      "display_theme": "文学・美術",
+      "original_main_theme": "どうしても  あぁ  どうしても　欲しいものは写真で（編集マニア・ミラノ五輪㊦）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05441",
+      "display_theme": "文学・美術",
+      "original_main_theme": "あなたは既に読んでいる！　本を「読めない」って、それホントかな",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05553",
+      "display_theme": "文学・美術",
+      "original_main_theme": "紙の本と電子書籍、あなたはどちらがお好き？",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05661",
+      "display_theme": "文学・美術",
+      "original_main_theme": "あの写真の少女は2度逃げた　ベトナム戦争を生き延びて　ナパーム弾の少女①",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05668",
+      "display_theme": "文学・美術",
+      "original_main_theme": "高専生に「10億円」の評価　日本のジョブズが生まれるかも？（後編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05756",
+      "display_theme": "文学・美術",
+      "original_main_theme": "顔写真不要のESやサウナ面接　就活も進化してるんだ",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05813",
+      "display_theme": "文学・美術",
+      "original_main_theme": "美術展行っていますか？　1万3000歩、トーハク開館から回ってみたら　常設展の魅力①",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05831",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ひとりで出版社を立ち上げた　失敗も苦労も多いけれど、本作りって楽しい(前編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05876",
+      "display_theme": "文学・美術",
+      "original_main_theme": "日本の国土の6割相当が焼失　山火事の脅威、対処法はまさかの火　オーストラリア先住民に学ぶ知恵（後編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05885",
+      "display_theme": "文学・美術",
+      "original_main_theme": "日本を二分？「町」の読みはマチかチョウか　地域により違うあれこれ",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-05945",
+      "display_theme": "文学・美術",
+      "original_main_theme": "消えゆく本屋、ノスタルジーに浸る前に　ローソンは地方に熱視線（後編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06005",
+      "display_theme": "文学・美術",
+      "original_main_theme": "万博工事の残業規制に「超法規的措置」って大丈夫ですか？　日本の働きがいはいま（前編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06178",
+      "display_theme": "文学・美術",
+      "original_main_theme": "液体街路樹ってなんだ　大気汚染の解決に、アートも一役買ってます（後編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06196",
+      "display_theme": "文学・美術",
+      "original_main_theme": "なんとなく緊張する？アートや美術館　「博物館浴」という考え方があるみたい",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06219",
+      "display_theme": "文学・美術",
+      "original_main_theme": "本読んでる？書店行ってる？　貸し借りってコミュニケーションだったんだ",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06221",
+      "display_theme": "文学・美術",
+      "original_main_theme": "メルボルンでは7万本の木にメアド？　街路樹の世界事情（後編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06238",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ぐりとぐら、おばけのてんぷら、ねないこ　だれだ　数々の絵本の名作、今読んでも面白い",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06350",
+      "display_theme": "文学・美術",
+      "original_main_theme": "島のことば、絵本であざやかに　なぜ存続の危機にあるのか、歴史をおさらいします　消滅危機言語①",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06352",
+      "display_theme": "文学・美術",
+      "original_main_theme": "「くもーむに」の昔話、クラウドファンディングで絵本に　ことばを次世代へ　消滅危機言語③",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06384",
+      "display_theme": "文学・美術",
+      "original_main_theme": "美術館からゴッホを盗んだ男　「オランダのルパン」の話を聞こう　なぜ、なんのために手を染めた？",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06404",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ニセモノの絵でもうけた「伝説の贋作師」　の巧妙な手口　日本の美術館も被害に",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    },
+    {
+      "ep_id": "EP-06543",
+      "display_theme": "文学・美術",
+      "original_main_theme": "ナウシカに憧れ、漫画家の道へ　森の地下にある「見えない森」をのぞいてみよう（前編）",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "NEEDS_CONTEXT_REVIEW",
+      "decision": null
+    }
+  ],
+  "sport_examples": [
+    {
+      "ep_id": "EP-00531",
+      "family": "国際・外交",
+      "display_theme": "外交・国際機関",
+      "original_main_theme": "スポーツ/パラリンピックと国際政治",
+      "status": "assistant_reviewed",
+      "title": "ロシア代表のパラリンピック出場",
+      "audit_status": "PRIMARY_SECONDARY_REVIEW"
+    },
+    {
+      "ep_id": "EP-01078",
+      "family": "スポーツ",
+      "display_theme": "サッカー",
+      "original_main_theme": "サッカーW杯日本対ブラジル",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "PREVIOUSLY_CORRECTED_VERIFY"
+    },
+    {
+      "ep_id": "EP-01079",
+      "family": "スポーツ",
+      "display_theme": "サッカー",
+      "original_main_theme": "サッカーW杯日本対スウェーデン",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "PREVIOUSLY_CORRECTED_VERIFY"
+    },
+    {
+      "ep_id": "EP-01081",
+      "family": "スポーツ",
+      "display_theme": "サッカー",
+      "original_main_theme": "サッカーW杯日本対チュニジア",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "PREVIOUSLY_CORRECTED_VERIFY"
+    },
+    {
+      "ep_id": "EP-01082",
+      "family": "スポーツ",
+      "display_theme": "サッカー",
+      "original_main_theme": "サッカーW杯日本対オランダ",
+      "status": "provisional",
+      "title": "",
+      "audit_status": "PREVIOUSLY_CORRECTED_VERIFY"
+    }
+  ]
+}
