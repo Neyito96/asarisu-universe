@@ -1,0 +1,211 @@
+{
+  "schema": "asapoki-lab-nebula-staging-v1",
+  "created": "2026-10-27",
+  "target": "LAB only",
+  "ready_for_release": false,
+  "source": "data/semantic-recovery/theme-bridge-pilot.json",
+  "source_records": 5358,
+  "public_scope_reference": 5848,
+  "completeness_warning": "Only historical 5358 pilot bridge; 109 approvals, 200 other legacy records, 181 unresolved not merged into visualization. Do NOT use as released 5848 episode UI.",
+  "nodes": [
+    {
+      "id": "分類検討中 / 未整理",
+      "count": 2201,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "教育・メディア / 報道・新聞",
+      "count": 332,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "政治・行政 / 政策・制度",
+      "count": 194,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "科学・テクノロジー / AI・情報技術",
+      "count": 174,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "教育・メディア / ポッドキャスト",
+      "count": 163,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "社会・人権 / 社会課題",
+      "count": 142,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "社会・人権 / ジェンダー",
+      "count": 140,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "国際・外交 / 外交・国際機関",
+      "count": 131,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "経済・仕事 / 働き方",
+      "count": 131,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "政治・行政 / 選挙・政党",
+      "count": 129,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "経済・仕事 / 企業・産業",
+      "count": 127,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "文化・暮らし / 文学・美術",
+      "count": 110,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "文化・暮らし / 音楽・芸能",
+      "count": 101,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "教育・メディア / 学校・教育",
+      "count": 101,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "国際・外交 / 中国・台湾",
+      "count": 91,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "文化・暮らし / 生活・食",
+      "count": 81,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "科学・テクノロジー / 科学研究",
+      "count": 79,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "国際・外交 / 米州",
+      "count": 72,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "社会・人権 / 福祉・介護",
+      "count": 70,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "社会・人権 / 司法・事件",
+      "count": 68,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "国際・外交 / アジア",
+      "count": 67,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "自然・防災 / 災害・防災",
+      "count": 65,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "文化・暮らし / 歴史・宗教",
+      "count": 59,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "自然・防災 / 生物・自然",
+      "count": 52,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "国際・外交 / 中東",
+      "count": 47,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "医療・健康 / 病気・医療",
+      "count": 45,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "経済・仕事 / 金融・物価",
+      "count": 43,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "スポーツ / サッカー",
+      "count": 38,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "自然・防災 / 気候・環境",
+      "count": 37,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "国際・外交 / 欧州・ロシア",
+      "count": 37,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "スポーツ / スポーツ全般",
+      "count": 37,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "スポーツ / 野球",
+      "count": 32,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "政治・行政 / 地方自治",
+      "count": 32,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "スポーツ / 陸上・競技",
+      "count": 31,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "スポーツ / フィギュア・氷上",
+      "count": 29,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "スポーツ / バスケットボール",
+      "count": 22,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "スポーツ / 相撲・格闘技",
+      "count": 19,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "科学・テクノロジー / 宇宙・物理",
+      "count": 18,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    },
+    {
+      "id": "医療・健康 / 心身の健康",
+      "count": 11,
+      "display_status": "UNVERIFIED_LEGACY_BRIDGE"
+    }
+  ],
+  "episodes_included": false,
+  "clickable_links_verified": false,
+  "mobile_verified": false,
+  "approval_guard_required": true
+}
