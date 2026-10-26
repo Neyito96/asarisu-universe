@@ -30,3 +30,10 @@
 - これは元の `main_theme` のスラッシュ階層を抽出しただけで、共通20分類・100小分類の統合作業は未実施。
 - 490件の原本探索と人間承認約109件の統合も未実施。
 - main・本番URL・表示用ブリッジは未変更。
+
+## 人間承認済み109件の復旧（2026-10-26追記）
+- 2026-10-23のChatGPTライブラリ保存ファイル `semantic_classifications_integrated_v05.csv` を確認。310行中 `user_approved` が正確に109件。ほかにassistant_reviewed147件、proposed15件、title_only34件、hold5件が存在。
+- 109件を `data/semantic-normalized-draft/human-approved-109.json` に原分類・副分類・status・source付きで保護して保存。元は `approved_classifications.json` と記録されている。
+- `published-join-audit.json` の未照合490EP-IDと照合し、109件すべてがその集合に含まれ、既存回収5358件との衝突0件。
+- 加算後の独立EP-IDは5467件、未照合は381件。照合詳細と381EP-IDは `human-approval-join-audit.json` に保存。
+- 現段階では追加レイヤーとして保存したもので、宇宙表示用JSONや本番UIには未統合。承認済みの分類を変更していない。
