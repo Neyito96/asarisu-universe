@@ -1,0 +1,2701 @@
+{
+  "schema": "asapoki-legacy-judgment-recovery-v1",
+  "origin": "semantic_classifications_integrated_v05.csv (2026-10-23)",
+  "count": 200,
+  "records": [
+    {
+      "ep_id": "EP-00003",
+      "main_theme": "環境・気候/気候変動・猛暑",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要・公式リンク不足",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00004",
+      "main_theme": "国際/ガザ・停戦後の情勢",
+      "related_themes": [
+        "人権・司法/紛争下の人道問題"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00013",
+      "main_theme": "科学/ノーベル生理学・医学賞",
+      "related_themes": [
+        "健康・医療/睡眠・脳科学"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00015",
+      "main_theme": "政治/連立政権・維新の入閣",
+      "related_themes": [
+        "政治/選挙協力"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00016",
+      "main_theme": "国際/米中関係・外交",
+      "related_themes": [
+        "政治/報道と政権"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00019",
+      "main_theme": "暮らし/掃除・社会文化",
+      "related_themes": [
+        "国際/生活文化の比較",
+        "AI・技術/清掃ロボット"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00020",
+      "main_theme": "防災/避難所・被災者支援",
+      "related_themes": [
+        "政治/防災庁・防災行政"
+      ],
+      "status": "hold",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルは熊本地震の避難所、概要は防災庁の制度説明",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "hold",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00023",
+      "main_theme": "スポーツ/サッカー・育成指導",
+      "related_themes": [
+        "教育/指導者の哲学"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要・公式リンク不足",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00032",
+      "main_theme": "メディア/スポーツ取材・編集",
+      "related_themes": [
+        "スポーツ/卓球・野球"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00034",
+      "main_theme": "メディア/ポッドキャスト制作・番組運営",
+      "related_themes": [
+        "スポーツ/野球・バスケットボール"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00035",
+      "main_theme": "メディア/デジタルメディア運営",
+      "related_themes": [
+        "AI・技術/AIと情報の検証"
+      ],
+      "status": "hold",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題が一致しない",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "hold",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00036",
+      "main_theme": "暮らし/体験イベント・衣食住",
+      "related_themes": [
+        "メディア/公開収録"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00037",
+      "main_theme": "文化・芸術/ドキュメンタリー映画",
+      "related_themes": [
+        "福祉・人権/社会課題解決"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00038",
+      "main_theme": "メディア/天声人語・コラム",
+      "related_themes": [
+        "スポーツ/サッカー・FIFA"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00039",
+      "main_theme": "暮らし/子育て・夏休みの居場所",
+      "related_themes": [
+        "教育/学童・地域の居場所"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00040",
+      "main_theme": "暮らし/旅行の価値観",
+      "related_themes": [
+        "AI・技術/AIと仕事"
+      ],
+      "status": "hold",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題が一致しない",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "hold",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00041",
+      "main_theme": "暮らし/コンビニ・生活文化",
+      "related_themes": [
+        "経済/小売業の歴史"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00042",
+      "main_theme": "労働/コンビニの働き方",
+      "related_themes": [
+        "暮らし/24時間営業"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00043",
+      "main_theme": "文化・芸術/言葉の変化・日本語",
+      "related_themes": [
+        "メディア/用語・表記"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00044",
+      "main_theme": "教育/日本語・文字の学び",
+      "related_themes": [
+        "文化・芸術/言葉・表記"
+      ],
+      "status": "proposed",
+      "source": "semantic_review_201_progress.json",
+      "note": "",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "proposed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00045",
+      "main_theme": "動物・自然/ビントロング・動物の生態",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00046",
+      "main_theme": "動物・自然/犬猫・動物の共通点",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00047",
+      "main_theme": "メディア/新聞編集者のキャリア",
+      "related_themes": [
+        "科学/ロボット・航空宇宙"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00048",
+      "main_theme": "政治/財政・国債",
+      "related_themes": [
+        "経済/国家財政"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00049",
+      "main_theme": "教育/教師・師弟関係",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00050",
+      "main_theme": "教育/教師の役割",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00051",
+      "main_theme": "動物・自然/有毒生物",
+      "related_themes": [
+        "科学/毒の研究"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00052",
+      "main_theme": "動物・自然/スズメバチ・防御行動",
+      "related_themes": [
+        "科学/生物の毒"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00053",
+      "main_theme": "教育/学び直し・生涯学習",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00054",
+      "main_theme": "教育/学校で学ぶ意味",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00055",
+      "main_theme": "暮らし/言葉と感情",
+      "related_themes": [
+        "メディア/表記・用語"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00056",
+      "main_theme": "暮らし/言葉・悪口",
+      "related_themes": [
+        "教育/子どもの疑問"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00057",
+      "main_theme": "交通/航空機・空の旅",
+      "related_themes": [
+        "暮らし/旅行"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00058",
+      "main_theme": "科学/飛行機が飛ぶ仕組み",
+      "related_themes": [
+        "交通/航空"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00059",
+      "main_theme": "健康・医療/睡眠・生活習慣",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00060",
+      "main_theme": "健康・医療/睡眠の役割",
+      "related_themes": [
+        "教育/子どもの疑問"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00062",
+      "main_theme": "スポーツ/プロ野球・阪神タイガース",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00063",
+      "main_theme": "スポーツ/サッカーの本質",
+      "related_themes": [
+        "AI・技術/フィジカルAI"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00064",
+      "main_theme": "スポーツ/フィギュアスケート",
+      "related_themes": [
+        "健康・医療/摂食障害"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00065",
+      "main_theme": "スポーツ/プロ野球・ソフトバンク",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00066",
+      "main_theme": "スポーツ/ラグビー・選手登録",
+      "related_themes": [
+        "人権・司法/人種差別"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00067",
+      "main_theme": "スポーツ/テニス・錦織圭",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00068",
+      "main_theme": "スポーツ/バスケットボール・選手取材",
+      "related_themes": [
+        "メディア/スポーツ取材"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00069",
+      "main_theme": "スポーツ/アジア大会",
+      "related_themes": [
+        "国際/大会と国際政治"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00070",
+      "main_theme": "メディア/スポーツ取材者の経歴",
+      "related_themes": [
+        "スポーツ/スピードスケート・競馬"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00071",
+      "main_theme": "スポーツ/サッカー日本代表・監督人事",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00072",
+      "main_theme": "スポーツ/アジア大会・注目選手",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00073",
+      "main_theme": "スポーツ/バスケットボール日本代表",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00074",
+      "main_theme": "スポーツ/バスケットボール・W杯予選",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00075",
+      "main_theme": "スポーツ/フィギュアスケート・ペア",
+      "related_themes": [
+        "暮らし/結婚・人間関係"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00076",
+      "main_theme": "スポーツ/高校野球・甲子園",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00077",
+      "main_theme": "スポーツ/フィギュアスケート・選手の生き方",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00078",
+      "main_theme": "スポーツ/大相撲・名古屋場所",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00079",
+      "main_theme": "スポーツ/サッカーW杯・FIFA運営",
+      "related_themes": [
+        "経済/スポーツビジネス"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00080",
+      "main_theme": "スポーツ/バスケットボール・審判",
+      "related_themes": [
+        "人権・司法/誹謗中傷"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00083",
+      "main_theme": "政治/地方行政・国勢調査不正",
+      "related_themes": [
+        "人権・司法/統計不正"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00084",
+      "main_theme": "健康・医療/臓器移植・ドナー",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00085",
+      "main_theme": "国際/米国政治・中間選挙",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00086",
+      "main_theme": "健康・医療/自由診療・医療保険",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00087",
+      "main_theme": "歴史・文化/在日コリアンの歴史",
+      "related_themes": [
+        "福祉・人権/民族・共生"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00088",
+      "main_theme": "教育/国際学力調査・PISA",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00089",
+      "main_theme": "国際/国連総会・一般討論",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00090",
+      "main_theme": "国際/米中首脳会談・外交",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00091",
+      "main_theme": "福祉・人権/身寄りのない人の弔い",
+      "related_themes": [
+        "政治/自治体の対応"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00092",
+      "main_theme": "歴史・文化/彦根城・文化財",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00094",
+      "main_theme": "福祉・人権/ひきこもり支援・自律",
+      "related_themes": [
+        "福祉・人権/自己決定"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00096",
+      "main_theme": "経済/電力会社・原発データ不正",
+      "related_themes": [
+        "防災/原発の耐震評価"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00097",
+      "main_theme": "教育/学習指導要領・教育政策",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00098",
+      "main_theme": "文化・芸術/ベネチア国際映画祭",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00099",
+      "main_theme": "環境・気候/核燃料サイクル・原子力政策",
+      "related_themes": [
+        "科学/核燃料再処理"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00100",
+      "main_theme": "政治/予算編成・概算要求",
+      "related_themes": [
+        "経済/国家財政"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00102",
+      "main_theme": "暮らし/日照不足・心身への影響",
+      "related_themes": [
+        "防災/豪雨時の行動"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00103",
+      "main_theme": "暮らし/家事分担・子育て",
+      "related_themes": [
+        "ジェンダー/家庭内役割"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00104",
+      "main_theme": "暮らし/結婚・読者交流",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00105",
+      "main_theme": "環境・気候/観光と自然保護",
+      "related_themes": [
+        "国際/キナバル山・富士山"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00107",
+      "main_theme": "教育/学歴・偏差値社会",
+      "related_themes": [
+        "メディア/SNSと学歴観"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00108",
+      "main_theme": "国際/南アフリカ・ソマリランド",
+      "related_themes": [
+        "福祉・人権/移民排斥"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00109",
+      "main_theme": "国際/コンゴ・ナミビアの歴史と紛争",
+      "related_themes": [
+        "歴史・文化/ジェノサイド"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00110",
+      "main_theme": "国際/カボベルデ・カメルーン情勢",
+      "related_themes": [
+        "スポーツ/サッカーW杯"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00113",
+      "main_theme": "暮らし/色の好み・軽やかな生き方",
+      "related_themes": [
+        "文化・芸術/回文・口笛"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要の主題に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00114",
+      "main_theme": "暮らし/保育園選び・育児",
+      "related_themes": [
+        "福祉・人権/保育サービス"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00115",
+      "main_theme": "健康・医療/性と生殖に関する健康・権利",
+      "related_themes": [
+        "ジェンダー/SRHR"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00119",
+      "main_theme": "暮らし/子育て・地域の助け合い",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00120",
+      "main_theme": "文化・芸術/地域の音声文化・奥会津",
+      "related_themes": [
+        "メディア/ポッドキャスト紹介"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00121",
+      "main_theme": "政治/閣僚と行政・政治談義",
+      "related_themes": [
+        "国際/米国中間選挙"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00122",
+      "main_theme": "メディア/ニュースとの距離感",
+      "related_themes": [
+        "健康・医療/情報疲れ"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00123",
+      "main_theme": "国際/米中外交・首脳会談",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00124",
+      "main_theme": "政治/ロビー活動・政策形成",
+      "related_themes": [
+        "人権・司法/個人情報保護"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00125",
+      "main_theme": "国際/米中AI外交",
+      "related_themes": [
+        "AI・技術/AIの安全性"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00126",
+      "main_theme": "メディア/報道の社会的影響",
+      "related_themes": [
+        "政治/旧統一教会問題"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00127",
+      "main_theme": "政治/首相答弁・説明責任",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00128",
+      "main_theme": "政治/内閣改造・首相人事",
+      "related_themes": [
+        "歴史・文化/明治以降の政治史"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00129",
+      "main_theme": "メディア/政治報道番組・リスナー交流",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00131",
+      "main_theme": "メディア/デジタルニュースの未来",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00132",
+      "main_theme": "メディア/ポッドキャストとSNS・番組告知",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00133",
+      "main_theme": "メディア/検察取材・調査報道",
+      "related_themes": [
+        "人権・司法/検察"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00134",
+      "main_theme": "政治/政党再編・野党合流",
+      "related_themes": [
+        "経済/為替協調介入"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00135",
+      "main_theme": "歴史・文化/イスラム教・モスクの多様性",
+      "related_themes": [
+        "国際/宗教文化比較"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00136",
+      "main_theme": "労働/休息・働き方",
+      "related_themes": [
+        "健康・医療/過労と健康"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00137",
+      "main_theme": "国際/米イラン関係・覚書",
+      "related_themes": [
+        "人権・司法/国際合意"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00138",
+      "main_theme": "経済/再分配・格差",
+      "related_themes": [
+        "メディア/ルポ・現地取材"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00139",
+      "main_theme": "政治/政権運営・女性首相",
+      "related_themes": [
+        "ジェンダー/女性と政治"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00140",
+      "main_theme": "メディア/世論調査・調査方法",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00281",
+      "main_theme": "歴史・文化/財布・生活道具の歴史",
+      "related_themes": [
+        "暮らし/貨幣・財布"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00282",
+      "main_theme": "暮らし/予約社会・生活習慣",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00283",
+      "main_theme": "文化・芸術/少女漫画・キャンディキャンディ",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00284",
+      "main_theme": "暮らし/名前・認知の不確かさ",
+      "related_themes": [],
+      "status": "hold",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が短く主題を特定できない",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "hold",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00285",
+      "main_theme": "暮らし/日常の継続・雑談",
+      "related_themes": [],
+      "status": "hold",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が短く主題を特定できない",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "hold",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00286",
+      "main_theme": "福祉・人権/セックスワークをめぐる対話",
+      "related_themes": [
+        "人権・司法/労働と権利"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00287",
+      "main_theme": "政治/思想・社会観の対話",
+      "related_themes": [
+        "歴史・文化/民族派の思想"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00288",
+      "main_theme": "歴史・文化/二・二六事件・盗聴",
+      "related_themes": [
+        "人権・司法/通信の秘密"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00289",
+      "main_theme": "歴史・文化/二・二六事件・政党政治",
+      "related_themes": [
+        "政治/軍部と政治"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00290",
+      "main_theme": "暮らし/雑談・コミュニケーション",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00292",
+      "main_theme": "AI・技術/子どもの生成AI利用",
+      "related_themes": [
+        "教育/AIとの付き合い方"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00294",
+      "main_theme": "文化・芸術/音楽批評・シンガーソングライター",
+      "related_themes": [
+        "暮らし/雑談"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00295",
+      "main_theme": "ジェンダー/男性トイレ・設備格差",
+      "related_themes": [
+        "教育/学校設備"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00296",
+      "main_theme": "メディア/新聞紙面デザイン・報道デザイナー",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00298",
+      "main_theme": "暮らし/マッチングアプリ・出会い",
+      "related_themes": [
+        "文化・芸術/ファッション"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00299",
+      "main_theme": "暮らし/田舎暮らし・雑談",
+      "related_themes": [
+        "文化・芸術/音楽"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00300",
+      "main_theme": "動物・自然/昆虫・生物観察",
+      "related_themes": [
+        "教育/中高生の生物部"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00301",
+      "main_theme": "メディア/ポッドキャストとSNS・番組告知",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00302",
+      "main_theme": "ジェンダー/選択的夫婦別姓・同性婚",
+      "related_themes": [
+        "政治/保守思想・家族制度"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00303",
+      "main_theme": "歴史・文化/三島由紀夫・天皇制",
+      "related_themes": [
+        "政治/民族派思想"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00304",
+      "main_theme": "政治/民族派・政治思想",
+      "related_themes": [
+        "歴史・文化/靖国神社"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00305",
+      "main_theme": "政治/思想とインターネット文化",
+      "related_themes": [
+        "文化・芸術/サブカルチャー"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00306",
+      "main_theme": "文化・芸術/アニメ・漫画・ゲーム",
+      "related_themes": [
+        "国際/中国留学・文化交流"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00307",
+      "main_theme": "政治/右翼思想・政治参加",
+      "related_themes": [
+        "歴史・文化/靖国神社"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00308",
+      "main_theme": "環境・気候/SDGs・番組紹介",
+      "related_themes": [],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00309",
+      "main_theme": "環境・気候/SDGsの意義と批判",
+      "related_themes": [
+        "経済/SDGsビジネス"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00310",
+      "main_theme": "環境・気候/SDGsと企業の責任",
+      "related_themes": [
+        "経済/企業と持続可能性"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00311",
+      "main_theme": "環境・気候/SDGsの矛盾と教育",
+      "related_themes": [
+        "教育/持続可能性教育"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00324",
+      "main_theme": "環境・気候/海洋ごみ・瀬戸内海",
+      "related_themes": [
+        "動物・自然/海洋環境"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00325",
+      "main_theme": "環境・気候/大量生産・廃棄",
+      "related_themes": [
+        "経済/繊維産業"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00329",
+      "main_theme": "経済/ベーシックインカム・再分配",
+      "related_themes": [
+        "福祉・人権/所得保障"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00330",
+      "main_theme": "ジェンダー/台湾の同性婚",
+      "related_themes": [
+        "国際/台湾の社会制度"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00339",
+      "main_theme": "ジェンダー/女言葉・言語の性差",
+      "related_themes": [
+        "暮らし/言葉の変化"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00344",
+      "main_theme": "健康・医療/老化研究・NMN",
+      "related_themes": [
+        "科学/老化の生命科学"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00345",
+      "main_theme": "健康・医療/老化と生活習慣",
+      "related_themes": [
+        "科学/老化研究"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00355",
+      "main_theme": "環境・気候/海水温変化と水産業",
+      "related_themes": [
+        "経済/東北の漁業"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00356",
+      "main_theme": "環境・気候/水産資源の変化",
+      "related_themes": [
+        "経済/漁村・養殖業"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00358",
+      "main_theme": "福祉・人権/障害者の就労・合理的配慮",
+      "related_themes": [
+        "労働/テレワーク"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00359",
+      "main_theme": "暮らし/ヴィーガン・食生活",
+      "related_themes": [
+        "動物・自然/動物福祉"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00360",
+      "main_theme": "暮らし/ヴィーガンと食の多様性",
+      "related_themes": [
+        "福祉・人権/多様性への配慮"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00361",
+      "main_theme": "ジェンダー/男性育休・育児分担",
+      "related_themes": [
+        "労働/育児休業制度"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00362",
+      "main_theme": "環境・気候/プラスチックごみ・資源循環",
+      "related_themes": [
+        "国際/東南アジア"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00363",
+      "main_theme": "ジェンダー/女子教育・貧困",
+      "related_themes": [
+        "福祉・人権/児童労働"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00365",
+      "main_theme": "福祉・人権/観光地のバリアフリー",
+      "related_themes": [
+        "経済/温泉観光"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00366",
+      "main_theme": "環境・気候/SDGsの普及と展開",
+      "related_themes": [
+        "国際/国連"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00367",
+      "main_theme": "AI・技術/方言翻訳AI",
+      "related_themes": [
+        "健康・医療/医療コミュニケーション"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00375",
+      "main_theme": "ジェンダー/選択的夫婦別姓",
+      "related_themes": [
+        "政治/家族法"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00378",
+      "main_theme": "文化・芸術/ファッション・ブランドの価値",
+      "related_themes": [
+        "暮らし/装い"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00379",
+      "main_theme": "文化・芸術/ファッションと消費文化",
+      "related_themes": [
+        "環境・気候/衣料の持続可能性"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00380",
+      "main_theme": "ジェンダー/男性育休・家庭内役割",
+      "related_themes": [
+        "労働/育児休業"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00383",
+      "main_theme": "福祉・人権/困難を抱える女性への支援",
+      "related_themes": [
+        "人権・司法/売春防止法"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00385",
+      "main_theme": "歴史・文化/イスラム教・モスク",
+      "related_themes": [
+        "暮らし/地域の宗教文化"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00386",
+      "main_theme": "福祉・人権/ムスリムと多文化共生",
+      "related_themes": [
+        "歴史・文化/イスラム教"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00387",
+      "main_theme": "暮らし/節電生活・5アンペア",
+      "related_themes": [
+        "環境・気候/省エネ"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00388",
+      "main_theme": "暮らし/節電と家族生活",
+      "related_themes": [
+        "環境・気候/省エネ"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00389",
+      "main_theme": "環境・気候/住宅のエネルギー自給",
+      "related_themes": [
+        "暮らし/省エネ住宅"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00390",
+      "main_theme": "ジェンダー/選択的夫婦別姓・改姓の負担",
+      "related_themes": [
+        "政治/家族法"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00391",
+      "main_theme": "ジェンダー/選択的夫婦別姓・子どもの視点",
+      "related_themes": [
+        "福祉・人権/家族の多様性"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00392",
+      "main_theme": "交通/欧州夜行列車の復活",
+      "related_themes": [
+        "環境・気候/鉄道と脱炭素"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00393",
+      "main_theme": "交通/夜行列車・鉄道サービス",
+      "related_themes": [
+        "経済/鉄道事業"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00394",
+      "main_theme": "動物・自然/狩猟・野生動物管理",
+      "related_themes": [
+        "労働/猟友会の担い手不足"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00397",
+      "main_theme": "国際/フィリピン大統領選・在外労働者",
+      "related_themes": [
+        "労働/海外出稼ぎ"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00399",
+      "main_theme": "福祉・人権/養育里親・子どもの居場所",
+      "related_themes": [
+        "暮らし/家族のかたち"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00400",
+      "main_theme": "福祉・人権/里親制度・児童福祉",
+      "related_themes": [
+        "暮らし/多様な家族"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00402",
+      "main_theme": "国際/ベラルーシ・ポーランド国境",
+      "related_themes": [
+        "福祉・人権/難民・移民"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00403",
+      "main_theme": "国際/米国地方選挙・ボストン",
+      "related_themes": [
+        "ジェンダー/女性・マイノリティ政治参加"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00406",
+      "main_theme": "環境・気候/エシカル消費",
+      "related_themes": [
+        "経済/社会的企業"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00407",
+      "main_theme": "環境・気候/エシカル消費・小売",
+      "related_themes": [
+        "経済/小売・消費"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00408",
+      "main_theme": "科学/アイスキューブ・ニュートリノ観測",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00409",
+      "main_theme": "政治/ふるさと納税・地方財政",
+      "related_themes": [
+        "経済/税制"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00410",
+      "main_theme": "政治/沖縄県知事選・基地問題",
+      "related_themes": [
+        "国際/日米安全保障"
+      ],
+      "status": "assistant_reviewed",
+      "source": "semantic_review_201_progress.json",
+      "note": "タイトルと概要に基づく。後日修正可能。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "assistant_reviewed",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00411",
+      "main_theme": "暮らし/女性トイレ・行列",
+      "related_themes": [
+        "ジェンダー/公共設備の男女格差"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00414",
+      "main_theme": "交通/生活道路・速度規制",
+      "related_themes": [
+        "防災/交通事故防止"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00417",
+      "main_theme": "歴史・文化/飛鳥・藤原の宮都・古代史",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00420",
+      "main_theme": "経済/暗号資産・金融商品取引法",
+      "related_themes": [
+        "政治/金融規制"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00423",
+      "main_theme": "政治/閣僚の靖国神社参拝",
+      "related_themes": [
+        "歴史・文化/戦争の記憶"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00425",
+      "main_theme": "防災/千葉の豪雨・水害",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00428",
+      "main_theme": "防災/災害関連死",
+      "related_themes": [
+        "健康・医療/避難生活の健康"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00429",
+      "main_theme": "防災/熊本地震・地震災害",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00430",
+      "main_theme": "国際/米国関税政策・通商摩擦",
+      "related_themes": [
+        "経済/貿易"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00434",
+      "main_theme": "人権・司法/刑事裁判・検察の問題",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00436",
+      "main_theme": "労働/最低賃金・賃金政策",
+      "related_themes": [
+        "経済/労働市場"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00437",
+      "main_theme": "教育/学校の水泳授業",
+      "related_themes": [
+        "スポーツ/水泳"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00442",
+      "main_theme": "交通/北陸新幹線延伸",
+      "related_themes": [
+        "経済/地域開発"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00443",
+      "main_theme": "人権・司法/ひき逃げ事件・刑事捜査",
+      "related_themes": [
+        "交通/交通事故"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00446",
+      "main_theme": "AI・技術/子どものSNS規制",
+      "related_themes": [
+        "福祉・人権/子どもの権利"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00447",
+      "main_theme": "経済/株主総会・企業統治",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00459",
+      "main_theme": "国際/米イラン関係・外交合意",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00464",
+      "main_theme": "スポーツ/サッカーW杯2026・大会制度",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00467",
+      "main_theme": "健康・医療/大学病院・医療提供体制",
+      "related_themes": [
+        "経済/病院経営"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00468",
+      "main_theme": "人権・司法/検事正の性暴力疑惑",
+      "related_themes": [
+        "政治/検察組織の説明責任"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00477",
+      "main_theme": "防災/気象警報・防災情報",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00484",
+      "main_theme": "スポーツ/サッカー日本代表",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00485",
+      "main_theme": "交通/リニア中央新幹線",
+      "related_themes": [
+        "経済/インフラ整備"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00488",
+      "main_theme": "政治/食料品消費税・税制改革",
+      "related_themes": [
+        "経済/物価と家計"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00491",
+      "main_theme": "科学/量子コンピューター",
+      "related_themes": [
+        "AI・技術/計算技術"
+      ],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    },
+    {
+      "ep_id": "EP-00494",
+      "main_theme": "国際/日本・イラン外交関係",
+      "related_themes": [],
+      "status": "title_only",
+      "source": "semantic_review_201_progress.json",
+      "note": "概要が欠落・極端に短いため、タイトル由来の暫定分類。要追加照合。",
+      "recovery_type": "legacy_record_recovered",
+      "human_approved": false,
+      "original_status": "title_only",
+      "locked": false
+    }
+  ],
+  "caution": "No new AI estimation. Original status preserved. Hold items remain hold."
+}
