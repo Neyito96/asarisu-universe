@@ -1,0 +1,1308 @@
+{
+  "schema": "asapoki-human-approved-recovery-v1",
+  "date": "2026-10-26",
+  "source": "ChatGPT Library: semantic_classifications_integrated_v05.csv (2026-10-23)",
+  "source_column_status": "user_approved",
+  "source_original": "approved_classifications.json",
+  "count": 109,
+  "records": [
+    {
+      "ep_id": "EP-00001",
+      "main_theme": "政治/政権・閣僚",
+      "related_themes": [
+        "人権・司法/事件"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00002",
+      "main_theme": "ジェンダー/男女平等",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00005",
+      "main_theme": "科学/数学",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00006",
+      "main_theme": "動物・自然/外来生物",
+      "related_themes": [
+        "暮らし/余暇"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00007",
+      "main_theme": "政治/地方政治",
+      "related_themes": [
+        "労働/ハラスメント"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00008",
+      "main_theme": "政治/安全保障・情報政策",
+      "related_themes": [
+        "政治/選挙制度"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00009",
+      "main_theme": "経済/税制",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00010",
+      "main_theme": "福祉・人権/出産制度",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00011",
+      "main_theme": "人口・少子化/暮らし",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00012",
+      "main_theme": "科学/物理・化学",
+      "related_themes": [
+        "AI・技術/先端技術"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00014",
+      "main_theme": "暮らし",
+      "related_themes": [
+        "防災",
+        "文化・芸術"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00017",
+      "main_theme": "交通/鉄道",
+      "related_themes": [
+        "環境・気候/開発と環境"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00018",
+      "main_theme": "動物・自然/犬・品種",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00021",
+      "main_theme": "文化・芸術/吹奏楽",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00022",
+      "main_theme": "文化・芸術/吹奏楽",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00024",
+      "main_theme": "環境・気候/持続可能性",
+      "related_themes": [
+        "メディア"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00025",
+      "main_theme": "ジェンダー/性別役割",
+      "related_themes": [
+        "メディア/言葉・校閲"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00026",
+      "main_theme": "AI・技術",
+      "related_themes": [
+        "教育/学び"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00027",
+      "main_theme": "メディア/ドキュメンタリー・映像",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00028",
+      "main_theme": "暮らし/趣味・自動車",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00029",
+      "main_theme": "経済/デジタル販売",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00030",
+      "main_theme": "スポーツ/育成・指導",
+      "related_themes": [
+        "教育/子どもの成長"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00031",
+      "main_theme": "メディア/新聞制作・コラム",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00033",
+      "main_theme": "文化・芸術/読書・出版",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00081",
+      "main_theme": "科学/生物学",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00082",
+      "main_theme": "科学/生命科学・光遺伝学",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00093",
+      "main_theme": "暮らし/公共料金・生活インフラ",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00095",
+      "main_theme": "国際/中東情勢・武装勢力",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00101",
+      "main_theme": "暮らし/感情・人間関係",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00106",
+      "main_theme": "暮らし/感覚・嗜好",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00111",
+      "main_theme": "暮らし/結婚・人間関係",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00112",
+      "main_theme": "暮らし/人生相談",
+      "related_themes": [
+        "メディア/リスナー交流"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00116",
+      "main_theme": "歴史・文化/皇室",
+      "related_themes": [
+        "暮らし/散策"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00117",
+      "main_theme": "暮らし/雑談",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00118",
+      "main_theme": "メディア/リスナー投稿・交流",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00130",
+      "main_theme": "政治/政教分離・憲法",
+      "related_themes": [
+        "歴史/戦争の記憶"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00291",
+      "main_theme": "暮らし/服装・身だしなみ",
+      "related_themes": [
+        "健康/体調サイン"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00293",
+      "main_theme": "国際/東南アジア",
+      "related_themes": [
+        "暮らし/街歩き"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00297",
+      "main_theme": "暮らし/人生相談・悩み",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00314",
+      "main_theme": "環境・気候/SDGs・持続可能性",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00315",
+      "main_theme": "環境・気候/SDGs・持続可能性",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00340",
+      "main_theme": "環境・気候/SDGs・持続可能性",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00357",
+      "main_theme": "環境・気候/水産資源",
+      "related_themes": [
+        "暮らし/食文化"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00364",
+      "main_theme": "動物・自然/動物福祉",
+      "related_themes": [
+        "スポーツ/競馬"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00374",
+      "main_theme": "ジェンダー/選択的夫婦別姓",
+      "related_themes": [
+        "政治/家族法"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00398",
+      "main_theme": "国際/フィリピン政治・選挙",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00412",
+      "main_theme": "国際/インド社会・若者の抗議",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00413",
+      "main_theme": "防災/土砂災害",
+      "related_themes": [
+        "環境・気候/氷河融解"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00415",
+      "main_theme": "労働/外国人労働・特定技能",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00416",
+      "main_theme": "メディア/世論調査・調査方法",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00418",
+      "main_theme": "国際/国際刑事裁判所",
+      "related_themes": [
+        "司法/国際法"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00419",
+      "main_theme": "健康・医療/ワンヘルス",
+      "related_themes": [
+        "動物・自然/生態系"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00421",
+      "main_theme": "文化・芸術/漫画・出版",
+      "related_themes": [
+        "人権・司法/性加害"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00422",
+      "main_theme": "政治/行政不祥事",
+      "related_themes": [
+        "メディア/公文書・情報公開"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00424",
+      "main_theme": "国際/日ロ関係・領土問題",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00426",
+      "main_theme": "経済/観光産業・インバウンド",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00427",
+      "main_theme": "動物・自然/ウナギ・水産資源",
+      "related_themes": [
+        "暮らし/食文化"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00431",
+      "main_theme": "政治/選挙制度",
+      "related_themes": [
+        "AI・技術/電子投票"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00432",
+      "main_theme": "AI・技術/国産AI開発",
+      "related_themes": [
+        "経済/企業連合"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00433",
+      "main_theme": "AI・技術/データ利用",
+      "related_themes": [
+        "人権・司法/プライバシー"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00435",
+      "main_theme": "政治/経済財政政策",
+      "related_themes": [
+        "経済/国家予算"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00438",
+      "main_theme": "政治/地方議会・政治資金",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00439",
+      "main_theme": "政治/地方分権・副首都構想",
+      "related_themes": [
+        "防災/首都機能分散"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00440",
+      "main_theme": "健康・医療/認知症",
+      "related_themes": [
+        "福祉・人権/高齢者支援"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00441",
+      "main_theme": "健康・医療/臓器移植",
+      "related_themes": [
+        "科学/再生・移植医療"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00444",
+      "main_theme": "経済/金利・金融政策",
+      "related_themes": [
+        "暮らし/住宅ローン"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00445",
+      "main_theme": "政治/政党再編・野党連携",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00448",
+      "main_theme": "健康・医療/生殖医療・子宮移植",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00449",
+      "main_theme": "経済/景気指標・日銀短観",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00450",
+      "main_theme": "歴史・文化/皇室・皇位継承",
+      "related_themes": [
+        "政治/皇室制度"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00451",
+      "main_theme": "科学/地球科学・氷河",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00452",
+      "main_theme": "政治/国会制度・党首討論",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00453",
+      "main_theme": "経済/独占禁止法・カルテル",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00454",
+      "main_theme": "国際/外交・安全保障協力",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00455",
+      "main_theme": "国際/国際連合・国際機関",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00456",
+      "main_theme": "動物・自然/果物・植物",
+      "related_themes": [
+        "暮らし/食文化"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00457",
+      "main_theme": "AI・技術/インターネット規制",
+      "related_themes": [
+        "人権・司法/通信の自由"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00458",
+      "main_theme": "科学/宇宙開発",
+      "related_themes": [
+        "経済/宇宙産業"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00460",
+      "main_theme": "経済/金融政策・政策金利",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00461",
+      "main_theme": "文化・芸術/音楽賞・音楽産業",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00462",
+      "main_theme": "文化・芸術/建築・世界遺産",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00463",
+      "main_theme": "教育/学校安全・部活動",
+      "related_themes": [
+        "交通/移動事故"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00465",
+      "main_theme": "経済/観光・宿泊産業",
+      "related_themes": [
+        "政治/民泊制度"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00466",
+      "main_theme": "健康・医療/ACP・終末期医療",
+      "related_themes": [
+        "福祉・人権/自己決定"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00469",
+      "main_theme": "国際/インド太平洋外交・FOIP",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00470",
+      "main_theme": "国際/難民問題",
+      "related_themes": [
+        "福祉・人権/難民保護"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00471",
+      "main_theme": "スポーツ/フィギュアスケート・アイスダンス",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00472",
+      "main_theme": "政治/立法・国旗損壊罪",
+      "related_themes": [
+        "人権・司法/表現の自由"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00473",
+      "main_theme": "防災/豪雨・線状降水帯",
+      "related_themes": [
+        "科学/気象"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00474",
+      "main_theme": "健康・医療/診療報酬・医療制度",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00475",
+      "main_theme": "科学/核融合・エネルギー",
+      "related_themes": [
+        "環境・気候/次世代電源"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00476",
+      "main_theme": "動物・自然/クマ・野生動物の生態",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00478",
+      "main_theme": "政治/選挙制度・議員定数",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00479",
+      "main_theme": "スポーツ/競馬・女性騎手",
+      "related_themes": [
+        "ジェンダー/女性の活躍"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00480",
+      "main_theme": "AI・技術/生成AI・大規模言語モデル",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00481",
+      "main_theme": "健康・医療/救急医療・ドクターヘリ",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00482",
+      "main_theme": "福祉・人権/成年後見・意思決定支援",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00483",
+      "main_theme": "防災/事業継続計画・BCP",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00486",
+      "main_theme": "暮らし/家電・省エネ",
+      "related_themes": [
+        "環境・気候/省エネ政策"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00487",
+      "main_theme": "国際/中台関係・影響工作",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00489",
+      "main_theme": "経済/金融政策・日銀",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00490",
+      "main_theme": "国際/中東情勢・ホルムズ海峡",
+      "related_themes": [
+        "経済/海上輸送"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00492",
+      "main_theme": "政治/社会保障・税制改革",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00493",
+      "main_theme": "メディア/ニュースクイズ・参加型企画",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00495",
+      "main_theme": "歴史・文化/皇室・皇位継承",
+      "related_themes": [
+        "政治/皇室制度"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00496",
+      "main_theme": "環境・気候/排出量取引・脱炭素",
+      "related_themes": [
+        "経済/カーボンプライシング"
+      ],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00497",
+      "main_theme": "政治/安全保障・情報機関",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00498",
+      "main_theme": "国際/北極圏・グリーンランド情勢",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    },
+    {
+      "ep_id": "EP-00499",
+      "main_theme": "経済/石油化学・ナフサ供給",
+      "related_themes": [],
+      "status": "user_approved",
+      "source": "approved_classifications.json",
+      "review_note": "ユーザー承認済み",
+      "human_approved": true,
+      "approval_origin": "archived_integrated_v05",
+      "locked": true
+    }
+  ]
+}
