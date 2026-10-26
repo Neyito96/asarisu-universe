@@ -1,0 +1,24 @@
+# 航海羅針盤 1026｜原本調査と正規化第1稿
+
+## 直接確認したもの
+- asarisunowa別ブランチ `work/semantic-classification-bulk-20261023` と元バッチJSON。
+- asarisu-universeの `data/semantic-recovery/shard-00.json` ～ `shard-18.json`、監査JSONと監査日誌。
+- 2026-10-25の誤分類事故記録と修正コミット。
+- 2026-10-22の `classification-pilot-results-20261022.json` はルール補助であり、人間承認ではない。
+
+## 数値（既存全件監査の再確認）
+299バッチ、5358レコード、公開対象5848、照合待ち490。ステータス：assistant_reviewed 33、title_only 68、provisional 5257。
+
+## 誤分類原因
+表示用テーマブリッジの「文学・美術」ルールに一文字「本」が含まれ、「日本」「日本版DBS」などまで誤一致。事故記録によると明白なスポーツ18件を是正、疑わしい97件を検討中へ退避、坂本花織1件をフィギュアへ移動。ただし全件検証は未了。
+
+## 今回保存した成果
+`data/semantic-normalized-draft/shard-00.json`（441件）。原本の `main_theme` を削除・改変せず、スラッシュの前後を仮の主テーマ・小テーマに分離。元の status、reason、confidence、related_themes、_sourceを保持。キーワード推測による分類は行わない。
+
+## 未了
+- shard-01〜18の正規化は接続の呼び出し上限により未保存。
+- 人間承認約109件の所在特定、照合待ち490件、全件意味監査、統一テーマ設計。
+- ブラウザ・iPhoneの実機試験、本番統合。
+
+## 保護
+このブランチだけ変更。本番 main、図書館の元データ、GAS、RSS、Spotify、新着ロボには一切変更しない。
