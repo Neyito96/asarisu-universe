@@ -1,0 +1,118 @@
+{
+  "schema": "sport-boundary-regression-v1",
+  "date": "2026-10-27",
+  "count": 6,
+  "cohort": "Standalone sporting boundary regression, not 110 literary cohort",
+  "reviewed": [
+    {
+      "ep_id": "EP-00531",
+      "status": "SOURCE_INSUFFICIENT",
+      "proposed_main": "スポーツ",
+      "proposed_sub": "パラスポーツ",
+      "related_themes": [
+        "国際・外交/安全保障"
+      ],
+      "short_reason": "台帳Wが空欄。題名と旧分類『スポーツ/パラリンピックと国際政治』だけでは主副の確定不可。W_MISSINGは検証済",
+      "source": "production エピソード台帳 W/V read-only",
+      "confidence": null,
+      "approval_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05538",
+      "status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "スポーツ/サッカー"
+      ],
+      "short_reason": "実在サッカー競技ではなく漫画キャプテン翼の登場人物と作中技を言及する極短文",
+      "source": "production エピソード台帳 W/V read-only",
+      "confidence": 0.78,
+      "approval_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05605",
+      "status": "CONFIRMED",
+      "proposed_main": "スポーツ",
+      "proposed_sub": "フィギュアスケート",
+      "related_themes": [
+        "社会・人権/ドーピング問題"
+      ],
+      "short_reason": "北京五輪の競技とワリエワのドーピング疑惑を取材。競技とスポーツ倫理が中心",
+      "source": "production エピソード台帳 W/V read-only",
+      "confidence": 0.78,
+      "approval_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05606",
+      "status": "CONFIRMED",
+      "proposed_main": "スポーツ",
+      "proposed_sub": "パラスポーツ",
+      "related_themes": [
+        "社会・人権/障害者の暮らし"
+      ],
+      "short_reason": "パラリンピック選手のカーリング等の競技参加と人生が主題",
+      "source": "production エピソード台帳 W/V read-only",
+      "confidence": 0.78,
+      "approval_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-04988",
+      "status": "RELATED_TAG_NEEDED",
+      "proposed_main": "スポーツ",
+      "proposed_sub": "麻雀・頭脳競技",
+      "related_themes": [
+        "メディア/新聞・報道"
+      ],
+      "short_reason": "Mリーグの競技と新設された麻雀面・担当記者を併せて紹介",
+      "source": "production エピソード台帳 W/V read-only",
+      "confidence": 0.78,
+      "approval_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05598",
+      "status": "RELATED_TAG_NEEDED",
+      "proposed_main": "スポーツ",
+      "proposed_sub": "パラスポーツ",
+      "related_themes": [
+        "国際・外交/戦争・平和"
+      ],
+      "short_reason": "北京パラのノルディックスキーに参加した選手とウクライナ侵攻直後の大会状況を語る",
+      "source": "production エピソード台帳 W/V read-only",
+      "confidence": 0.78,
+      "approval_status": "LAB_NOT_APPROVED"
+    }
+  ],
+  "hoverDesign": "Treat pilot node counts as provisional; do not claim accurate published sports category counts before source-wide W audit.",
+  "provisionalNodeCounts": [
+    [
+      "サッカー",
+      38
+    ],
+    [
+      "スポーツ全般",
+      37
+    ],
+    [
+      "野球",
+      32
+    ],
+    [
+      "陸上・競技",
+      31
+    ],
+    [
+      "フィギュア・氷上",
+      29
+    ],
+    [
+      "バスケットボール",
+      22
+    ],
+    [
+      "相撲・格闘技",
+      19
+    ]
+  ],
+  "notice": "These counts are heuristic pilot display-node counts, not validated subtheme totals."
+}
