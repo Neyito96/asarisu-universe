@@ -1,0 +1,2830 @@
+{
+  "schema": "asarisu-art110-private-review-manifest-v1",
+  "created_at": "2026-10-27",
+  "scope": "LAB_PRIVATE_ONLY",
+  "count": 110,
+  "cohort_source": "data/semantic-normalized-draft/art110-cohort-provenance-20261027.json",
+  "sources": [
+    {
+      "path": "data/semantic-normalized-draft/art110-quality-batch01-complete35-20261027.json",
+      "git_blob_sha": "ba6342bb00c15819fabcaf1940c3c91923a40688"
+    },
+    {
+      "path": "data/semantic-normalized-draft/art110-quality-batch02-35-20261027.json",
+      "git_blob_sha": "185693a8a40c5884f6f0e97253602d63b580cd43"
+    },
+    {
+      "path": "data/semantic-normalized-draft/art110-quality-batch03-35-20261027.json",
+      "git_blob_sha": "c9764ac0cf033142c98401510b15da7e47270fbb"
+    },
+    {
+      "path": "data/semantic-normalized-draft/art110-quality-batch04-5-20261027.json",
+      "git_blob_sha": "897a86aed0ae3fb1ac79204b0c4a1dd31b8bc96c"
+    }
+  ],
+  "taxonomy_source_sha": "e72554af5cb27b6936dc7a60b0d5fe616e6b7aaa",
+  "quality_counts": {
+    "DISPLAY_BRIDGE_BUG_SUSPECTED": 8,
+    "REVISE_MAIN": 55,
+    "CONFIRMED": 25,
+    "RELATED_TAG_NEEDED": 20,
+    "SOURCE_INSUFFICIENT": 2
+  },
+  "review_buckets": {
+    "CODE_BUG_SUSPECTED": 8,
+    "READY_FOR_HUMAN_REVIEW": 32,
+    "TAXONOMY_CONFLICT": 68,
+    "NEEDS_SOURCE": 2
+  },
+  "warning": "Old pilot mapped as 文学・美術, not a validated literary classification; 8 bug suspects not code-reproduced; taxonomy itself unapproved.",
+  "records": [
+    {
+      "ep_id": "EP-00939",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "日本の核武装論",
+      "old_free_text_status": "provisional",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "安全保障",
+      "related_themes": [
+        "国際・外交/核軍縮"
+      ],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "核武装を条約・法律・歴史から検証。『日本』の本が文学キーワードに部分一致した疑い",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01224",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "鉄道史と近代文学",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "日本史",
+      "related_themes": [
+        "文化・芸術/文学",
+        "交通・乗り物/鉄道"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "鉄道と朝日新聞の近代史を小説『三四郎』を通じ解説。文学は関連要素",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01734",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "瀬戸内寂聴の文学と生涯",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "瀬戸内寂聴の連載と作家の表現を担当記者が回顧",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01776",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "スナオさん、かく語りき「見本のような人やった」",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "社会・人権/平和"
+      ],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "被爆者坪井直さんの生涯が主題。タイトルの『見本』は文学主題ではない",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01777",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "炭治郎と鬼舞辻が遭遇したあの街が…「鬼滅」の世界、写真庫から次々と",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "日本史",
+      "related_themes": [
+        "文化・芸術/漫画・アニメ"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "『鬼滅の刃』の舞台となった大正の街を新聞写真史料で探索。主は歴史文化",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01903",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "空也上人像と仏教美術",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "宗教・信仰",
+      "related_themes": [
+        "文化・芸術/彫刻"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "六波羅蜜寺の空也上人像など古社寺・仏像の信仰と美術を複合的に扱う",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01931",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "写真と異文化理解",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "写真",
+      "related_themes": [
+        "社会・人権/多文化理解"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "写真家が世界各地の奇妙な風景と文化を撮影した表現を語る",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01989",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "日本のQアノンと陰謀論",
+      "old_free_text_status": "provisional",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "陰謀論・偽情報",
+      "related_themes": [
+        "政治・行政/政治運動"
+      ],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "Qアノンの日本での広まりと社会的対応を検討。文学ではない",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-01995",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "沖縄返還と写真記録",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦後史",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "1972年沖縄の古写真から被写体を捜し歩みを取材。写真作品論より沖縄の歴史",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02021",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "仏像展の企画と美術取材",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "歴史・宗教/宗教・信仰"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": 0.77,
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "reason": "運慶展と阿修羅展の企画背景。仏像美術と展示に焦点",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02032",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "保育園選びが「ガチャ」になっている 日本の子育て、ここがおかしい",
+      "old_free_text_status": "provisional",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "子育て・保育",
+      "related_themes": [
+        "ジェンダー/性別役割"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "保育園の質と母親の負担。文学との関係なし",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02144",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "耳で楽しむ美術館 「芸術は爆発だ」の岡本太郎って何者？",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "岡本太郎展と美術作品解説",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02178",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "僧侶漫画家の修行",
+      "old_free_text_status": "provisional",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "related_themes": [],
+      "quality_status": "SOURCE_INSUFFICIENT",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "本番台帳のV/Wが両方空欄。題名から漫画家と推測できるが確証にしない",
+      "taxonomy_parent_exists": false,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "NEEDS_SOURCE",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02186",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "僧侶漫画家の恩師と創作",
+      "old_free_text_status": "provisional",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "related_themes": [],
+      "quality_status": "SOURCE_INSUFFICIENT",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "本番台帳V/Wが両方空欄。タイトルのみの推定を保留",
+      "taxonomy_parent_exists": false,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "NEEDS_SOURCE",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02187",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "被爆前写真のカラー化と記憶",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "広島被爆児童の生前写真のカラー化から遺族と戦争の記憶を辿る",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02199",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "狙いは小惑星、日本の「お家芸」 「はやぶさ2」生命起源に迫る①",
+      "old_free_text_status": "provisional",
+      "proposed_main": "科学",
+      "proposed_sub": "宇宙・天文",
+      "related_themes": [],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "はやぶさ2の小惑星探査とアミノ酸。『日本のお家芸』の日本が誤検出の可能性",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02215",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "インスタ映えで人気のモスクも 知られざる日本のムスリムの世界",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "宗教・信仰",
+      "related_themes": [
+        "社会・人権/多文化共生"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "イスラム教信仰と日本のムスリム社会",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02248",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "特殊装丁の書籍",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "related_themes": [
+        "メディア/ポッドキャスト"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "オイル漬けの『本』という表現を記事紹介。書籍作品論かは追加確認",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02366",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "日本の島の数え直し",
+      "old_free_text_status": "provisional",
+      "proposed_main": "科学",
+      "proposed_sub": "地理・地学",
+      "related_themes": [
+        "教育/子どもの学び"
+      ],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "日本の島の再集計という地理統計。文学誤投影疑い",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02371",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "真珠湾攻撃の写真史料",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "真珠湾攻撃の古写真と海軍大尉の記録を通して戦史を考える",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02407",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "親鸞の肖像と仏教美術",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "歴史・宗教/宗教・信仰"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "親鸞展の肖像画を美術史・信仰の両側から解説",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02409",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "レシピ本の文化史",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "料理・食",
+      "related_themes": [
+        "文化・芸術/書籍・出版",
+        "国際・外交/シリア"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "レシピ本を通じシリアの家庭料理と文化を紹介",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02531",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "78年前、沖縄でばあちゃんが受け取った手榴弾 描いた人気漫画家が伝えたいこと",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/漫画・アニメ"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "『ブルーロック』原作者の沖縄戦を描いた漫画は証言継承の手段",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02533",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "本を積むように歴史を重ねて リアルと向き合い、平和の詩が生まれた",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [
+        "歴史・宗教/戦争の記憶"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "新聞をめくろう形式の複数話題。『本を積む』というタイトルだけで文学にはしない",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02658",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "禅僧漫画と支える人々",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "歴史・宗教/仏教"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "禅僧が推薦した漫画作品の世界観を論じる",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02661",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "中秋の名月の写真撮影",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "新聞をめくろうの複数ニュースと写真・見出しの回",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02668",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "漫画『望郷太郎』と人間性",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "歴史・宗教/哲学"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "『望郷太郎』の漫画作品解釈",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02732",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "被爆写真の身元調査",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "原爆被災者の写真に写る少年の身元と戦争の記録を調査",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02745",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "絵本と自己受容",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [
+        "文化・芸術/絵本"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "月刊朝ポキの複数エピソード紹介で絵本は一項目",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02861",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "落語とアートの音声表現",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [
+        "文化・芸術/落語・美術"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "月刊朝ポキの落語・断熱・老いとアートを紹介する複合回",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02920",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "村上隆の京都美術表現",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "村上隆の作品と京都美術館個展の紹介",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-02974",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "漫画原作と映像化の問題",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "メディア倫理",
+      "related_themes": [
+        "文化・芸術/漫画・ドラマ"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "原作漫画のドラマ化と制作関係者のやり取り・調査報告の問題",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03014",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "核抑止と日本の安全保障",
+      "old_free_text_status": "provisional",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "平和・核軍縮",
+      "related_themes": [
+        "国際・外交/安全保障"
+      ],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "核兵器禁止条約と核の傘の矛盾。『日本』等で文学へ誤投影の疑い",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03113",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ツチノコ標本の調査",
+      "old_free_text_status": "provisional",
+      "proposed_main": "科学",
+      "proposed_sub": "自然・生物",
+      "related_themes": [
+        "教育/子どもの学び"
+      ],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "ツチノコ標本を扱う新聞記事の読み解きで文学が主ではない",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03136",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "太陽フレアと日本のオーロラ",
+      "old_free_text_status": "provisional",
+      "proposed_main": "科学",
+      "proposed_sub": "宇宙・天文",
+      "related_themes": [],
+      "quality_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "confidence": 0.8,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "オーロラと太陽フレアの天文学。『日本でも』などの語との部分一致疑い",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "CODE_BUG_SUSPECTED",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03143",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "履歴書に顔写真必要？",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ニュース解説",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "新聞をめくる形式で就職・独居・報道など複数議題",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03240",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "高知県立美術館の絵、贋作濃厚",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "美術館の絵画贋作問題と記事解説",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03341",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "歴史小説の影響と史実",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "司馬遼太郎の物語が歴史理解に与える影響、歴史を関連",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03356",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "大人の絵本の読み聞かせ",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ニュース解説",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "絵本は話題の一つ。貯金やビール等も紹介",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03439",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "吉田路線と戦後日本の対米依存",
+      "old_free_text_status": "provisional",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "外交・安全保障",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "吉田茂と対米依存という外交史",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03520",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "読書会と小説の解釈",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "小説『アカシアの朝』を読書会で読解",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03664",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "風刺漫画と公共圏の議論",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ニュース解説",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画家と哲学など異なる報道話題のめくろう回",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03720",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ペリリュー戦を描く漫画",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画『ペリリュー』の戦争表現を作者に取材",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03799",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "戦争時代の日本の平和",
+      "old_free_text_status": "provisional",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "外交・安全保障",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "安全保障について読者からのQ&Aを議論",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03920",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "東日本大震災の写真記録",
+      "old_free_text_status": "provisional",
+      "proposed_main": "防災",
+      "proposed_sub": "災害の記憶",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "震災直後の現場を報道写真家が伝える",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03921",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "写真を通じた被災者との再会",
+      "old_free_text_status": "provisional",
+      "proposed_main": "防災",
+      "proposed_sub": "災害の記憶",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "震災被災地の親子を報道写真から再訪",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-03930",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "海中写真による震災記録",
+      "old_free_text_status": "provisional",
+      "proposed_main": "防災",
+      "proposed_sub": "災害の記憶",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "水中取材から震災被災地の現状を伝える",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04064",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "鳥取砂丘と推理小説",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "鳥取砂丘を舞台にした推理小説の創作と土地を語る",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04183",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "Spotifyと日本のポッドキャスト市場",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "Spotifyのポッドキャスト戦略の取材",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04194",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "アート作品とインフルエンサー",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "展覧会マスコット『タラ夫』と展覧会の普及",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04202",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "漫画作品と住宅購入",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画を読んだことでマンション購入に影響した話",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04221",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "少年ジャンププラスとウェブ漫画",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "デジタル編集",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "少年ジャンプ＋のアプリ/出版流通変化",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04254",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "記者が気になる本の紹介",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "記者が影響を受けた本と読書歴を語る",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04277",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "新聞写真の選定と記者の思い",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "神戸新聞の取材写真掲載基準と編集判断",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04351",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "10代の体験を描く漫画",
+      "old_free_text_status": "provisional",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "若者支援",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "10代の悩み・被虐待を漫画化し相談につなぐ",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04382",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "漫画チ。の悪役と人間描写",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画『チ。』の作者に創作理由を聞く前編",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04383",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "漫画家魚豊の創作への情熱",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画『チ。』の作者に創作理由を聞く後編",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04443",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "1980年代関西美術の展示",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "80年代関西アートの美術館展示を振り返る",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04483",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "色と写真を使った見出し",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "新聞見出しの色や図版との連携の編集技法",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04585",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "日本の将来への楽観と自己理解",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "人生相談",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "短歌も含む複数のリスナー質問と自己肯定",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04648",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "絵本作家ショーンタンの版権代理",
+      "old_free_text_status": "provisional",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "出版・著作権",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "絵本作家の海外版権を扱う代理人への転身",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04684",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "小説と街の電器店の物語",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "人間関係",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "街の電器屋と小説が偶然つながる人間ドラマ",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04687",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "大阪メンバーのおすすめ漫画",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "メンバー推奨漫画作品を紹介する前編",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04688",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "漫画を通じた学びと感情",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "推奨漫画作品を紹介する後編",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04702",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "中高年の恋愛を描く漫画",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画『ゆりあ先生の赤い糸』と作者を紹介",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04703",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "自己犠牲と漫画の主人公",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画『ゆりあ先生の赤い糸』の創作動機",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04707",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "漫画で学ぶ性的同意",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画で性教育と同意の話題を届ける",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04767",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "新聞社採用と就活写真",
+      "old_free_text_status": "provisional",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "採用・就職",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "就活時の顔写真と服装などの採用慣行",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04815",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "絵本による自己受容",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "絵本",
+      "related_themes": [],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "大人も救う絵本文化と絵本取材",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04824",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "写真記者のキャリアと校閲志望",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "取材・報道",
+      "related_themes": [],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "新メンバー記者の採用後の取材と写真の経験",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04893",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "本屋風ウェブサイトと交流イベント",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "制作会議でウェブLPを含む多数の議題を扱う",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04897",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "小説東京都同情塔と言葉の現実",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "小説『東京都同情塔』の読後感を論じる",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04909",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "日本のプラネタリウム文化",
+      "old_free_text_status": "provisional",
+      "proposed_main": "科学",
+      "proposed_sub": "宇宙・天文",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "プラネタリウムと宇宙探査を解説",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-04931",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "小型カメラと写真取材の表情",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "取材・報道",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "小型カメラが被災地取材を変えた",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05104",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "禅僧が薦める宗像教授の漫画",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画『宗像教授世界編』の作品性を読み解く",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05105",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "禅僧が語る心の暗部と漫画",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "『一ノ瀬家の大罪』等の創作を仏教と結びつける",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05106",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "禅僧と職人漫画の細部",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画『神田ごくら町職人ばなし』の描写を評価",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05112",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ポッドキャストに救われた経験と就活写真",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "人生相談",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "履歴書の写真とAED体験という複数話題",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05142",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "新人記者の写真取材",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "音声チーム新加入者の記者経験を紹介",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05155",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "写真撮影のポージング",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "写真",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "写真撮影のポージングと人物写真の技法を解説",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05172",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "谷根千のアートとホテル建築",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "建築",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "花屋・カフェのリノベーションとホテルの現代アート",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05192",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "過疎地域とアートによる活性化",
+      "old_free_text_status": "provisional",
+      "proposed_main": "地域・暮らし",
+      "proposed_sub": "地域活性化",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "人口減少した地域の移住政策とアートを活用",
+      "taxonomy_parent_exists": false,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05247",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "トイレにさえ行けない過酷な現場も…　フォトグラファーと語る「あの写真見た？」",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "報道写真",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "フォトグラファーの取材活動と報道撮影",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05277",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ホンモノのないニセモノとは？「贋作」からアートの価値を考える　読者が選ぶ推し記事（5月分）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "贋作を巡る芸術価値と読者推奨記事の複合",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05283",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "人間国宝が集う石川　伝統工芸と現代アートが交わるボーダレスな街（プロローグ・波絵理子編②）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "石川県の若手工芸作家と現代アート",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05317",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "惨状に立ち尽くした若手記者…「シャッターを押せ」肩を叩かれた　写真が伝えるもの　日航機墜落から40年",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦後史",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "日航機墜落の被害記憶と写真記録",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05328",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "残していくのは言葉だけじゃない　「原爆×美術」いま見てほしい展覧会",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "美術記者と原爆を表現する展覧会",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05425",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "異世界転生してもいい　現実を見つめてもいい　漫画の魅力を語ります",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "漫画・映画ヒットとAIの複合ニュース",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05438",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "どうしても  あぁ  どうしても　欲しいものは写真で（編集マニア・ミラノ五輪㊦）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "五輪紙面における写真・見出し編集の技法",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05441",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "あなたは既に読んでいる！　本を「読めない」って、それホントかな",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "読書文化",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "読書の意味と空気を読む行為を議論",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05553",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "紙の本と電子書籍、あなたはどちらがお好き？",
+      "old_free_text_status": "provisional",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "多様性",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "LGBTQ書籍を集めた図書館を通じネット外の居場所を考える",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05661",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "あの写真の少女は2度逃げた　ベトナム戦争を生き延びて　ナパーム弾の少女①",
+      "old_free_text_status": "provisional",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "ナパーム弾の少女の戦争体験と生存を追う",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05668",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "高専生に「10億円」の評価　日本のジョブズが生まれるかも？（後編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "AI・技術",
+      "proposed_sub": "産業技術",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "高専生のディープラーニングを使った起業技術",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05756",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "顔写真不要のESやサウナ面接　就活も進化してるんだ",
+      "old_free_text_status": "provisional",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "採用・就職",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "顔写真不要のエントリーシートとサウナ採用",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05813",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "美術展行っていますか？　1万3000歩、トーハク開館から回ってみたら　常設展の魅力①",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "CONFIRMED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "東京国立博物館の常設展示を取材",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05831",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ひとりで出版社を立ち上げた　失敗も苦労も多いけれど、本作りって楽しい(前編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "1人出版社の経営・出版と労働を複合的に解説",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05876",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "日本の国土の6割相当が焼失　山火事の脅威、対処法はまさかの火　オーストラリア先住民に学ぶ知恵（後編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "環境・気候",
+      "proposed_sub": "山火事・森林",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "豪州山火事と先住民の野焼き管理",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05885",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "日本を二分？「町」の読みはマチかチョウか　地域により違うあれこれ",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "言葉・文化",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "町をマチ／チョウと読む地域方言・言語差",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-05945",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "消えゆく本屋、ノスタルジーに浸る前に　ローソンは地方に熱視線（後編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "新刊書店減少の経営問題と地域文化",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06005",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "万博工事の残業規制に「超法規的措置」って大丈夫ですか？　日本の働きがいはいま（前編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "労働制度",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "万博工事の長時間労働規制",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06178",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "液体街路樹ってなんだ　大気汚染の解決に、アートも一役買ってます（後編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "環境・気候",
+      "proposed_sub": "大気汚染",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "欧州等の環境汚染の防止技術。アートは対策手段",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06196",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "なんとなく緊張する？アートや美術館　「博物館浴」という考え方があるみたい",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "博物館・美術館の鑑賞が心身へ及ぼす効果",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": true,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "READY_FOR_HUMAN_REVIEW",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06219",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "本読んでる？書店行ってる？　貸し借りってコミュニケーションだったんだ",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "読書",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "読書離れを題材に国語調査や本の交換を論じる",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06221",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "メルボルンでは7万本の木にメアド？　街路樹の世界事情（後編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "環境・気候",
+      "proposed_sub": "自然保護",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "街路樹保全と市民の合意形成",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06238",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ぐりとぐら、おばけのてんぷら、ねないこ　だれだ　数々の絵本の名作、今読んでも面白い",
+      "old_free_text_status": "provisional",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "絵本",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "絵本作家や俳優の訃報を契機とした文化回顧",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06350",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "島のことば、絵本であざやかに　なぜ存続の危機にあるのか、歴史をおさらいします　消滅危機言語①",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "言語・方言",
+      "related_themes": [
+        "文化・芸術/絵本"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "小浜島の消滅危機言語を絵本で継承する企画が主",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06352",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "「くもーむに」の昔話、クラウドファンディングで絵本に　ことばを次世代へ　消滅危機言語③",
+      "old_free_text_status": "provisional",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "言語・方言",
+      "related_themes": [
+        "文化・芸術/絵本"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "クラウドファンディングで島の言葉を継承する活動",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06384",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "美術館からゴッホを盗んだ男　「オランダのルパン」の話を聞こう　なぜ、なんのために手を染めた？",
+      "old_free_text_status": "provisional",
+      "proposed_main": "法律・司法",
+      "proposed_sub": "美術品犯罪",
+      "related_themes": [
+        "文化・芸術/美術"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "ゴッホ作品を盗んだ男の犯罪取材",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06404",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ニセモノの絵でもうけた「伝説の贋作師」　の巧妙な手口　日本の美術館も被害に",
+      "old_free_text_status": "provisional",
+      "proposed_main": "法律・司法",
+      "proposed_sub": "美術品犯罪",
+      "related_themes": [
+        "文化・芸術/美術"
+      ],
+      "quality_status": "REVISE_MAIN",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "贋作師の手口と美術館被害",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    },
+    {
+      "ep_id": "EP-06543",
+      "legacy_bridge_main": "文化・暮らし",
+      "legacy_bridge_sub": "文学・美術",
+      "old_free_text_main": "ナウシカに憧れ、漫画家の道へ　森の地下にある「見えない森」をのぞいてみよう（前編）",
+      "old_free_text_status": "provisional",
+      "proposed_main": "動物・自然",
+      "proposed_sub": "森林生態系",
+      "related_themes": [
+        "文化・芸術/漫画"
+      ],
+      "quality_status": "RELATED_TAG_NEEDED",
+      "confidence": null,
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "reason": "林野庁出身の漫画家が菌根菌など見えない森を語る",
+      "taxonomy_parent_exists": true,
+      "taxonomy_child_exact_match": false,
+      "review_decision": "PENDING_HUMAN_REVIEW",
+      "review_bucket": "TAXONOMY_CONFLICT",
+      "original_file_unchanged": true
+    }
+  ]
+}
