@@ -1,0 +1,682 @@
+{
+  "schema": "art110-context-audit-v1",
+  "count": 35,
+  "records": [
+    {
+      "ep_id": "EP-03143",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ニュース解説",
+      "related_themes": [],
+      "short_reason": "新聞をめくる形式で就職・独居・報道など複数議題",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03240",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "short_reason": "美術館の絵画贋作問題と記事解説",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03341",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "short_reason": "司馬遼太郎の物語が歴史理解に与える影響、歴史を関連",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03356",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ニュース解説",
+      "related_themes": [],
+      "short_reason": "絵本は話題の一つ。貯金やビール等も紹介",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03439",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "外交・安全保障",
+      "related_themes": [],
+      "short_reason": "吉田茂と対米依存という外交史",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03520",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [],
+      "short_reason": "小説『アカシアの朝』を読書会で読解",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03664",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ニュース解説",
+      "related_themes": [],
+      "short_reason": "漫画家と哲学など異なる報道話題のめくろう回",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03720",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "漫画『ペリリュー』の戦争表現を作者に取材",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03799",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "外交・安全保障",
+      "related_themes": [],
+      "short_reason": "安全保障について読者からのQ&Aを議論",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03920",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "防災",
+      "proposed_sub": "災害の記憶",
+      "related_themes": [],
+      "short_reason": "震災直後の現場を報道写真家が伝える",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03921",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "防災",
+      "proposed_sub": "災害の記憶",
+      "related_themes": [],
+      "short_reason": "震災被災地の親子を報道写真から再訪",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-03930",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "防災",
+      "proposed_sub": "災害の記憶",
+      "related_themes": [],
+      "short_reason": "水中取材から震災被災地の現状を伝える",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04064",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "short_reason": "鳥取砂丘を舞台にした推理小説の創作と土地を語る",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04183",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [],
+      "short_reason": "Spotifyのポッドキャスト戦略の取材",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04194",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "short_reason": "展覧会マスコット『タラ夫』と展覧会の普及",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04202",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "漫画を読んだことでマンション購入に影響した話",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04221",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "デジタル編集",
+      "related_themes": [],
+      "short_reason": "少年ジャンプ＋のアプリ/出版流通変化",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04254",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "related_themes": [],
+      "short_reason": "記者が影響を受けた本と読書歴を語る",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04277",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [],
+      "short_reason": "神戸新聞の取材写真掲載基準と編集判断",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04351",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "若者支援",
+      "related_themes": [],
+      "short_reason": "10代の悩み・被虐待を漫画化し相談につなぐ",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04382",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "漫画『チ。』の作者に創作理由を聞く前編",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04383",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "漫画『チ。』の作者に創作理由を聞く後編",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04443",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [],
+      "short_reason": "80年代関西アートの美術館展示を振り返る",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04483",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [],
+      "short_reason": "新聞見出しの色や図版との連携の編集技法",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04585",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "人生相談",
+      "related_themes": [],
+      "short_reason": "短歌も含む複数のリスナー質問と自己肯定",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04648",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "出版・著作権",
+      "related_themes": [],
+      "short_reason": "絵本作家の海外版権を扱う代理人への転身",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04684",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "人間関係",
+      "related_themes": [],
+      "short_reason": "街の電器屋と小説が偶然つながる人間ドラマ",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04687",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "メンバー推奨漫画作品を紹介する前編",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04688",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "推奨漫画作品を紹介する後編",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04702",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "漫画『ゆりあ先生の赤い糸』と作者を紹介",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04703",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [],
+      "short_reason": "漫画『ゆりあ先生の赤い糸』の創作動機",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04707",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "複合主題・人手確認"
+      ],
+      "short_reason": "漫画で性教育と同意の話題を届ける",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04767",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "採用・就職",
+      "related_themes": [],
+      "short_reason": "就活時の顔写真と服装などの採用慣行",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04815",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "絵本",
+      "related_themes": [],
+      "short_reason": "大人も救う絵本文化と絵本取材",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    },
+    {
+      "ep_id": "EP-04824",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "取材・報道",
+      "related_themes": [],
+      "short_reason": "新メンバー記者の採用後の取材と写真の経験",
+      "review_status": "LAB_NOT_APPROVED",
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ]
+    }
+  ],
+  "disclaimer": "Independent LAB W/V review; no adoption"
+}
