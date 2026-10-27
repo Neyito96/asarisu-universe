@@ -1,0 +1,636 @@
+{
+  "schema": "asarisu-art110-high-confidence-review-sheets-v1",
+  "date": "2026-10-27",
+  "count": 20,
+  "selection_rule": "20 concrete contextual topic distinctions from 110 source W/V audit; no missing V/W; does not imply human approval or taxonomy finalization",
+  "review_status": "READY_FOR_HUMAN_REVIEW_PENDING",
+  "records": [
+    {
+      "ep_id": "EP-01224",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "鉄道史と近代文学",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "歴史・宗教",
+        "sub": "日本史",
+        "related": [
+          "文化・芸術/文学",
+          "交通・乗り物/鉄道"
+        ]
+      },
+      "reason": "鉄道と朝日新聞の近代史を小説『三四郎』を通じ解説。文学は関連要素",
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.77
+    },
+    {
+      "ep_id": "EP-01777",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "炭治郎と鬼舞辻が遭遇したあの街が…「鬼滅」の世界、写真庫から次々と",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "歴史・宗教",
+        "sub": "日本史",
+        "related": [
+          "文化・芸術/漫画・アニメ"
+        ]
+      },
+      "reason": "『鬼滅の刃』の舞台となった大正の街を新聞写真史料で探索。主は歴史文化",
+      "evidence_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.77
+    },
+    {
+      "ep_id": "EP-02199",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "狙いは小惑星、日本の「お家芸」 「はやぶさ2」生命起源に迫る①",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "科学",
+        "sub": "宇宙・天文",
+        "related": []
+      },
+      "reason": "はやぶさ2の小惑星探査とアミノ酸。『日本のお家芸』の日本が誤検出の可能性",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-02366",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "日本の島の数え直し",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "科学",
+        "sub": "地理・地学",
+        "related": [
+          "教育/子どもの学び"
+        ]
+      },
+      "reason": "日本の島の再集計という地理統計。文学誤投影疑い",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": false,
+        "decision": "SUBTHEME_ALIAS_OR_PARENT_REVIEW_NEEDED"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-02533",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "本を積むように歴史を重ねて リアルと向き合い、平和の詩が生まれた",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "新聞・報道",
+        "related": [
+          "歴史・宗教/戦争の記憶"
+        ]
+      },
+      "reason": "新聞をめくろう形式の複数話題。『本を積む』というタイトルだけで文学にはしない",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-02661",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "中秋の名月の写真撮影",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "新聞・報道",
+        "related": [
+          "文化・芸術/写真"
+        ]
+      },
+      "reason": "新聞をめくろうの複数ニュースと写真・見出しの回",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-02745",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "絵本と自己受容",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "ポッドキャスト",
+        "related": [
+          "文化・芸術/絵本"
+        ]
+      },
+      "reason": "月刊朝ポキの複数エピソード紹介で絵本は一項目",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-02861",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "落語とアートの音声表現",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "ポッドキャスト",
+        "related": [
+          "文化・芸術/落語・美術"
+        ]
+      },
+      "reason": "月刊朝ポキの落語・断熱・老いとアートを紹介する複合回",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-02974",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "漫画原作と映像化の問題",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "メディア倫理",
+        "related": [
+          "文化・芸術/漫画・ドラマ"
+        ]
+      },
+      "reason": "原作漫画のドラマ化と制作関係者のやり取り・調査報告の問題",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-03136",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "太陽フレアと日本のオーロラ",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "科学",
+        "sub": "宇宙・天文",
+        "related": []
+      },
+      "reason": "オーロラと太陽フレアの天文学。『日本でも』などの語との部分一致疑い",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": 0.8
+    },
+    {
+      "ep_id": "EP-03439",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "吉田路線と戦後日本の対米依存",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "政治・行政",
+        "sub": "外交・安全保障",
+        "related": []
+      },
+      "reason": "吉田茂と対米依存という外交史",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": false,
+        "decision": "SUBTHEME_ALIAS_OR_PARENT_REVIEW_NEEDED"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-04183",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "Spotifyと日本のポッドキャスト市場",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "ポッドキャスト",
+        "related": []
+      },
+      "reason": "Spotifyのポッドキャスト戦略の取材",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-04221",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "少年ジャンププラスとウェブ漫画",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "デジタル編集",
+        "related": []
+      },
+      "reason": "少年ジャンプ＋のアプリ/出版流通変化",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": false,
+        "decision": "SUBTHEME_ALIAS_OR_PARENT_REVIEW_NEEDED"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-04277",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "新聞写真の選定と記者の思い",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "新聞・報道",
+        "related": []
+      },
+      "reason": "神戸新聞の取材写真掲載基準と編集判断",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-04483",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "色と写真を使った見出し",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "新聞・報道",
+        "related": []
+      },
+      "reason": "新聞見出しの色や図版との連携の編集技法",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-04893",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "本屋風ウェブサイトと交流イベント",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "ポッドキャスト",
+        "related": [
+          "関連タグ人手精査待ち"
+        ]
+      },
+      "reason": "制作会議でウェブLPを含む多数の議題を扱う",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-04909",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "日本のプラネタリウム文化",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "科学",
+        "sub": "宇宙・天文",
+        "related": [
+          "関連タグ人手精査待ち"
+        ]
+      },
+      "reason": "プラネタリウムと宇宙探査を解説",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-05438",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "どうしても  あぁ  どうしても　欲しいものは写真で（編集マニア・ミラノ五輪㊦）",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "メディア",
+        "sub": "新聞・報道",
+        "related": [
+          "関連タグ人手精査待ち"
+        ]
+      },
+      "reason": "五輪紙面における写真・見出し編集の技法",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": true,
+        "decision": "EXACT_CANDIDATE_MATCH"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-06005",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "万博工事の残業規制に「超法規的措置」って大丈夫ですか？　日本の働きがいはいま（前編）",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "仕事・労働",
+        "sub": "労働制度",
+        "related": [
+          "関連タグ人手精査待ち"
+        ]
+      },
+      "reason": "万博工事の長時間労働規制",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": false,
+        "decision": "SUBTHEME_ALIAS_OR_PARENT_REVIEW_NEEDED"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    },
+    {
+      "ep_id": "EP-06384",
+      "before": {
+        "display_main": "文化・暮らし",
+        "display_sub": "文学・美術",
+        "original_free_text": "美術館からゴッホを盗んだ男　「オランダのルパン」の話を聞こう　なぜ、なんのために手を染めた？",
+        "original_status": "provisional"
+      },
+      "after_proposal": {
+        "main": "法律・司法",
+        "sub": "美術品犯罪",
+        "related": [
+          "文化・芸術/美術"
+        ]
+      },
+      "reason": "ゴッホ作品を盗んだ男の犯罪取材",
+      "evidence_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "source_audit_status": "REVISE_MAIN",
+      "taxonomy": {
+        "parent_exists": true,
+        "sub_exact": false,
+        "decision": "SUBTHEME_ALIAS_OR_PARENT_REVIEW_NEEDED"
+      },
+      "human_review": "PENDING",
+      "not_approved": true,
+      "confidence": null
+    }
+  ]
+}
