@@ -1,0 +1,176 @@
+{
+  "schema": "asapoki-quality-sample-v1",
+  "date": "2026-10-27",
+  "mode": "LAB_READ_ONLY",
+  "count": 18,
+  "records": [
+    {
+      "ep_id": "EP-05036",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "東京一極集中と人口移動・出生率が主題。修正済みの社会・人権判断と概要が整合",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-05031",
+      "comparison_status": "SOURCE_CONFLICT",
+      "short_reason": "現提案は文化・芸術/音楽だがWは『推し記事』紹介企画の一回で吹奏楽が題材。主題と媒体軸の二重性あり要再検討",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-04888",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "見出しのユーモアを扱う制作・編集技法。スポーツや科学への表層語一致を避ける",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-05002",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "新海誠映画の背景美術・作家性を検討",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-05049",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "天気の子の表現批評。気候変動が言及されても映画主題",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-05550",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "新聞社の将来とデジタル編集業務",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-05605",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "五輪選手のドーピング問題を取材した競技現場の話",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-05606",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "パラリンピック選手の競技人生が中心",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06159",
+      "comparison_status": "SOURCE_CONFLICT",
+      "short_reason": "避難者の就労と心理的影響に焦点。社会・人権/移民単独でなく戦争・国際と健康の関連タグ確認要",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06162",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "災害時の美術品・文化財保全。文化・芸術と防災の双方必要",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06249",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "特殊詐欺・なりすまし被害の防止",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06250",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "加害者家族への非難と実名報道倫理",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06261",
+      "comparison_status": "SOURCE_CONFLICT",
+      "short_reason": "核廃絶と原爆投下の正当化の問題。現AIの社会・人権ラベルと政治・行政・国際の境界を再検討",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06264",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "望まない妊娠・避妊方法へのアクセスというジェンダー問題",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06267",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "男性育休と産後の心理状態、家庭での分担",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06592",
+      "comparison_status": "SOURCE_CONFLICT",
+      "short_reason": "新25件のAI・技術/情報セキュリティは過度に狭い。WはAIによる労働自動化・暴走と将来社会。技術・仕事を関連づける要再推定",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-06623",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "国際首脳会談と首相外交についての時事レビュー",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    },
+    {
+      "ep_id": "EP-05549",
+      "comparison_status": "CONFIRMED_BY_W",
+      "short_reason": "データ分析と電子媒体の編集戦略",
+      "evidence_source": "production episode ledger W/V read-only",
+      "description_hash": null,
+      "evidence_sha": null,
+      "approved": false
+    }
+  ],
+  "method": "Checked bounded A:W rows of the production ledger, compared contextual W text with existing candidate title and thematic intent; no original AI record changed",
+  "caveat": "Sample verification is an interpretive screening not a measured correctness rate. Official HTTP not rechecked. The remaining 188 of 206 were not sampled in this file.",
+  "summary": {
+    "contextually_consistent": 14,
+    "requires_review": 4
+  }
+}
