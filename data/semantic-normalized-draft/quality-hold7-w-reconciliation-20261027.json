@@ -1,0 +1,176 @@
+{
+  "schema": "asapoki-semantic-quality-hold7-v1",
+  "date": "2026-10-27",
+  "mode": "LAB_READ_ONLY",
+  "source": "production episode ledger (Google Sheets) columns A-D,G,J,V,W, read-only",
+  "spreadsheet_id": "1lLgLzgDNkLN_8ok967u9lu9i1S3yRJTMibXFO5-2FG4",
+  "rows": [
+    {
+      "ep_id": "EP-03911",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "proposed_main": "防災",
+      "proposed_sub": "地震",
+      "short_reason": "東日本大震災で津波に息子を奪われた母が週刊少年ジャンプを買い続ける追悼の話。メディア制作の話ではない",
+      "evidence_fields": [
+        "ledger_title",
+        "ledger_V_original",
+        "ledger_W_cleaned",
+        "ledger_guid",
+        "official_url_ledger_value"
+      ],
+      "evidence_source": "production ledger W+V read at 2026-10-27 JST",
+      "evidence_sha": null,
+      "description_hash": null,
+      "confidence": 0.65,
+      "approval_status": "LAB_NOT_APPROVED",
+      "original_status": "HOLD",
+      "original_rewritten": false,
+      "notes": "W and V contain topic"
+    },
+    {
+      "ep_id": "EP-05538",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "proposed_main": "スポーツ",
+      "proposed_sub": "サッカー",
+      "short_reason": "立花兄弟・次藤洋・スカイラブツインシュートの言及はサッカー漫画『キャプテン翼』の文脈。文化作品とスポーツの境界、原文は短い",
+      "evidence_fields": [
+        "ledger_title",
+        "ledger_V_original",
+        "ledger_W_cleaned",
+        "ledger_guid",
+        "official_url_ledger_value"
+      ],
+      "evidence_source": "production ledger W+V read at 2026-10-27 JST",
+      "evidence_sha": null,
+      "description_hash": null,
+      "confidence": 0.65,
+      "approval_status": "LAB_NOT_APPROVED",
+      "original_status": "HOLD",
+      "original_rewritten": false,
+      "notes": "W has soccer manga character clue; review cross-theme"
+    },
+    {
+      "ep_id": "EP-05545",
+      "comparison_status": "HOLD",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "short_reason": "Wは歌詞を思わせる一言のみ。具体的な作品・曲・人物の同定に確信が持てない",
+      "evidence_fields": [
+        "ledger_title",
+        "ledger_V_original",
+        "ledger_W_cleaned",
+        "ledger_guid",
+        "official_url_ledger_value"
+      ],
+      "evidence_source": "production ledger W+V read at 2026-10-27 JST",
+      "evidence_sha": null,
+      "description_hash": null,
+      "confidence": null,
+      "approval_status": "LAB_NOT_APPROVED",
+      "original_status": "HOLD",
+      "original_rewritten": false,
+      "notes": "W is short teaser"
+    },
+    {
+      "ep_id": "EP-06598",
+      "comparison_status": "HOLD",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "short_reason": "Wの実質本文は『最近、ベッドにぬいぐるみもいますしね。』のみで番組主題が断定できない",
+      "evidence_fields": [
+        "ledger_title",
+        "ledger_V_original",
+        "ledger_W_cleaned",
+        "ledger_guid",
+        "official_url_ledger_value"
+      ],
+      "evidence_source": "production ledger W+V read at 2026-10-27 JST",
+      "evidence_sha": null,
+      "description_hash": null,
+      "confidence": null,
+      "approval_status": "LAB_NOT_APPROVED",
+      "original_status": "HOLD",
+      "original_rewritten": false,
+      "notes": "W mainly promotional boilerplate"
+    },
+    {
+      "ep_id": "EP-06602",
+      "comparison_status": "HOLD",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "short_reason": "Wに呼称・流行語・キャンピングカーの異なる3主題があり、単一のメインテーマ選定に明確な根拠不足。メディア／新聞を関連候補として再確認",
+      "evidence_fields": [
+        "ledger_title",
+        "ledger_V_original",
+        "ledger_W_cleaned",
+        "ledger_guid",
+        "official_url_ledger_value"
+      ],
+      "evidence_source": "production ledger W+V read at 2026-10-27 JST",
+      "evidence_sha": null,
+      "description_hash": null,
+      "confidence": null,
+      "approval_status": "LAB_NOT_APPROVED",
+      "original_status": "HOLD",
+      "original_rewritten": false,
+      "notes": "W has three unrelated subjects"
+    },
+    {
+      "ep_id": "EP-06624",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "家族・地域",
+      "short_reason": "Wは近藤康太郎によるリスナーのお悩み相談と回答を中心に記載。田んぼや音楽関連記事ではなく相談企画",
+      "evidence_fields": [
+        "ledger_title",
+        "ledger_V_original",
+        "ledger_W_cleaned",
+        "ledger_guid",
+        "official_url_ledger_value"
+      ],
+      "evidence_source": "production ledger W+V read at 2026-10-27 JST",
+      "evidence_sha": null,
+      "description_hash": null,
+      "confidence": 0.65,
+      "approval_status": "LAB_NOT_APPROVED",
+      "original_status": "HOLD",
+      "original_rewritten": false,
+      "notes": "W clarifies episode is listener advice"
+    },
+    {
+      "ep_id": "EP-06626",
+      "comparison_status": "HOLD",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "short_reason": "Wの実質本文は『夢見がちなお年頃なのかしらん。』のみで悪夢の対象や実際の談話内容が確認できない",
+      "evidence_fields": [
+        "ledger_title",
+        "ledger_V_original",
+        "ledger_W_cleaned",
+        "ledger_guid",
+        "official_url_ledger_value"
+      ],
+      "evidence_source": "production ledger W+V read at 2026-10-27 JST",
+      "evidence_sha": null,
+      "description_hash": null,
+      "confidence": null,
+      "approval_status": "LAB_NOT_APPROVED",
+      "original_status": "HOLD",
+      "original_rewritten": false,
+      "notes": "W mainly promotional boilerplate"
+    }
+  ],
+  "summary": {
+    "total": 7,
+    "revised_ai_proposal": 3,
+    "remain_hold": 4,
+    "confirmed_by_W": 0,
+    "missing_W": 0
+  },
+  "limitations": [
+    "W/V were obtained directly but official individual episode URL HTTP checks were not performed",
+    "No raw V/W text is copied to GitHub",
+    "No SHA256 hash computed; evidence_sha and description_hash left null rather than fabricated",
+    "Original AI proposals and human approved 109 remain unchanged"
+  ]
+}
