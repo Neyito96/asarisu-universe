@@ -1,0 +1,210 @@
+{
+  "schema": "asapoki-art-110-quality-batch-v1",
+  "cohort": "display_bridge_minor_literature_110",
+  "batch": 1,
+  "batch_reviewed": 10,
+  "batch_planned": 35,
+  "review_scope": "first ten W reads completed; other 25 of initial 35 not yet examined",
+  "source_spreadsheet": "production episode ledger",
+  "records": [
+    {
+      "ep_id": "EP-00939",
+      "comparison_status": "DISPLAY_BRIDGE_BUG",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "安全保障",
+      "related_themes": [
+        "国際・外交/核軍縮"
+      ],
+      "short_reason": "核武装を条約・法律・歴史から検証。『日本』の本が文学キーワードに部分一致した疑い",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01224",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "日本史",
+      "related_themes": [
+        "文化・芸術/文学",
+        "交通・乗り物/鉄道"
+      ],
+      "short_reason": "鉄道と朝日新聞の近代史を小説『三四郎』を通じ解説。文学は関連要素",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01734",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [],
+      "short_reason": "瀬戸内寂聴の連載と作家の表現を担当記者が回顧",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01776",
+      "comparison_status": "DISPLAY_BRIDGE_BUG",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "社会・人権/平和"
+      ],
+      "short_reason": "被爆者坪井直さんの生涯が主題。タイトルの『見本』は文学主題ではない",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01777",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "日本史",
+      "related_themes": [
+        "文化・芸術/漫画・アニメ"
+      ],
+      "short_reason": "『鬼滅の刃』の舞台となった大正の街を新聞写真史料で探索。主は歴史文化",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01903",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "宗教・信仰",
+      "related_themes": [
+        "文化・芸術/彫刻"
+      ],
+      "short_reason": "六波羅蜜寺の空也上人像など古社寺・仏像の信仰と美術を複合的に扱う",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01931",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "写真",
+      "related_themes": [
+        "社会・人権/多文化理解"
+      ],
+      "short_reason": "写真家が世界各地の奇妙な風景と文化を撮影した表現を語る",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01989",
+      "comparison_status": "DISPLAY_BRIDGE_BUG",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "陰謀論・偽情報",
+      "related_themes": [
+        "政治・行政/政治運動"
+      ],
+      "short_reason": "Qアノンの日本での広まりと社会的対応を検討。文学ではない",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01995",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦後史",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "short_reason": "1972年沖縄の古写真から被写体を捜し歩みを取材。写真作品論より沖縄の歴史",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02021",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "歴史・宗教/宗教・信仰"
+      ],
+      "short_reason": "運慶展と阿修羅展の企画背景。仏像美術と展示に焦点",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    }
+  ]
+}
