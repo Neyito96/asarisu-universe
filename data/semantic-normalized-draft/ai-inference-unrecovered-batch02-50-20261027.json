@@ -1235,11 +1235,13 @@
       "title": "ブラックホール東京、若者を吸い込む　「8がけ社会」を語ろう⑩ #50-368",
       "show": "MEDIA TALK",
       "published_at": "2024-09-04T04:00:00+09:00",
-      "main_theme": "文化・芸術",
-      "subtheme": "映画・演劇",
-      "related_themes": [],
-      "confidence": 0.76,
-      "short_reason": "映像と作品批評に関する番組内容",
+      "main_theme": "社会・人権",
+      "subtheme": "社会保障",
+      "related_themes": [
+        "経済・金融/地域経済"
+      ],
+      "confidence": 0.85,
+      "short_reason": "若者の東京一極集中、地方の人口減少や労働力不足を論じる",
       "evidence_fields": [
         "title",
         "show",
@@ -1255,5 +1257,9 @@
       "publication_scope": "BASELINE_5848",
       "review_required": true
     }
+  ],
+  "quality_notes": [
+    "EP-05036 was initially incorrect in this batch; corrected through independent source title/description reread.",
+    "All records remain AI_PROPOSED; no human approval claimed."
   ]
 }
