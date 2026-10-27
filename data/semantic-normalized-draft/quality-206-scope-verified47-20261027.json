@@ -1,0 +1,353 @@
+{
+  "schema": "quality-206-issues-scope-split-v1",
+  "date": "2026-10-27",
+  "population_size": 206,
+  "issue_total": 47,
+  "issue_in_population": 47,
+  "issue_out_population": 0,
+  "issue_out_ep_ids": [],
+  "duplicate_review_ep_ids": [
+    "EP-03911",
+    "EP-05538",
+    "EP-06624",
+    "EP-05031",
+    "EP-06159",
+    "EP-06261",
+    "EP-06592"
+  ],
+  "conflicting_proposal_ids": [
+    "EP-05538"
+  ],
+  "issues": [
+    {
+      "ep_id": "EP-03911",
+      "review_pending": true,
+      "revisions": 2,
+      "latest_source": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05538",
+      "review_pending": true,
+      "revisions": 2,
+      "latest_source": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "has_revision_conflict": true
+    },
+    {
+      "ep_id": "EP-05545",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06598",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06602",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06624",
+      "review_pending": true,
+      "revisions": 2,
+      "latest_source": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06626",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05031",
+      "review_pending": true,
+      "revisions": 2,
+      "latest_source": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06159",
+      "review_pending": true,
+      "revisions": 2,
+      "latest_source": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06261",
+      "review_pending": true,
+      "revisions": 2,
+      "latest_source": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06592",
+      "review_pending": true,
+      "revisions": 2,
+      "latest_source": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04838",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04839",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04853",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04861",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04862",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04865",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04870",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04876",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04977",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04978",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04979",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04984",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-04988",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05000",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05022",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05034",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05526",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05539",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05541",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05546",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05597",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05598",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-05603",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06145",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06150",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06161",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06248",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06253",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06259",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06260",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06605",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06612",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06616",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06617",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06619",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    },
+    {
+      "ep_id": "EP-06625",
+      "review_pending": true,
+      "revisions": 1,
+      "latest_source": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "has_revision_conflict": false
+    }
+  ],
+  "note": "No approvals or source modifications; 47 entries all within 206."
+}
