@@ -6,25 +6,20 @@
   "source_note": "Public search descriptions; repeated boilerplate detected; HOLD retained where uncertain; not W verification",
   "records": [
     {
-      "ep_id": "EP-05036",
-      "title": "ブラックホール東京、若者を吸い込む　「8がけ社会」を語ろう⑩ #50-368",
-      "show": "MEDIA TALK",
-      "published_at": "2024-09-04T04:00:00+09:00",
-      "main_theme": "メディア",
-      "subtheme": "新聞・報道",
+      "ep_id": "EP-03911",
+      "title": null,
+      "show": null,
+      "published_at": null,
+      "main_theme": null,
+      "subtheme": null,
       "related_themes": [],
-      "confidence": 0.76,
-      "short_reason": "新聞見出しの技巧と媒体制作を解説",
-      "evidence_fields": [
-        "title",
-        "show",
-        "date",
-        "public_search_keywords_description"
-      ],
-      "description_revision_or_hash": "github_blob_sha:88498d3fd9cedb76557c55c66538ad5edbc63e10",
-      "evidence_source_path": "Neyito96/asarisunowa/public/library/data/search/show-4-5.json",
+      "confidence": 0,
+      "short_reason": "旧181件IDであることは確認したが今回参照した公開検索JSONから該当するタイトル・概要を特定できず、AI主題推定は保留",
+      "evidence_fields": [],
+      "description_revision_or_hash": null,
+      "evidence_source_path": null,
       "provenance": "new_ai_inference",
-      "status": "AI_PROPOSED",
+      "status": "HOLD",
       "legacy_recovery_status": "UNRECOVERED",
       "taxonomy_version": "PROPOSED_20261026",
       "publication_scope": "BASELINE_5848",
@@ -1255,5 +1250,6 @@
       "publication_scope": "BASELINE_5848",
       "review_required": true
     }
-  ]
+  ],
+  "note": "Corrected overlap: EP-05036 is batch02; EP-03911 remains HOLD for missing source metadata. Other 49 records original topic judgments retained."
 }
