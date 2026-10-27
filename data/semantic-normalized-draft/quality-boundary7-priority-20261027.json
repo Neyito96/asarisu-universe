@@ -1,0 +1,132 @@
+{
+  "schema": "asapoki-quality-boundary-seven-v1",
+  "date": "2026-10-27",
+  "count": 7,
+  "source": "本番エピソード台帳 V/W 7行 READ_ONLY",
+  "notes": "New thematic hierarchy suggestions. Original AI and human records unchanged. Some suggested subthemes are not among confirmed dictionary terms.",
+  "records": [
+    {
+      "ep_id": "EP-03911",
+      "old_main": "previous HOLD proposal",
+      "proposed_main": "防災",
+      "proposed_sub": "災害の記憶・追悼",
+      "related_themes": [
+        "社会・人権/遺族・家族"
+      ],
+      "short_reason": "東日本大震災で息子を亡くした母親による記憶と弔いが中心で、避難手順や地震のメカニズムは扱わない。既存の『防災/地震』は上位の暫定分類として残し、追悼を主題とする小テーマを新候補として審議",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "approval_status": "LAB_NOT_APPROVED",
+      "evidence_source": "production ledger V/W verified by EP-ID READ_ONLY",
+      "description_hash": null,
+      "evidence_sha": null,
+      "taxonomy_version": "PROPOSED_20261026",
+      "classification_record_unchanged": true
+    },
+    {
+      "ep_id": "EP-05538",
+      "old_main": "previous HOLD proposal",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "スポーツ/サッカー"
+      ],
+      "short_reason": "Wはサッカー漫画の立花兄弟・次藤洋と架空の必殺技への言及。競技実戦の取材ではなく、作品言及を主、サッカーを関連とする案。本文が短く最終判断保留",
+      "comparison_status": "SOURCE_CONFLICT",
+      "approval_status": "LAB_NOT_APPROVED",
+      "evidence_source": "production ledger V/W verified by EP-ID READ_ONLY",
+      "description_hash": null,
+      "evidence_sha": null,
+      "taxonomy_version": "PROPOSED_20261026",
+      "classification_record_unchanged": true
+    },
+    {
+      "ep_id": "EP-06624",
+      "old_main": "previous HOLD proposal",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "人間関係・人生相談",
+      "related_themes": [
+        "メディア/ポッドキャスト"
+      ],
+      "short_reason": "近藤康太郎によるリスナーの相談への回答が本題。前回の小テーマ『家族・地域』より人生相談に適合。相談の中身は詳細未記載",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "approval_status": "LAB_NOT_APPROVED",
+      "evidence_source": "production ledger V/W verified by EP-ID READ_ONLY",
+      "description_hash": null,
+      "evidence_sha": null,
+      "taxonomy_version": "PROPOSED_20261026",
+      "classification_record_unchanged": true
+    },
+    {
+      "ep_id": "EP-05031",
+      "old_main": "文化・芸術/音楽",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [
+        "文化・芸術/音楽"
+      ],
+      "short_reason": "音楽自体ではなく読者選定記事を紹介する企画で、吹奏楽部の取材はその具体例",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "approval_status": "LAB_NOT_APPROVED",
+      "evidence_source": "production ledger V/W verified by EP-ID READ_ONLY",
+      "description_hash": null,
+      "evidence_sha": null,
+      "taxonomy_version": "PROPOSED_20261026",
+      "classification_record_unchanged": true
+    },
+    {
+      "ep_id": "EP-06159",
+      "old_main": "社会・人権/移民",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "難民・避難者支援",
+      "related_themes": [
+        "国際・外交/戦争・平和",
+        "健康・医療/心身の健康",
+        "仕事・労働/雇用"
+      ],
+      "short_reason": "日本へ避難したウクライナ人の就労障壁と心身への戦争の影響を扱う。避難者の生活実態を主に、戦争・健康・仕事を関連として保持",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "approval_status": "LAB_NOT_APPROVED",
+      "evidence_source": "production ledger V/W verified by EP-ID READ_ONLY",
+      "description_hash": null,
+      "evidence_sha": null,
+      "taxonomy_version": "PROPOSED_20261026",
+      "classification_record_unchanged": true
+    },
+    {
+      "ep_id": "EP-06261",
+      "old_main": "社会・人権/市民社会",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "平和・核軍縮",
+      "related_themes": [
+        "国際・外交/安全保障",
+        "歴史・宗教/戦争の記憶"
+      ],
+      "short_reason": "ノーベル賞を契機に核廃絶、米国による原爆投下の正当化、ロシアの核威嚇を論じる。一般市民社会より軍縮・外交政策が核心",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "approval_status": "LAB_NOT_APPROVED",
+      "evidence_source": "production ledger V/W verified by EP-ID READ_ONLY",
+      "description_hash": null,
+      "evidence_sha": null,
+      "taxonomy_version": "PROPOSED_20261026",
+      "classification_record_unchanged": true
+    },
+    {
+      "ep_id": "EP-06592",
+      "old_main": "AI・技術/情報セキュリティ",
+      "proposed_main": "AI・技術",
+      "proposed_sub": "AIの社会的影響",
+      "related_themes": [
+        "仕事・労働/働き方",
+        "AI・技術/情報セキュリティ"
+      ],
+      "short_reason": "AIによる一人会社・労働の自動化と制御不能リスクを扱う。不正アクセスの見出しだけに依拠しセキュリティ単独へ限定しない",
+      "comparison_status": "REVISED_AI_PROPOSAL",
+      "approval_status": "LAB_NOT_APPROVED",
+      "evidence_source": "production ledger V/W verified by EP-ID READ_ONLY",
+      "description_hash": null,
+      "evidence_sha": null,
+      "taxonomy_version": "PROPOSED_20261026",
+      "classification_record_unchanged": true
+    }
+  ]
+}
