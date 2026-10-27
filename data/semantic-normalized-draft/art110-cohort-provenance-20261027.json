@@ -1,0 +1,907 @@
+{
+  "schema": "asapoki-art110-cohort-v1",
+  "date": "2026-10-27",
+  "origin": "Theme bridge display category 文学・美術; not a verified original classification",
+  "source_path": "data/semantic-recovery/theme-bridge-pilot.json",
+  "source_blob_sha": "dd7a26acdd884dc33eca9c429a107b0a11232a69",
+  "sourceQueue": "data/semantic-normalized-draft/lab-risk-review-20261027.json",
+  "sourceQueueBlobSha": "8bc594a40c0629a3de83892a6d0b6d22da73a312",
+  "exact_rule": "episodes[i][2] === '文学・美術'",
+  "selectionCount": 110,
+  "uniqueCount": 110,
+  "riskQueueMatches": true,
+  "humanApprovedOverlap": [],
+  "review_bundles": [
+    [
+      "EP-00939",
+      "EP-01224",
+      "EP-01734",
+      "EP-01776",
+      "EP-01777",
+      "EP-01903",
+      "EP-01931",
+      "EP-01989",
+      "EP-01995",
+      "EP-02021",
+      "EP-02032",
+      "EP-02144",
+      "EP-02178",
+      "EP-02186",
+      "EP-02187",
+      "EP-02199",
+      "EP-02215",
+      "EP-02248",
+      "EP-02366",
+      "EP-02371",
+      "EP-02407",
+      "EP-02409",
+      "EP-02531",
+      "EP-02533",
+      "EP-02658",
+      "EP-02661",
+      "EP-02668",
+      "EP-02732",
+      "EP-02745",
+      "EP-02861",
+      "EP-02920",
+      "EP-02974",
+      "EP-03014",
+      "EP-03113",
+      "EP-03136"
+    ],
+    [
+      "EP-03143",
+      "EP-03240",
+      "EP-03341",
+      "EP-03356",
+      "EP-03439",
+      "EP-03520",
+      "EP-03664",
+      "EP-03720",
+      "EP-03799",
+      "EP-03920",
+      "EP-03921",
+      "EP-03930",
+      "EP-04064",
+      "EP-04183",
+      "EP-04194",
+      "EP-04202",
+      "EP-04221",
+      "EP-04254",
+      "EP-04277",
+      "EP-04351",
+      "EP-04382",
+      "EP-04383",
+      "EP-04443",
+      "EP-04483",
+      "EP-04585",
+      "EP-04648",
+      "EP-04684",
+      "EP-04687",
+      "EP-04688",
+      "EP-04702",
+      "EP-04703",
+      "EP-04707",
+      "EP-04767",
+      "EP-04815",
+      "EP-04824"
+    ],
+    [
+      "EP-04893",
+      "EP-04897",
+      "EP-04909",
+      "EP-04931",
+      "EP-05104",
+      "EP-05105",
+      "EP-05106",
+      "EP-05112",
+      "EP-05142",
+      "EP-05155",
+      "EP-05172",
+      "EP-05192",
+      "EP-05247",
+      "EP-05277",
+      "EP-05283",
+      "EP-05317",
+      "EP-05328",
+      "EP-05425",
+      "EP-05438",
+      "EP-05441",
+      "EP-05553",
+      "EP-05661",
+      "EP-05668",
+      "EP-05756",
+      "EP-05813",
+      "EP-05831",
+      "EP-05876",
+      "EP-05885",
+      "EP-05945",
+      "EP-06005",
+      "EP-06178",
+      "EP-06196",
+      "EP-06219",
+      "EP-06221",
+      "EP-06238"
+    ],
+    [
+      "EP-06350",
+      "EP-06352",
+      "EP-06384",
+      "EP-06404",
+      "EP-06543"
+    ]
+  ],
+  "id_provenance": [
+    {
+      "ep_id": "EP-00939",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "日本の核武装論",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01224",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "鉄道史と近代文学",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01734",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "瀬戸内寂聴の文学と生涯",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01776",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "スナオさん、かく語りき「見本のような人やった」",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01777",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "炭治郎と鬼舞辻が遭遇したあの街が…「鬼滅」の世界、写真庫から次々と",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01903",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "空也上人像と仏教美術",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01931",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "写真と異文化理解",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01989",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "日本のQアノンと陰謀論",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-01995",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "沖縄返還と写真記録",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02021",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "仏像展の企画と美術取材",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02032",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "保育園選びが「ガチャ」になっている 日本の子育て、ここがおかしい",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02144",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "耳で楽しむ美術館 「芸術は爆発だ」の岡本太郎って何者？",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02178",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "僧侶漫画家の修行",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02186",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "僧侶漫画家の恩師と創作",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02187",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "被爆前写真のカラー化と記憶",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02199",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "狙いは小惑星、日本の「お家芸」 「はやぶさ2」生命起源に迫る①",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02215",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "インスタ映えで人気のモスクも 知られざる日本のムスリムの世界",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02248",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "特殊装丁の書籍",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02366",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "日本の島の数え直し",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02371",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "真珠湾攻撃の写真史料",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02407",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "親鸞の肖像と仏教美術",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02409",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "レシピ本の文化史",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02531",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "78年前、沖縄でばあちゃんが受け取った手榴弾 描いた人気漫画家が伝えたいこと",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02533",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "本を積むように歴史を重ねて リアルと向き合い、平和の詩が生まれた",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02658",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "禅僧漫画と支える人々",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02661",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "中秋の名月の写真撮影",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02668",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "漫画『望郷太郎』と人間性",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02732",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "被爆写真の身元調査",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02745",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "絵本と自己受容",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02861",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "落語とアートの音声表現",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02920",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "村上隆の京都美術表現",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-02974",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "漫画原作と映像化の問題",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03014",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "核抑止と日本の安全保障",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03113",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ツチノコ標本の調査",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03136",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "太陽フレアと日本のオーロラ",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03143",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "履歴書に顔写真必要？",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03240",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "高知県立美術館の絵、贋作濃厚",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03341",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "歴史小説の影響と史実",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03356",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "大人の絵本の読み聞かせ",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03439",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "吉田路線と戦後日本の対米依存",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03520",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "読書会と小説の解釈",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03664",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "風刺漫画と公共圏の議論",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03720",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ペリリュー戦を描く漫画",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03799",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "戦争時代の日本の平和",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03920",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "東日本大震災の写真記録",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03921",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "写真を通じた被災者との再会",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-03930",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "海中写真による震災記録",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04064",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "鳥取砂丘と推理小説",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04183",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "Spotifyと日本のポッドキャスト市場",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04194",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "アート作品とインフルエンサー",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04202",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "漫画作品と住宅購入",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04221",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "少年ジャンププラスとウェブ漫画",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04254",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "記者が気になる本の紹介",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04277",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "新聞写真の選定と記者の思い",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04351",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "10代の体験を描く漫画",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04382",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "漫画チ。の悪役と人間描写",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04383",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "漫画家魚豊の創作への情熱",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04443",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "1980年代関西美術の展示",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04483",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "色と写真を使った見出し",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04585",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "日本の将来への楽観と自己理解",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04648",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "絵本作家ショーンタンの版権代理",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04684",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "小説と街の電器店の物語",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04687",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "大阪メンバーのおすすめ漫画",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04688",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "漫画を通じた学びと感情",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04702",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "中高年の恋愛を描く漫画",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04703",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "自己犠牲と漫画の主人公",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04707",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "漫画で学ぶ性的同意",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04767",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "新聞社採用と就活写真",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04815",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "絵本による自己受容",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04824",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "写真記者のキャリアと校閲志望",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04893",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "本屋風ウェブサイトと交流イベント",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04897",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "小説東京都同情塔と言葉の現実",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04909",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "日本のプラネタリウム文化",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-04931",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "小型カメラと写真取材の表情",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05104",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "禅僧が薦める宗像教授の漫画",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05105",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "禅僧が語る心の暗部と漫画",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05106",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "禅僧と職人漫画の細部",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05112",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ポッドキャストに救われた経験と就活写真",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05142",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "新人記者の写真取材",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05155",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "写真撮影のポージング",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05172",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "谷根千のアートとホテル建築",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05192",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "過疎地域とアートによる活性化",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05247",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "トイレにさえ行けない過酷な現場も…　フォトグラファーと語る「あの写真見た？」",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05277",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ホンモノのないニセモノとは？「贋作」からアートの価値を考える　読者が選ぶ推し記事（5月分）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05283",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "人間国宝が集う石川　伝統工芸と現代アートが交わるボーダレスな街（プロローグ・波絵理子編②）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05317",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "惨状に立ち尽くした若手記者…「シャッターを押せ」肩を叩かれた　写真が伝えるもの　日航機墜落から40年",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05328",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "残していくのは言葉だけじゃない　「原爆×美術」いま見てほしい展覧会",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05425",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "異世界転生してもいい　現実を見つめてもいい　漫画の魅力を語ります",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05438",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "どうしても  あぁ  どうしても　欲しいものは写真で（編集マニア・ミラノ五輪㊦）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05441",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "あなたは既に読んでいる！　本を「読めない」って、それホントかな",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05553",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "紙の本と電子書籍、あなたはどちらがお好き？",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05661",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "あの写真の少女は2度逃げた　ベトナム戦争を生き延びて　ナパーム弾の少女①",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05668",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "高専生に「10億円」の評価　日本のジョブズが生まれるかも？（後編）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05756",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "顔写真不要のESやサウナ面接　就活も進化してるんだ",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05813",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "美術展行っていますか？　1万3000歩、トーハク開館から回ってみたら　常設展の魅力①",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05831",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ひとりで出版社を立ち上げた　失敗も苦労も多いけれど、本作りって楽しい(前編）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05876",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "日本の国土の6割相当が焼失　山火事の脅威、対処法はまさかの火　オーストラリア先住民に学ぶ知恵（後編）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05885",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "日本を二分？「町」の読みはマチかチョウか　地域により違うあれこれ",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-05945",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "消えゆく本屋、ノスタルジーに浸る前に　ローソンは地方に熱視線（後編）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06005",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "万博工事の残業規制に「超法規的措置」って大丈夫ですか？　日本の働きがいはいま（前編）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06178",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "液体街路樹ってなんだ　大気汚染の解決に、アートも一役買ってます（後編）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06196",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "なんとなく緊張する？アートや美術館　「博物館浴」という考え方があるみたい",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06219",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "本読んでる？書店行ってる？　貸し借りってコミュニケーションだったんだ",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06221",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "メルボルンでは7万本の木にメアド？　街路樹の世界事情（後編）",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06238",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ぐりとぐら、おばけのてんぷら、ねないこ　だれだ　数々の絵本の名作、今読んでも面白い",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06350",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "島のことば、絵本であざやかに　なぜ存続の危機にあるのか、歴史をおさらいします　消滅危機言語①",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06352",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "「くもーむに」の昔話、クラウドファンディングで絵本に　ことばを次世代へ　消滅危機言語③",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06384",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "美術館からゴッホを盗んだ男　「オランダのルパン」の話を聞こう　なぜ、なんのために手を染めた？",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06404",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ニセモノの絵でもうけた「伝説の贋作師」　の巧妙な手口　日本の美術館も被害に",
+      "original_status": "provisional"
+    },
+    {
+      "ep_id": "EP-06543",
+      "bridge_major": "文化・暮らし",
+      "bridge_sub": "文学・美術",
+      "original_main": "ナウシカに憧れ、漫画家の道へ　森の地下にある「見えない森」をのぞいてみよう（前編）",
+      "original_status": "provisional"
+    }
+  ],
+  "is_approval": false
+}
