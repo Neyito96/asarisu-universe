@@ -1,0 +1,104 @@
+{
+  "schema": "asapoki-sports-verified-vs-pilot-v1",
+  "date": "2026-10-27",
+  "scope": "Six-case contextual regression, not full 5848 sports census",
+  "pilot_display_counts": [
+    [
+      "サッカー",
+      38
+    ],
+    [
+      "スポーツ全般",
+      37
+    ],
+    [
+      "野球",
+      32
+    ],
+    [
+      "陸上・競技",
+      31
+    ],
+    [
+      "フィギュア・氷上",
+      29
+    ],
+    [
+      "バスケットボール",
+      22
+    ],
+    [
+      "相撲・格闘技",
+      19
+    ]
+  ],
+  "verified_small_sample": [
+    {
+      "category": "野球",
+      "reviewed_as_primary": 0,
+      "reviewed_related_only": 0,
+      "source_insufficient": 0,
+      "unreviewed_population_count": null
+    },
+    {
+      "category": "サッカー",
+      "reviewed_as_primary": 0,
+      "reviewed_related_only": 1,
+      "source_insufficient": 0,
+      "unreviewed_population_count": null
+    },
+    {
+      "category": "バスケットボール",
+      "reviewed_as_primary": 0,
+      "reviewed_related_only": 0,
+      "source_insufficient": 0,
+      "unreviewed_population_count": null
+    },
+    {
+      "category": "フィギュア・氷上",
+      "reviewed_as_primary": 1,
+      "reviewed_related_only": 0,
+      "source_insufficient": 0,
+      "unreviewed_population_count": null
+    },
+    {
+      "category": "相撲",
+      "reviewed_as_primary": 0,
+      "reviewed_related_only": 0,
+      "source_insufficient": 0,
+      "unreviewed_population_count": null
+    },
+    {
+      "category": "陸上",
+      "reviewed_as_primary": 0,
+      "reviewed_related_only": 0,
+      "source_insufficient": 0,
+      "unreviewed_population_count": null
+    },
+    {
+      "category": "パラスポーツ",
+      "reviewed_as_primary": 2,
+      "reviewed_related_only": 0,
+      "source_insufficient": 1,
+      "unreviewed_population_count": null
+    },
+    {
+      "category": "その他競技",
+      "reviewed_as_primary": 1,
+      "reviewed_related_only": 0,
+      "source_insufficient": 0,
+      "unreviewed_population_count": null
+    }
+  ],
+  "reviewed_ep_ids": [
+    "EP-00531",
+    "EP-05538",
+    "EP-05605",
+    "EP-05606",
+    "EP-04988",
+    "EP-05598"
+  ],
+  "known_issue": "EP-00531 W empty; do not infer primary from title. EP-05538 is manga primary, football related.",
+  "unverified_population_remaining": "UNKNOWN",
+  "note": "Cannot subtract six cases from heuristic pilot counts because populations and definitions differ. All hover figures provisional."
+}
