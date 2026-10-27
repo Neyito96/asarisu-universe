@@ -1,0 +1,749 @@
+{
+  "schema": "asapoki-art110-quality-complete-batch01-v1",
+  "date": "2026-10-27",
+  "count": 35,
+  "prior10_source": "data/semantic-normalized-draft/art110-quality-batch01-partial10-20261027.json",
+  "new25_count": 25,
+  "classification_status": "LAB_NOT_APPROVED",
+  "note": "35 W/V source rows read. Two rows V and W missing: EP-02178, EP-02186. DISPLAY_BRIDGE_BUG_SUSPECTED does not assert code-level cause.",
+  "records": [
+    {
+      "ep_id": "EP-00939",
+      "comparison_status": "DISPLAY_BRIDGE_BUG",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "安全保障",
+      "related_themes": [
+        "国際・外交/核軍縮"
+      ],
+      "short_reason": "核武装を条約・法律・歴史から検証。『日本』の本が文学キーワードに部分一致した疑い",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01224",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "日本史",
+      "related_themes": [
+        "文化・芸術/文学",
+        "交通・乗り物/鉄道"
+      ],
+      "short_reason": "鉄道と朝日新聞の近代史を小説『三四郎』を通じ解説。文学は関連要素",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01734",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "related_themes": [],
+      "short_reason": "瀬戸内寂聴の連載と作家の表現を担当記者が回顧",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01776",
+      "comparison_status": "DISPLAY_BRIDGE_BUG",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "社会・人権/平和"
+      ],
+      "short_reason": "被爆者坪井直さんの生涯が主題。タイトルの『見本』は文学主題ではない",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01777",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "日本史",
+      "related_themes": [
+        "文化・芸術/漫画・アニメ"
+      ],
+      "short_reason": "『鬼滅の刃』の舞台となった大正の街を新聞写真史料で探索。主は歴史文化",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01903",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "宗教・信仰",
+      "related_themes": [
+        "文化・芸術/彫刻"
+      ],
+      "short_reason": "六波羅蜜寺の空也上人像など古社寺・仏像の信仰と美術を複合的に扱う",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01931",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "写真",
+      "related_themes": [
+        "社会・人権/多文化理解"
+      ],
+      "short_reason": "写真家が世界各地の奇妙な風景と文化を撮影した表現を語る",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01989",
+      "comparison_status": "DISPLAY_BRIDGE_BUG",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "陰謀論・偽情報",
+      "related_themes": [
+        "政治・行政/政治運動"
+      ],
+      "short_reason": "Qアノンの日本での広まりと社会的対応を検討。文学ではない",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-01995",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦後史",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "short_reason": "1972年沖縄の古写真から被写体を捜し歩みを取材。写真作品論より沖縄の歴史",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02021",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "歴史・宗教/宗教・信仰"
+      ],
+      "short_reason": "運慶展と阿修羅展の企画背景。仏像美術と展示に焦点",
+      "confidence": 0.77,
+      "source_fields": [
+        "ledger_A",
+        "ledger_C",
+        "ledger_V",
+        "ledger_W"
+      ],
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02032",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "子育て・保育",
+      "related_themes": [
+        "ジェンダー/性別役割"
+      ],
+      "short_reason": "保育園の質と母親の負担。文学との関係なし",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02144",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [],
+      "short_reason": "岡本太郎展と美術作品解説",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02178",
+      "comparison_status": "SOURCE_INSUFFICIENT",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "related_themes": [],
+      "short_reason": "本番台帳のV/Wが両方空欄。題名から漫画家と推測できるが確証にしない",
+      "confidence": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": false,
+      "v_present": false,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02186",
+      "comparison_status": "SOURCE_INSUFFICIENT",
+      "proposed_main": null,
+      "proposed_sub": null,
+      "related_themes": [],
+      "short_reason": "本番台帳V/Wが両方空欄。タイトルのみの推定を保留",
+      "confidence": null,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": false,
+      "v_present": false,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02187",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "short_reason": "広島被爆児童の生前写真のカラー化から遺族と戦争の記憶を辿る",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02199",
+      "comparison_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "proposed_main": "科学",
+      "proposed_sub": "宇宙・天文",
+      "related_themes": [],
+      "short_reason": "はやぶさ2の小惑星探査とアミノ酸。『日本のお家芸』の日本が誤検出の可能性",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02215",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "宗教・信仰",
+      "related_themes": [
+        "社会・人権/多文化共生"
+      ],
+      "short_reason": "イスラム教信仰と日本のムスリム社会",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02248",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "related_themes": [
+        "メディア/ポッドキャスト"
+      ],
+      "short_reason": "オイル漬けの『本』という表現を記事紹介。書籍作品論かは追加確認",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02366",
+      "comparison_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "proposed_main": "科学",
+      "proposed_sub": "地理・地学",
+      "related_themes": [
+        "教育/子どもの学び"
+      ],
+      "short_reason": "日本の島の再集計という地理統計。文学誤投影疑い",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02371",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "short_reason": "真珠湾攻撃の古写真と海軍大尉の記録を通して戦史を考える",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02407",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [
+        "歴史・宗教/宗教・信仰"
+      ],
+      "short_reason": "親鸞展の肖像画を美術史・信仰の両側から解説",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02409",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "料理・食",
+      "related_themes": [
+        "文化・芸術/書籍・出版",
+        "国際・外交/シリア"
+      ],
+      "short_reason": "レシピ本を通じシリアの家庭料理と文化を紹介",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02531",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/漫画・アニメ"
+      ],
+      "short_reason": "『ブルーロック』原作者の沖縄戦を描いた漫画は証言継承の手段",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02533",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [
+        "歴史・宗教/戦争の記憶"
+      ],
+      "short_reason": "新聞をめくろう形式の複数話題。『本を積む』というタイトルだけで文学にはしない",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02658",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "歴史・宗教/仏教"
+      ],
+      "short_reason": "禅僧が推薦した漫画作品の世界観を論じる",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02661",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "short_reason": "新聞をめくろうの複数ニュースと写真・見出しの回",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02668",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "related_themes": [
+        "歴史・宗教/哲学"
+      ],
+      "short_reason": "『望郷太郎』の漫画作品解釈",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02732",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "related_themes": [
+        "文化・芸術/写真"
+      ],
+      "short_reason": "原爆被災者の写真に写る少年の身元と戦争の記録を調査",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02745",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [
+        "文化・芸術/絵本"
+      ],
+      "short_reason": "月刊朝ポキの複数エピソード紹介で絵本は一項目",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02861",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "related_themes": [
+        "文化・芸術/落語・美術"
+      ],
+      "short_reason": "月刊朝ポキの落語・断熱・老いとアートを紹介する複合回",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02920",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "related_themes": [],
+      "short_reason": "村上隆の作品と京都美術館個展の紹介",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-02974",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "メディア倫理",
+      "related_themes": [
+        "文化・芸術/漫画・ドラマ"
+      ],
+      "short_reason": "原作漫画のドラマ化と制作関係者のやり取り・調査報告の問題",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-03014",
+      "comparison_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "proposed_main": "政治・行政",
+      "proposed_sub": "平和・核軍縮",
+      "related_themes": [
+        "国際・外交/安全保障"
+      ],
+      "short_reason": "核兵器禁止条約と核の傘の矛盾。『日本』等で文学へ誤投影の疑い",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-03113",
+      "comparison_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "proposed_main": "科学",
+      "proposed_sub": "自然・生物",
+      "related_themes": [
+        "教育/子どもの学び"
+      ],
+      "short_reason": "ツチノコ標本を扱う新聞記事の読み解きで文学が主ではない",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-03136",
+      "comparison_status": "DISPLAY_BRIDGE_BUG_SUSPECTED",
+      "proposed_main": "科学",
+      "proposed_sub": "宇宙・天文",
+      "related_themes": [],
+      "short_reason": "オーロラと太陽フレアの天文学。『日本でも』などの語との部分一致疑い",
+      "confidence": 0.8,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    }
+  ]
+}
