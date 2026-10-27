@@ -1,0 +1,1805 @@
+{
+  "schema": "asapoki-206-quality-issue-unified-v1",
+  "date": "2026-10-27",
+  "scope": "Separate LAB proposals, no AI originals modified",
+  "sources": [
+    {
+      "path": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+      "sha": "15124bf0ab2e467b1b82abf577fe1569277fe848"
+    },
+    {
+      "path": "data/semantic-normalized-draft/quality-sample18-w-20261027.json",
+      "sha": "c284767dbd51a54018498bf99fe8dec270a766b4"
+    },
+    {
+      "path": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+      "sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1"
+    },
+    {
+      "path": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+      "sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82"
+    },
+    {
+      "path": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+      "sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4"
+    },
+    {
+      "path": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+      "sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00"
+    },
+    {
+      "path": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+      "sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7"
+    }
+  ],
+  "reviewedDistinctIds": 209,
+  "issueDistinctIds": 47,
+  "duplicateIssueIds": [
+    {
+      "ep_id": "EP-03911",
+      "revision_count": 2,
+      "latest": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json"
+    },
+    {
+      "ep_id": "EP-05538",
+      "revision_count": 2,
+      "latest": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json"
+    },
+    {
+      "ep_id": "EP-06624",
+      "revision_count": 2,
+      "latest": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json"
+    },
+    {
+      "ep_id": "EP-05031",
+      "revision_count": 2,
+      "latest": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json"
+    },
+    {
+      "ep_id": "EP-06159",
+      "revision_count": 2,
+      "latest": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json"
+    },
+    {
+      "ep_id": "EP-06261",
+      "revision_count": 2,
+      "latest": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json"
+    },
+    {
+      "ep_id": "EP-06592",
+      "revision_count": 2,
+      "latest": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json"
+    }
+  ],
+  "records": [
+    {
+      "ep_id": "EP-03911",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+          "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "防災",
+          "proposed_sub": "地震",
+          "related_themes": [],
+          "short_reason": "東日本大震災で津波に息子を奪われた母が週刊少年ジャンプを買い続ける追悼の話。メディア制作の話ではない",
+          "review_status": "LAB_NOT_APPROVED"
+        },
+        {
+          "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+          "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "防災",
+          "proposed_sub": "災害の記憶・追悼",
+          "related_themes": [
+            "社会・人権/遺族・家族"
+          ],
+          "short_reason": "東日本大震災で息子を亡くした母親による記憶と弔いが中心で、避難手順や地震のメカニズムは扱わない。既存の『防災/地震』は上位の暫定分類として残し、追悼を主題とする小テーマを新候補として審議",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+        "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": "防災",
+        "proposed_sub": "災害の記憶・追悼",
+        "related_themes": [
+          "社会・人権/遺族・家族"
+        ],
+        "short_reason": "東日本大震災で息子を亡くした母親による記憶と弔いが中心で、避難手順や地震のメカニズムは扱わない。既存の『防災/地震』は上位の暫定分類として残し、追悼を主題とする小テーマを新候補として審議",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05538",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+          "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "スポーツ",
+          "proposed_sub": "サッカー",
+          "related_themes": [],
+          "short_reason": "立花兄弟・次藤洋・スカイラブツインシュートの言及はサッカー漫画『キャプテン翼』の文脈。文化作品とスポーツの境界、原文は短い",
+          "review_status": "LAB_NOT_APPROVED"
+        },
+        {
+          "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+          "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+          "status": "SOURCE_CONFLICT",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "文化・芸術",
+          "proposed_sub": "漫画・アニメ",
+          "related_themes": [
+            "スポーツ/サッカー"
+          ],
+          "short_reason": "Wはサッカー漫画の立花兄弟・次藤洋と架空の必殺技への言及。競技実戦の取材ではなく、作品言及を主、サッカーを関連とする案。本文が短く最終判断保留",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+        "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+        "status": "SOURCE_CONFLICT",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": "文化・芸術",
+        "proposed_sub": "漫画・アニメ",
+        "related_themes": [
+          "スポーツ/サッカー"
+        ],
+        "short_reason": "Wはサッカー漫画の立花兄弟・次藤洋と架空の必殺技への言及。競技実戦の取材ではなく、作品言及を主、サッカーを関連とする案。本文が短く最終判断保留",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": true,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05545",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+          "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+          "status": "HOLD",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "Wは歌詞を思わせる一言のみ。具体的な作品・曲・人物の同定に確信が持てない",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+        "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+        "status": "HOLD",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": null,
+        "proposed_sub": null,
+        "related_themes": [],
+        "short_reason": "Wは歌詞を思わせる一言のみ。具体的な作品・曲・人物の同定に確信が持てない",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06598",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+          "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+          "status": "HOLD",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "Wの実質本文は『最近、ベッドにぬいぐるみもいますしね。』のみで番組主題が断定できない",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+        "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+        "status": "HOLD",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": null,
+        "proposed_sub": null,
+        "related_themes": [],
+        "short_reason": "Wの実質本文は『最近、ベッドにぬいぐるみもいますしね。』のみで番組主題が断定できない",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06602",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+          "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+          "status": "HOLD",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "Wに呼称・流行語・キャンピングカーの異なる3主題があり、単一のメインテーマ選定に明確な根拠不足。メディア／新聞を関連候補として再確認",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+        "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+        "status": "HOLD",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": null,
+        "proposed_sub": null,
+        "related_themes": [],
+        "short_reason": "Wに呼称・流行語・キャンピングカーの異なる3主題があり、単一のメインテーマ選定に明確な根拠不足。メディア／新聞を関連候補として再確認",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06624",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+          "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "暮らし・生活",
+          "proposed_sub": "家族・地域",
+          "related_themes": [],
+          "short_reason": "Wは近藤康太郎によるリスナーのお悩み相談と回答を中心に記載。田んぼや音楽関連記事ではなく相談企画",
+          "review_status": "LAB_NOT_APPROVED"
+        },
+        {
+          "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+          "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "暮らし・生活",
+          "proposed_sub": "人間関係・人生相談",
+          "related_themes": [
+            "メディア/ポッドキャスト"
+          ],
+          "short_reason": "近藤康太郎によるリスナーの相談への回答が本題。前回の小テーマ『家族・地域』より人生相談に適合。相談の中身は詳細未記載",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+        "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": "暮らし・生活",
+        "proposed_sub": "人間関係・人生相談",
+        "related_themes": [
+          "メディア/ポッドキャスト"
+        ],
+        "short_reason": "近藤康太郎によるリスナーの相談への回答が本題。前回の小テーマ『家族・地域』より人生相談に適合。相談の中身は詳細未記載",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06626",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+          "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+          "status": "HOLD",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "Wの実質本文は『夢見がちなお年頃なのかしらん。』のみで悪夢の対象や実際の談話内容が確認できない",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-hold7-w-reconciliation-20261027.json",
+        "blob_sha": "15124bf0ab2e467b1b82abf577fe1569277fe848",
+        "status": "HOLD",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": null,
+        "proposed_sub": null,
+        "related_themes": [],
+        "short_reason": "Wの実質本文は『夢見がちなお年頃なのかしらん。』のみで悪夢の対象や実際の談話内容が確認できない",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05031",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-sample18-w-20261027.json",
+          "blob_sha": "c284767dbd51a54018498bf99fe8dec270a766b4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "現提案は文化・芸術/音楽だがWは『推し記事』紹介企画の一回で吹奏楽が題材。主題と媒体軸の二重性あり要再検討",
+          "review_status": "LAB_NOT_APPROVED"
+        },
+        {
+          "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+          "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "メディア",
+          "proposed_sub": "新聞・報道",
+          "related_themes": [
+            "文化・芸術/音楽"
+          ],
+          "short_reason": "音楽自体ではなく読者選定記事を紹介する企画で、吹奏楽部の取材はその具体例",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+        "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": "メディア",
+        "proposed_sub": "新聞・報道",
+        "related_themes": [
+          "文化・芸術/音楽"
+        ],
+        "short_reason": "音楽自体ではなく読者選定記事を紹介する企画で、吹奏楽部の取材はその具体例",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06159",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-sample18-w-20261027.json",
+          "blob_sha": "c284767dbd51a54018498bf99fe8dec270a766b4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "避難者の就労と心理的影響に焦点。社会・人権/移民単独でなく戦争・国際と健康の関連タグ確認要",
+          "review_status": "LAB_NOT_APPROVED"
+        },
+        {
+          "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+          "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "社会・人権",
+          "proposed_sub": "難民・避難者支援",
+          "related_themes": [
+            "国際・外交/戦争・平和",
+            "健康・医療/心身の健康",
+            "仕事・労働/雇用"
+          ],
+          "short_reason": "日本へ避難したウクライナ人の就労障壁と心身への戦争の影響を扱う。避難者の生活実態を主に、戦争・健康・仕事を関連として保持",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+        "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": "社会・人権",
+        "proposed_sub": "難民・避難者支援",
+        "related_themes": [
+          "国際・外交/戦争・平和",
+          "健康・医療/心身の健康",
+          "仕事・労働/雇用"
+        ],
+        "short_reason": "日本へ避難したウクライナ人の就労障壁と心身への戦争の影響を扱う。避難者の生活実態を主に、戦争・健康・仕事を関連として保持",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06261",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-sample18-w-20261027.json",
+          "blob_sha": "c284767dbd51a54018498bf99fe8dec270a766b4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "核廃絶と原爆投下の正当化の問題。現AIの社会・人権ラベルと政治・行政・国際の境界を再検討",
+          "review_status": "LAB_NOT_APPROVED"
+        },
+        {
+          "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+          "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "政治・行政",
+          "proposed_sub": "平和・核軍縮",
+          "related_themes": [
+            "国際・外交/安全保障",
+            "歴史・宗教/戦争の記憶"
+          ],
+          "short_reason": "ノーベル賞を契機に核廃絶、米国による原爆投下の正当化、ロシアの核威嚇を論じる。一般市民社会より軍縮・外交政策が核心",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+        "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": "政治・行政",
+        "proposed_sub": "平和・核軍縮",
+        "related_themes": [
+          "国際・外交/安全保障",
+          "歴史・宗教/戦争の記憶"
+        ],
+        "short_reason": "ノーベル賞を契機に核廃絶、米国による原爆投下の正当化、ロシアの核威嚇を論じる。一般市民社会より軍縮・外交政策が核心",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06592",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-sample18-w-20261027.json",
+          "blob_sha": "c284767dbd51a54018498bf99fe8dec270a766b4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": null,
+          "proposed_sub": null,
+          "related_themes": [],
+          "short_reason": "新25件のAI・技術/情報セキュリティは過度に狭い。WはAIによる労働自動化・暴走と将来社会。技術・仕事を関連づける要再推定",
+          "review_status": "LAB_NOT_APPROVED"
+        },
+        {
+          "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+          "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": null,
+          "original_sub": null,
+          "proposed_main": "AI・技術",
+          "proposed_sub": "AIの社会的影響",
+          "related_themes": [
+            "仕事・労働/働き方",
+            "AI・技術/情報セキュリティ"
+          ],
+          "short_reason": "AIによる一人会社・労働の自動化と制御不能リスクを扱う。不正アクセスの見出しだけに依拠しセキュリティ単独へ限定しない",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-boundary7-priority-20261027.json",
+        "blob_sha": "b4dc8814296ac0f5fc6071ff8143adfa2590ae82",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": null,
+        "original_sub": null,
+        "proposed_main": "AI・技術",
+        "proposed_sub": "AIの社会的影響",
+        "related_themes": [
+          "仕事・労働/働き方",
+          "AI・技術/情報セキュリティ"
+        ],
+        "short_reason": "AIによる一人会社・労働の自動化と制御不能リスクを扱う。不正アクセスの見出しだけに依拠しセキュリティ単独へ限定しない",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04838",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "社会・人権",
+          "original_sub": "市民社会",
+          "proposed_main": "社会・人権",
+          "proposed_sub": "市民社会",
+          "related_themes": [
+            "メディア/報道企画"
+          ],
+          "short_reason": "救助、健康食品、能力主義など複数回を振り返るまとめ回。社会・人権単独の主題は断定しにくい",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "社会・人権",
+        "original_sub": "市民社会",
+        "proposed_main": "社会・人権",
+        "proposed_sub": "市民社会",
+        "related_themes": [
+          "メディア/報道企画"
+        ],
+        "short_reason": "救助、健康食品、能力主義など複数回を振り返るまとめ回。社会・人権単独の主題は断定しにくい",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04839",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "健康・医療",
+          "original_sub": "医療制度",
+          "proposed_main": "健康・医療",
+          "proposed_sub": "医療制度",
+          "related_themes": [
+            "福祉・介護/子ども福祉",
+            "仕事・労働/働き方"
+          ],
+          "short_reason": "骨髄バンクの話題と医療的ケア児を育てながら働く連載の反響が並列",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "健康・医療",
+        "original_sub": "医療制度",
+        "proposed_main": "健康・医療",
+        "proposed_sub": "医療制度",
+        "related_themes": [
+          "福祉・介護/子ども福祉",
+          "仕事・労働/働き方"
+        ],
+        "short_reason": "骨髄バンクの話題と医療的ケア児を育てながら働く連載の反響が並列",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04853",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "防災",
+          "original_sub": "地震",
+          "proposed_main": "メディア",
+          "proposed_sub": "ポッドキャスト",
+          "related_themes": [
+            "防災/地震"
+          ],
+          "short_reason": "能登地震の報道も扱うが番組制作会議の複数項目であり、地震単一主題にしない",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "防災",
+        "original_sub": "地震",
+        "proposed_main": "メディア",
+        "proposed_sub": "ポッドキャスト",
+        "related_themes": [
+          "防災/地震"
+        ],
+        "short_reason": "能登地震の報道も扱うが番組制作会議の複数項目であり、地震単一主題にしない",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04861",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "メディア",
+          "original_sub": "テレビ・映像",
+          "proposed_main": "文化・芸術",
+          "proposed_sub": "音楽",
+          "related_themes": [
+            "メディア/テレビ・映像"
+          ],
+          "short_reason": "紅白歌合戦の出演者・歌を語る雑談で、テレビ編成技法の分析が中心ではない",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "メディア",
+        "original_sub": "テレビ・映像",
+        "proposed_main": "文化・芸術",
+        "proposed_sub": "音楽",
+        "related_themes": [
+          "メディア/テレビ・映像"
+        ],
+        "short_reason": "紅白歌合戦の出演者・歌を語る雑談で、テレビ編成技法の分析が中心ではない",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04862",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "防災",
+          "original_sub": "避難",
+          "proposed_main": "防災",
+          "proposed_sub": "避難",
+          "related_themes": [
+            "メディア/ポッドキャスト",
+            "防災/避難"
+          ],
+          "short_reason": "阪神淡路の教訓と災害への備えを含む大阪制作会議。主題選択は複合",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "防災",
+        "original_sub": "避難",
+        "proposed_main": "防災",
+        "proposed_sub": "避難",
+        "related_themes": [
+          "メディア/ポッドキャスト",
+          "防災/避難"
+        ],
+        "short_reason": "阪神淡路の教訓と災害への備えを含む大阪制作会議。主題選択は複合",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04865",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "暮らし・生活",
+          "original_sub": "住まい",
+          "proposed_main": "文化・芸術",
+          "proposed_sub": "建築",
+          "related_themes": [
+            "暮らし・生活/住まい"
+          ],
+          "short_reason": "共有中庭アパートと下瀬美術館の建築紹介が中心。住み方は関連",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "暮らし・生活",
+        "original_sub": "住まい",
+        "proposed_main": "文化・芸術",
+        "proposed_sub": "建築",
+        "related_themes": [
+          "暮らし・生活/住まい"
+        ],
+        "short_reason": "共有中庭アパートと下瀬美術館の建築紹介が中心。住み方は関連",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04870",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "社会・人権",
+          "original_sub": "社会保障",
+          "proposed_main": "ジェンダー",
+          "proposed_sub": "男女平等",
+          "related_themes": [
+            "社会・人権/社会保障",
+            "仕事・労働/雇用"
+          ],
+          "short_reason": "ロスジェネ女性と第三次ベビーブーム不成立を人口・労働とジェンダーの視点で扱う",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "社会・人権",
+        "original_sub": "社会保障",
+        "proposed_main": "ジェンダー",
+        "proposed_sub": "男女平等",
+        "related_themes": [
+          "社会・人権/社会保障",
+          "仕事・労働/雇用"
+        ],
+        "short_reason": "ロスジェネ女性と第三次ベビーブーム不成立を人口・労働とジェンダーの視点で扱う",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04876",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "暮らし・生活",
+          "original_sub": "家族・地域",
+          "proposed_main": "暮らし・生活",
+          "proposed_sub": "家族・地域",
+          "related_themes": [
+            "仕事・労働/職場問題"
+          ],
+          "short_reason": "Wはイベント振返りと若い同僚とのコミュニケーションで、地域・家族の根拠不足",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "暮らし・生活",
+        "original_sub": "家族・地域",
+        "proposed_main": "暮らし・生活",
+        "proposed_sub": "家族・地域",
+        "related_themes": [
+          "仕事・労働/職場問題"
+        ],
+        "short_reason": "Wはイベント振返りと若い同僚とのコミュニケーションで、地域・家族の根拠不足",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04977",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "メディア",
+          "original_sub": "テレビ・映像",
+          "proposed_main": "メディア",
+          "proposed_sub": "テレビ・映像",
+          "related_themes": [
+            "文化・芸術/映画・演劇"
+          ],
+          "short_reason": "映画アンパンマン自体の評ではなく、あらすじの伝達技法を主題化",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "メディア",
+        "original_sub": "テレビ・映像",
+        "proposed_main": "メディア",
+        "proposed_sub": "テレビ・映像",
+        "related_themes": [
+          "文化・芸術/映画・演劇"
+        ],
+        "short_reason": "映画アンパンマン自体の評ではなく、あらすじの伝達技法を主題化",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04978",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "防災",
+          "original_sub": "地震",
+          "proposed_main": "メディア",
+          "proposed_sub": "ポッドキャスト",
+          "related_themes": [
+            "防災/地震"
+          ],
+          "short_reason": "福島のルポ制作時の取材・録音技法と制作の舞台裏が中心",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "防災",
+        "original_sub": "地震",
+        "proposed_main": "メディア",
+        "proposed_sub": "ポッドキャスト",
+        "related_themes": [
+          "防災/地震"
+        ],
+        "short_reason": "福島のルポ制作時の取材・録音技法と制作の舞台裏が中心",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04979",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "防災",
+          "original_sub": "地震",
+          "proposed_main": "防災",
+          "proposed_sub": "地震",
+          "related_themes": [
+            "メディア/ポッドキャスト"
+          ],
+          "short_reason": "被災した人々の言葉と音声ナレーション制作の両面。防災一択は慎重に",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "防災",
+        "original_sub": "地震",
+        "proposed_main": "防災",
+        "proposed_sub": "地震",
+        "related_themes": [
+          "メディア/ポッドキャスト"
+        ],
+        "short_reason": "被災した人々の言葉と音声ナレーション制作の両面。防災一択は慎重に",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04984",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+          "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "歴史・宗教",
+          "original_sub": "日本史",
+          "proposed_main": "歴史・宗教",
+          "proposed_sub": "日本史",
+          "related_themes": [
+            "文化・芸術/映画・演劇",
+            "歴史・宗教/日本史"
+          ],
+          "short_reason": "藤原道長の和歌の歴史的解釈と大河ドラマ批評の二面がある",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-next50-20261027.json",
+        "blob_sha": "7630f310b902c783b8ebd1d69e2caa6e88475ef1",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "歴史・宗教",
+        "original_sub": "日本史",
+        "proposed_main": "歴史・宗教",
+        "proposed_sub": "日本史",
+        "related_themes": [
+          "文化・芸術/映画・演劇",
+          "歴史・宗教/日本史"
+        ],
+        "short_reason": "藤原道長の和歌の歴史的解釈と大河ドラマ批評の二面がある",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-04988",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+          "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "スポーツ",
+          "original_sub": "その他競技",
+          "proposed_main": "スポーツ",
+          "proposed_sub": "その他競技",
+          "related_themes": [
+            "メディア/新聞・報道"
+          ],
+          "short_reason": "麻雀競技Mリーグに加え新聞社が麻雀を報道する意義も主題。競技と報道の境界",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+        "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "スポーツ",
+        "original_sub": "その他競技",
+        "proposed_main": "スポーツ",
+        "proposed_sub": "その他競技",
+        "related_themes": [
+          "メディア/新聞・報道"
+        ],
+        "short_reason": "麻雀競技Mリーグに加え新聞社が麻雀を報道する意義も主題。競技と報道の境界",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05000",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+          "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "メディア",
+          "original_sub": "SNS",
+          "proposed_main": "法律・司法",
+          "proposed_sub": "犯罪被害",
+          "related_themes": [
+            "メディア/SNS"
+          ],
+          "short_reason": "投資詐欺広告と強制的なウェブ広告の問題。SNSの利用文化より悪質広告被害・規制が論点",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+        "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "メディア",
+        "original_sub": "SNS",
+        "proposed_main": "法律・司法",
+        "proposed_sub": "犯罪被害",
+        "related_themes": [
+          "メディア/SNS"
+        ],
+        "short_reason": "投資詐欺広告と強制的なウェブ広告の問題。SNSの利用文化より悪質広告被害・規制が論点",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05022",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+          "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "仕事・労働",
+          "original_sub": "働き方",
+          "proposed_main": "仕事・労働",
+          "proposed_sub": "働き方",
+          "related_themes": [
+            "メディア/SNS"
+          ],
+          "short_reason": "ブロガーという仕事の衰退とネットの文章文化を並行して論じる",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+        "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "仕事・労働",
+        "original_sub": "働き方",
+        "proposed_main": "仕事・労働",
+        "proposed_sub": "働き方",
+        "related_themes": [
+          "メディア/SNS"
+        ],
+        "short_reason": "ブロガーという仕事の衰退とネットの文章文化を並行して論じる",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05034",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+          "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "仕事・労働",
+          "original_sub": "職場問題",
+          "proposed_main": "仕事・労働",
+          "proposed_sub": "職場問題",
+          "related_themes": [
+            "社会・人権/差別"
+          ],
+          "short_reason": "ハラスメント・出世年齢など相談内容が複数",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+        "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "仕事・労働",
+        "original_sub": "職場問題",
+        "proposed_main": "仕事・労働",
+        "proposed_sub": "職場問題",
+        "related_themes": [
+          "社会・人権/差別"
+        ],
+        "short_reason": "ハラスメント・出世年齢など相談内容が複数",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05526",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+          "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "暮らし・生活",
+          "original_sub": "家族・地域",
+          "proposed_main": "暮らし・生活",
+          "proposed_sub": "家族・地域",
+          "related_themes": [
+            "メディア/報道"
+          ],
+          "short_reason": "渋谷の都市文化をどう捉えるか、MEDIA TALKとの番組名とは区別",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part01-50-20261027.json",
+        "blob_sha": "8a6a4024a9d98f06a2bff81e8a26074c8a04faa4",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "暮らし・生活",
+        "original_sub": "家族・地域",
+        "proposed_main": "暮らし・生活",
+        "proposed_sub": "家族・地域",
+        "related_themes": [
+          "メディア/報道"
+        ],
+        "short_reason": "渋谷の都市文化をどう捉えるか、MEDIA TALKとの番組名とは区別",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05539",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "AI・技術",
+          "original_sub": "ロボット",
+          "proposed_main": "AI・技術",
+          "proposed_sub": "デジタル政策",
+          "related_themes": [
+            "暮らし・生活/趣味"
+          ],
+          "short_reason": "Metaのスマートグラスの話。元サブテーマ『ロボット』は機器分類として不適切",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "AI・技術",
+        "original_sub": "ロボット",
+        "proposed_main": "AI・技術",
+        "proposed_sub": "デジタル政策",
+        "related_themes": [
+          "暮らし・生活/趣味"
+        ],
+        "short_reason": "Metaのスマートグラスの話。元サブテーマ『ロボット』は機器分類として不適切",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05541",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "文化・芸術",
+          "original_sub": "映画・演劇",
+          "proposed_main": "文化・芸術",
+          "proposed_sub": "映画・演劇",
+          "related_themes": [
+            "仕事・労働/職場問題"
+          ],
+          "short_reason": "鉄道マンの労働待遇を描く映画とその社会性",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "文化・芸術",
+        "original_sub": "映画・演劇",
+        "proposed_main": "文化・芸術",
+        "proposed_sub": "映画・演劇",
+        "related_themes": [
+          "仕事・労働/職場問題"
+        ],
+        "short_reason": "鉄道マンの労働待遇を描く映画とその社会性",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05546",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "AI・技術",
+          "original_sub": "情報セキュリティ",
+          "proposed_main": "AI・技術",
+          "proposed_sub": "デジタル政策",
+          "related_themes": [
+            "暮らし・生活/趣味"
+          ],
+          "short_reason": "テック企業幹部のゲーマー文化。情報セキュリティは無関係",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "AI・技術",
+        "original_sub": "情報セキュリティ",
+        "proposed_main": "AI・技術",
+        "proposed_sub": "デジタル政策",
+        "related_themes": [
+          "暮らし・生活/趣味"
+        ],
+        "short_reason": "テック企業幹部のゲーマー文化。情報セキュリティは無関係",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05597",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "スポーツ",
+          "original_sub": "パラスポーツ",
+          "proposed_main": "スポーツ",
+          "proposed_sub": "パラスポーツ",
+          "related_themes": [
+            "仕事・労働/働き方"
+          ],
+          "short_reason": "障害者スポーツに加え新聞社で働く競技者のライフヒストリー",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "スポーツ",
+        "original_sub": "パラスポーツ",
+        "proposed_main": "スポーツ",
+        "proposed_sub": "パラスポーツ",
+        "related_themes": [
+          "仕事・労働/働き方"
+        ],
+        "short_reason": "障害者スポーツに加え新聞社で働く競技者のライフヒストリー",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05598",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "スポーツ",
+          "original_sub": "パラスポーツ",
+          "proposed_main": "スポーツ",
+          "proposed_sub": "パラスポーツ",
+          "related_themes": [
+            "国際・外交/戦争・平和"
+          ],
+          "short_reason": "競技者とウクライナの戦争・平和の関係を描く",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "スポーツ",
+        "original_sub": "パラスポーツ",
+        "proposed_main": "スポーツ",
+        "proposed_sub": "パラスポーツ",
+        "related_themes": [
+          "国際・外交/戦争・平和"
+        ],
+        "short_reason": "競技者とウクライナの戦争・平和の関係を描く",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-05603",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "文化・芸術",
+          "original_sub": "文学",
+          "proposed_main": "文化・芸術",
+          "proposed_sub": "文学",
+          "related_themes": [
+            "仕事・労働/働き方"
+          ],
+          "short_reason": "田中芳樹の小説のみならず組織論のNo.2の役割",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "文化・芸術",
+        "original_sub": "文学",
+        "proposed_main": "文化・芸術",
+        "proposed_sub": "文学",
+        "related_themes": [
+          "仕事・労働/働き方"
+        ],
+        "short_reason": "田中芳樹の小説のみならず組織論のNo.2の役割",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06145",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "仕事・労働",
+          "original_sub": "職場問題",
+          "proposed_main": "仕事・労働",
+          "proposed_sub": "職場問題",
+          "related_themes": [
+            "科学/数学"
+          ],
+          "short_reason": "職場で泣く問題に数学の話題を追加した複合回",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "仕事・労働",
+        "original_sub": "職場問題",
+        "proposed_main": "仕事・労働",
+        "proposed_sub": "職場問題",
+        "related_themes": [
+          "科学/数学"
+        ],
+        "short_reason": "職場で泣く問題に数学の話題を追加した複合回",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06150",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "防災",
+          "original_sub": "地震",
+          "proposed_main": "防災",
+          "proposed_sub": "地震",
+          "related_themes": [
+            "メディア/新聞・報道"
+          ],
+          "short_reason": "能登地震半年の取材作品・紙面・音声を振り返る",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "防災",
+        "original_sub": "地震",
+        "proposed_main": "防災",
+        "proposed_sub": "地震",
+        "related_themes": [
+          "メディア/新聞・報道"
+        ],
+        "short_reason": "能登地震半年の取材作品・紙面・音声を振り返る",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06161",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+          "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "文化・芸術",
+          "original_sub": "美術",
+          "proposed_main": "文化・芸術",
+          "proposed_sub": "美術",
+          "related_themes": [
+            "防災/災害支援"
+          ],
+          "short_reason": "珠洲焼の文化と被災窯の再建",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part02-50-20261027.json",
+        "blob_sha": "8606cded921f8f5ee351ef7279ea16a0b42bda00",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "文化・芸術",
+        "original_sub": "美術",
+        "proposed_main": "文化・芸術",
+        "proposed_sub": "美術",
+        "related_themes": [
+          "防災/災害支援"
+        ],
+        "short_reason": "珠洲焼の文化と被災窯の再建",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06248",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "暮らし・生活",
+          "original_sub": "趣味",
+          "proposed_main": "暮らし・生活",
+          "proposed_sub": "趣味",
+          "related_themes": [
+            "歴史・宗教/哲学"
+          ],
+          "short_reason": "転生・不老不死・死後観とメディアについての複合討論",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "暮らし・生活",
+        "original_sub": "趣味",
+        "proposed_main": "暮らし・生活",
+        "proposed_sub": "趣味",
+        "related_themes": [
+          "歴史・宗教/哲学"
+        ],
+        "short_reason": "転生・不老不死・死後観とメディアについての複合討論",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06253",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "暮らし・生活",
+          "original_sub": "趣味",
+          "proposed_main": "暮らし・生活",
+          "proposed_sub": "趣味",
+          "related_themes": [
+            "メディア/SNS"
+          ],
+          "short_reason": "流行語とネットミームの文化的な広がり",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "暮らし・生活",
+        "original_sub": "趣味",
+        "proposed_main": "暮らし・生活",
+        "proposed_sub": "趣味",
+        "related_themes": [
+          "メディア/SNS"
+        ],
+        "short_reason": "流行語とネットミームの文化的な広がり",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06259",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "社会・人権",
+          "original_sub": "市民社会",
+          "proposed_main": "政治・行政",
+          "proposed_sub": "平和・核軍縮",
+          "related_themes": [
+            "歴史・宗教/戦争の記憶"
+          ],
+          "short_reason": "ヒロシマの平和・核廃絶活動と紛争地を比較する",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "社会・人権",
+        "original_sub": "市民社会",
+        "proposed_main": "政治・行政",
+        "proposed_sub": "平和・核軍縮",
+        "related_themes": [
+          "歴史・宗教/戦争の記憶"
+        ],
+        "short_reason": "ヒロシマの平和・核廃絶活動と紛争地を比較する",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06260",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "国際・外交",
+          "original_sub": "国際機関",
+          "proposed_main": "政治・行政",
+          "proposed_sub": "平和・核軍縮",
+          "related_themes": [
+            "国際・外交/国際機関"
+          ],
+          "short_reason": "被爆地から見た世界認識・平和賞・核をめぐる議論",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "国際・外交",
+        "original_sub": "国際機関",
+        "proposed_main": "政治・行政",
+        "proposed_sub": "平和・核軍縮",
+        "related_themes": [
+          "国際・外交/国際機関"
+        ],
+        "short_reason": "被爆地から見た世界認識・平和賞・核をめぐる議論",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06605",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "仕事・労働",
+          "original_sub": "働き方",
+          "proposed_main": "仕事・労働",
+          "proposed_sub": "働き方",
+          "related_themes": [
+            "メディア/ポッドキャスト"
+          ],
+          "short_reason": "フリーランスの悩みを扱う他番組紹介で、紹介元の番組説明が少ない",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "仕事・労働",
+        "original_sub": "働き方",
+        "proposed_main": "仕事・労働",
+        "proposed_sub": "働き方",
+        "related_themes": [
+          "メディア/ポッドキャスト"
+        ],
+        "short_reason": "フリーランスの悩みを扱う他番組紹介で、紹介元の番組説明が少ない",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06612",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "文化・芸術",
+          "original_sub": "映画・演劇",
+          "proposed_main": "文化・芸術",
+          "proposed_sub": "美術",
+          "related_themes": [
+            "教育/子どもの学び"
+          ],
+          "short_reason": "子どもの疑問からキャラクターデザインを考える",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "文化・芸術",
+        "original_sub": "映画・演劇",
+        "proposed_main": "文化・芸術",
+        "proposed_sub": "美術",
+        "related_themes": [
+          "教育/子どもの学び"
+        ],
+        "short_reason": "子どもの疑問からキャラクターデザインを考える",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06616",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "教育",
+          "original_sub": "子どもの学び",
+          "proposed_main": "教育",
+          "proposed_sub": "子どもの学び",
+          "related_themes": [
+            "AI・技術/人工知能"
+          ],
+          "short_reason": "AI導入の是非を子どもの学習という教育文脈で検討",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "教育",
+        "original_sub": "子どもの学び",
+        "proposed_main": "教育",
+        "proposed_sub": "子どもの学び",
+        "related_themes": [
+          "AI・技術/人工知能"
+        ],
+        "short_reason": "AI導入の是非を子どもの学習という教育文脈で検討",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06617",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "福祉・介護",
+          "original_sub": "子ども福祉",
+          "proposed_main": "福祉・介護",
+          "proposed_sub": "子ども福祉",
+          "related_themes": [
+            "仕事・労働/働き方"
+          ],
+          "short_reason": "育児と田畑での労働が並行する家庭の話",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "福祉・介護",
+        "original_sub": "子ども福祉",
+        "proposed_main": "福祉・介護",
+        "proposed_sub": "子ども福祉",
+        "related_themes": [
+          "仕事・労働/働き方"
+        ],
+        "short_reason": "育児と田畑での労働が並行する家庭の話",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06619",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "SOURCE_CONFLICT",
+          "original_main": "社会・人権",
+          "original_sub": "市民社会",
+          "proposed_main": "法律・司法",
+          "proposed_sub": "犯罪被害",
+          "related_themes": [
+            "健康・医療/心身の健康"
+          ],
+          "short_reason": "詐欺に遭った人の取材と休息・心身の回復の複合",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "SOURCE_CONFLICT",
+        "original_main": "社会・人権",
+        "original_sub": "市民社会",
+        "proposed_main": "法律・司法",
+        "proposed_sub": "犯罪被害",
+        "related_themes": [
+          "健康・医療/心身の健康"
+        ],
+        "short_reason": "詐欺に遭った人の取材と休息・心身の回復の複合",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "ep_id": "EP-06625",
+      "revisions": [
+        {
+          "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+          "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+          "status": "REVISED_AI_PROPOSAL",
+          "original_main": "暮らし・生活",
+          "original_sub": "家族・地域",
+          "proposed_main": "政治・行政",
+          "proposed_sub": "行政政策",
+          "related_themes": [
+            "メディア/新聞・報道"
+          ],
+          "short_reason": "万博の行政的成果の評価と記者の取材を振り返る",
+          "review_status": "LAB_NOT_APPROVED"
+        }
+      ],
+      "latest_review": {
+        "file": "data/semantic-normalized-draft/quality-wv-remaining134-part03-34-20261027.json",
+        "blob_sha": "370f854c5e23e8aa0b35c651d74a8b559f1bbbf7",
+        "status": "REVISED_AI_PROPOSAL",
+        "original_main": "暮らし・生活",
+        "original_sub": "家族・地域",
+        "proposed_main": "政治・行政",
+        "proposed_sub": "行政政策",
+        "related_themes": [
+          "メディア/新聞・報道"
+        ],
+        "short_reason": "万博の行政的成果の評価と記者の取材を振り返る",
+        "review_status": "LAB_NOT_APPROVED"
+      },
+      "has_revision_conflict": false,
+      "approval_status": "PENDING_HUMAN_REVIEW"
+    }
+  ]
+}
