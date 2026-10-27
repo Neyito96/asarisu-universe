@@ -1,0 +1,111 @@
+{
+  "schema": "art110-context-audit-v1",
+  "count": 5,
+  "records": [
+    {
+      "ep_id": "EP-06350",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "言語・方言",
+      "related_themes": [
+        "文化・芸術/絵本"
+      ],
+      "short_reason": "小浜島の消滅危機言語を絵本で継承する企画が主",
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06352",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "言語・方言",
+      "related_themes": [
+        "文化・芸術/絵本"
+      ],
+      "short_reason": "クラウドファンディングで島の言葉を継承する活動",
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06384",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "法律・司法",
+      "proposed_sub": "美術品犯罪",
+      "related_themes": [
+        "文化・芸術/美術"
+      ],
+      "short_reason": "ゴッホ作品を盗んだ男の犯罪取材",
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06404",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "法律・司法",
+      "proposed_sub": "美術品犯罪",
+      "related_themes": [
+        "文化・芸術/美術"
+      ],
+      "short_reason": "贋作師の手口と美術館被害",
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06543",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "動物・自然",
+      "proposed_sub": "森林生態系",
+      "related_themes": [
+        "文化・芸術/漫画"
+      ],
+      "short_reason": "林野庁出身の漫画家が菌根菌など見えない森を語る",
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_sha": null,
+      "description_sha256": null,
+      "review_status": "LAB_NOT_APPROVED"
+    }
+  ]
+}
