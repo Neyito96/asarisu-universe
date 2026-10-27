@@ -1,0 +1,742 @@
+{
+  "schema": "art110-context-audit-v1",
+  "count": 35,
+  "records": [
+    {
+      "ep_id": "EP-04893",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "short_reason": "制作会議でウェブLPを含む多数の議題を扱う",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-04897",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "文学",
+      "short_reason": "小説『東京都同情塔』の読後感を論じる",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-04909",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "科学",
+      "proposed_sub": "宇宙・天文",
+      "short_reason": "プラネタリウムと宇宙探査を解説",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-04931",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "取材・報道",
+      "short_reason": "小型カメラが被災地取材を変えた",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05104",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "short_reason": "漫画『宗像教授世界編』の作品性を読み解く",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05105",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "short_reason": "『一ノ瀬家の大罪』等の創作を仏教と結びつける",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05106",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "short_reason": "漫画『神田ごくら町職人ばなし』の描写を評価",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05112",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "人生相談",
+      "short_reason": "履歴書の写真とAED体験という複数話題",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05142",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "ポッドキャスト",
+      "short_reason": "音声チーム新加入者の記者経験を紹介",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05155",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "写真",
+      "short_reason": "写真撮影のポージングと人物写真の技法を解説",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05172",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "建築",
+      "short_reason": "花屋・カフェのリノベーションとホテルの現代アート",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05192",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "地域・暮らし",
+      "proposed_sub": "地域活性化",
+      "short_reason": "人口減少した地域の移住政策とアートを活用",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05247",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "報道写真",
+      "short_reason": "フォトグラファーの取材活動と報道撮影",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05277",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "short_reason": "贋作を巡る芸術価値と読者推奨記事の複合",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05283",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "short_reason": "石川県の若手工芸作家と現代アート",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05317",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦後史",
+      "short_reason": "日航機墜落の被害記憶と写真記録",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05328",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "short_reason": "美術記者と原爆を表現する展覧会",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05425",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "漫画・アニメ",
+      "short_reason": "漫画・映画ヒットとAIの複合ニュース",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05438",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "メディア",
+      "proposed_sub": "新聞・報道",
+      "short_reason": "五輪紙面における写真・見出し編集の技法",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05441",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "読書文化",
+      "short_reason": "読書の意味と空気を読む行為を議論",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05553",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "社会・人権",
+      "proposed_sub": "多様性",
+      "short_reason": "LGBTQ書籍を集めた図書館を通じネット外の居場所を考える",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05661",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "歴史・宗教",
+      "proposed_sub": "戦争の記憶",
+      "short_reason": "ナパーム弾の少女の戦争体験と生存を追う",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05668",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "AI・技術",
+      "proposed_sub": "産業技術",
+      "short_reason": "高専生のディープラーニングを使った起業技術",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05756",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "採用・就職",
+      "short_reason": "顔写真不要のエントリーシートとサウナ採用",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05813",
+      "comparison_status": "CONFIRMED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "short_reason": "東京国立博物館の常設展示を取材",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05831",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "short_reason": "1人出版社の経営・出版と労働を複合的に解説",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05876",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "環境・気候",
+      "proposed_sub": "山火事・森林",
+      "short_reason": "豪州山火事と先住民の野焼き管理",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05885",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "暮らし・生活",
+      "proposed_sub": "言葉・文化",
+      "short_reason": "町をマチ／チョウと読む地域方言・言語差",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-05945",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "書籍・出版",
+      "short_reason": "新刊書店減少の経営問題と地域文化",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06005",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "仕事・労働",
+      "proposed_sub": "労働制度",
+      "short_reason": "万博工事の長時間労働規制",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06178",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "環境・気候",
+      "proposed_sub": "大気汚染",
+      "short_reason": "欧州等の環境汚染の防止技術。アートは対策手段",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06196",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "美術",
+      "short_reason": "博物館・美術館の鑑賞が心身へ及ぼす効果",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06219",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "読書",
+      "short_reason": "読書離れを題材に国語調査や本の交換を論じる",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06221",
+      "comparison_status": "REVISE_MAIN",
+      "proposed_main": "環境・気候",
+      "proposed_sub": "自然保護",
+      "short_reason": "街路樹保全と市民の合意形成",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    },
+    {
+      "ep_id": "EP-06238",
+      "comparison_status": "RELATED_TAG_NEEDED",
+      "proposed_main": "文化・芸術",
+      "proposed_sub": "絵本",
+      "short_reason": "絵本作家や俳優の訃報を契機とした文化回顧",
+      "related_themes": [
+        "関連タグ人手精査待ち"
+      ],
+      "w_present": true,
+      "v_present": true,
+      "source_fields": [
+        "A",
+        "C",
+        "V",
+        "W"
+      ],
+      "description_sha256": null,
+      "source_sha": null,
+      "review_status": "LAB_NOT_APPROVED"
+    }
+  ],
+  "warning": "Proposals not adopted; related tags placeholder for validation"
+}
