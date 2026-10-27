@@ -1,0 +1,89 @@
+{
+  "schema": "asapoki-lab-publication-gate-v1",
+  "date": "2026-10-27",
+  "decisionDate": "2026-10-22",
+  "sourcePublished": [
+    {
+      "path": "data/semantic-recovery/published-ids-00.json",
+      "sha": "b5caace7658483f0aa98a510f6e75d1595c1c695",
+      "count": 1517,
+      "sourceVersion": "134ffef496d755de"
+    },
+    {
+      "path": "data/semantic-recovery/published-ids-01.json",
+      "sha": "292d7ab90fd094554f8e1ef1dc07c82e5d539270",
+      "count": 1588,
+      "sourceVersion": "134ffef496d755de"
+    },
+    {
+      "path": "data/semantic-recovery/published-ids-02.json",
+      "sha": "c1187fc2504a5b3f94b10ab59c21dab498c21a3f",
+      "count": 1600,
+      "sourceVersion": "134ffef496d755de"
+    },
+    {
+      "path": "data/semantic-recovery/published-ids-03.json",
+      "sha": "ca3c4475e9769ef085a2d259f8c91c92f05a13a2",
+      "count": 1143,
+      "sourceVersion": "134ffef496d755de"
+    }
+  ],
+  "canonicalization": "Unique EP-ID strings, lexicographically sorted ASCII ascending, newline LF and terminal LF. Hash is Git blob SHA-1 (NOT raw SHA-256)",
+  "existingCount": 5848,
+  "existingUnique": 5848,
+  "proposedIds": [
+    "EP-06592",
+    "EP-06593",
+    "EP-06598",
+    "EP-06599",
+    "EP-06601",
+    "EP-06602",
+    "EP-06604",
+    "EP-06605",
+    "EP-06607",
+    "EP-06608",
+    "EP-06610",
+    "EP-06611",
+    "EP-06612",
+    "EP-06613",
+    "EP-06614",
+    "EP-06615",
+    "EP-06616",
+    "EP-06617",
+    "EP-06619",
+    "EP-06621",
+    "EP-06622",
+    "EP-06623",
+    "EP-06624",
+    "EP-06625",
+    "EP-06626"
+  ],
+  "proposedCount": 25,
+  "holdIds": [
+    "EP-06600",
+    "EP-06603",
+    "EP-06606",
+    "EP-06609",
+    "EP-06618",
+    "EP-06620"
+  ],
+  "copyConflictIds": [
+    "EP-06632",
+    "EP-06633",
+    "EP-06634",
+    "EP-06635",
+    "EP-06636"
+  ],
+  "existingHashGitBlobSha1": "7d8a1bd9d25e75796ccd1377af65cf62dea93ac8",
+  "proposedHashGitBlobSha1": "7799d3d8ceae0d8a325545d667069c044596e013",
+  "futureHypotheticalCount": 5873,
+  "overlap": [],
+  "holdInFuture": [],
+  "copyInFuture": [],
+  "removed": [],
+  "publication_status": "PROPOSED_NOT_APPROVED",
+  "productionApproved": false,
+  "originalSource": "Neyito96/asarisunowa audit/kurabito-31-publication-gate-20261027 docs/audits/2026-10-27-kurabito-31-publication-gate-preview.md",
+  "originalCommit": "e6eb7f2a20c70e4398169ff70edb08784842cf1c",
+  "notes": "No inclusion in baseline recovered 5667 / 5848 nor UNRECOVERED 181. No semantic assignment performed."
+}
