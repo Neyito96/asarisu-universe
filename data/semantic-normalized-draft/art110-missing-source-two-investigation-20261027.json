@@ -1,0 +1,46 @@
+{
+  "schema": "asarisu-missing-original-evidence-request-v1",
+  "date": "2026-10-27",
+  "scope": "LAB_REQUEST_NOT_SENT",
+  "records": [
+    {
+      "ep_id": "EP-02178",
+      "observed": "production ledger V/W both empty at last read",
+      "reason": "Cannot establish principal topic from title alone",
+      "requested_from": [
+        "蔵人",
+        "補填収蔵ロボ"
+      ],
+      "actions": [
+        "Locate official RSS item + GUID and link to episode",
+        "Locate official JSON or Omny description and publication date",
+        "Cross-check EP-ID against production title/date/show and source GUID",
+        "Return official description with source revision and W/V before-after digest if available; do not overwrite",
+        "If evidence absent keep SOURCE_INSUFFICIENT"
+      ],
+      "classification_status": "HOLD",
+      "source_status": "NEEDS_SOURCE",
+      "write_prohibited": true
+    },
+    {
+      "ep_id": "EP-02186",
+      "observed": "production ledger V/W both empty at last read",
+      "reason": "Cannot establish principal topic from title alone",
+      "requested_from": [
+        "蔵人",
+        "補填収蔵ロボ"
+      ],
+      "actions": [
+        "Locate official RSS item + GUID and link to episode",
+        "Locate official JSON or Omny description and publication date",
+        "Cross-check EP-ID against production title/date/show and source GUID",
+        "Return official description with source revision and W/V before-after digest if available; do not overwrite",
+        "If evidence absent keep SOURCE_INSUFFICIENT"
+      ],
+      "classification_status": "HOLD",
+      "source_status": "NEEDS_SOURCE",
+      "write_prohibited": true
+    }
+  ],
+  "message": "Please investigate only the two EP-IDs, return identity/evidence and source revision, do not publish, do not overwrite W/V or original classification without authorization."
+}
