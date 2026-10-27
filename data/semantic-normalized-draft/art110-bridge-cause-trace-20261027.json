@@ -1,0 +1,31 @@
+{
+  "schema": "art110-bridge-cause-evidence-v1",
+  "date": "2026-10-27",
+  "source_docs": [
+    {
+      "path": "docs/semantic-misclassification-postmortem-20261025.md",
+      "finding": "Prior incident report explicitly attributes display heuristic to single kanji 本 regex; documents 18 sports fixes and 97 hold diversions."
+    },
+    {
+      "path": "docs/semantic-cloud-pilot-20261025.md",
+      "finding": "Generated from 5358 free-text main_themes as temporary heuristic."
+    },
+    {
+      "path": "scripts/recover-semantic-into-universe.mjs",
+      "finding": "This script recovers existing classifications; it does not implement theme bridge matching."
+    }
+  ],
+  "code_verification": "CODE_PATH_UNKNOWN",
+  "reproduced_from_executable_generator": false,
+  "observed_regressions": [
+    "EP-00939",
+    "EP-01776",
+    "EP-02199",
+    "EP-02366",
+    "EP-03014",
+    "EP-03136"
+  ],
+  "assessment": "Historical postmortem describes root cause, but generator implementation/version and executable match tests have not yet been located. Do not claim newly reproduced.",
+  "patch_proposed": false,
+  "production_changed": false
+}
